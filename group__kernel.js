@@ -1,7 +1,9 @@
 var group__kernel =
 [
+    [ "kernel bootloader", "group__SceKbl.html", "group__SceKbl" ],
+    [ "Product Library", "group__ScePmMgr.html", "group__ScePmMgr" ],
     [ "C Standard Library", "group__SceCLib.html", "group__SceCLib" ],
-    [ "CPU Library", "group__SceCPU.html", "group__SceCPU" ],
+    [ "CPU Library", "group__SceCpu.html", "group__SceCpu" ],
     [ "System Module Library", "group__SceSysmodule.html", "group__SceSysmodule" ],
     [ "Kernel Errors", "group__SceKernelError.html", "group__SceKernelError" ],
     [ "Loadcore Library", "group__SceLoadcore.html", "group__SceLoadcore" ],
@@ -16,5 +18,10 @@ var group__kernel =
     [ "Interrupt Manager Library", "group__SceIntrMgr.html", "group__SceIntrMgr" ],
     [ "Exception handling Library", "group__SceExcpmgr.html", "group__SceExcpmgr" ],
     [ "utils Library", "group__SceUtils.html", "group__SceUtils" ],
-    [ "IdStorage Library", "group__SceIdStorage.html", "group__SceIdStorage" ]
+    [ "IdStorage Library", "group__SceIdStorage.html", "group__SceIdStorage" ],
+    [ "Process event Library", "group__SceProcEvent.html", "group__SceProcEvent" ],
+    [ "Kernel system root Library", "group__SceKernelSysroot.html", "group__SceKernelSysroot" ],
+    [ "Kernel C Library", "group__SceSysclib.html", "group__SceSysclib" ],
+    [ "Kernel Ss Library", "group__SceSblSsMgr.html", "group__SceSblSsMgr" ],
+    [ "dip switch Library", "group__SceDipsw.html", "group__SceDipsw" ]
 ];

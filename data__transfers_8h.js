@@ -1,0 +1,27 @@
+var data__transfers_8h =
+[
+    [ "ksceKernelMemcpyUserToKernel", "group__SceSysmemKernel.html#ga0919c6e1feb701b00f7cde83ec558684", null ],
+    [ "ksceKernelMemcpyUserToKernelForPid", "group__SceSysmemKernel.html#gac28d23aaaab851d95478fea28c66c5a2", null ],
+    [ "ksceKernelMemcpyKernelToUser", "group__SceSysmemKernel.html#ga18316936595ce50e304c8e5e60ecbdc0", null ],
+    [ "ksceKernelMemcpyToUserRo", "group__SceSysmemKernel.html#ga467c6bad0f40dd26c87fb18a1988332c", null ],
+    [ "ksceKernelMemcpyToUserRx", "group__SceSysmemKernel.html#gab07bcdbcade1810f5bae29d112e8d63b", null ],
+    [ "ksceKernelRxMemcpyKernelToUserForPid", "group__SceSysmemKernel.html#ga8a3d3184e2ac53a6cb33fbd2e729bfb0", null ],
+    [ "ksceKernelStrncpyUserToKernel", "group__SceSysmemKernel.html#ga34a04e2e64c4eda1033ac92b313cc122", null ],
+    [ "ksceKernelStrncpyUserForPid", "group__SceSysmemKernel.html#gab42791b424891af41c1e040c05940d04", null ],
+    [ "ksceKernelStrncpyKernelToUser", "group__SceSysmemKernel.html#ga06446476a484742d1e74c262ad133c4f", null ],
+    [ "ksceKernelMemcpyFromUser", "group__SceSysmemKernel.html#gaf09e9e0baac300a7a5ae62648546cf4e", null ],
+    [ "ksceKernelProcMemcpyFromUser", "group__SceSysmemKernel.html#ga7bc9996c9a2ec9dcb3f67eb98dd39397", null ],
+    [ "ksceKernelMemcpyToUser", "group__SceSysmemKernel.html#gafe0442b8d701799149d9d8bc1b9182b0", null ],
+    [ "ksceKernelProcMemcpyToUser", "group__SceSysmemKernel.html#gaea1c160158aee851aab631efd2343118", null ],
+    [ "ksceKernelMemcpyToUserRo", "group__SceSysmemKernel.html#ga10bfa06560b1bd30fbad1493a8483db7", null ],
+    [ "ksceKernelMemcpyToUserRx", "group__SceSysmemKernel.html#ga371fe1e41a8d06e5a6658ad8910742ec", null ],
+    [ "ksceKernelProcMemcpyToUserRx", "group__SceSysmemKernel.html#ga32ba7d1d89b4b42eea1d66df59ec9ea3", null ],
+    [ "ksceKernelStrncpyFromUser", "group__SceSysmemKernel.html#ga57af88007b0c1695d6af8896eb19506b", null ],
+    [ "ksceKernelProcStrncpyFromUser", "group__SceSysmemKernel.html#ga278c3a10a538fcb887d831d2428c915f", null ],
+    [ "ksceKernelStrncpyToUser", "group__SceSysmemKernel.html#ga8663b2bec3d8cddc046469c83d19a0c2", null ],
+    [ "ksceKernelProcStrncpyToUser", "group__SceSysmemKernel.html#gac0f4b33e0908fdf055b6b6db4a9364c4", null ],
+    [ "ksceKernelStrnlenUser", "group__SceSysmemKernel.html#ga2515f5ebe1315098aed6eb76cc355d2a", null ],
+    [ "ksceKernelProcStrnlenUser", "group__SceSysmemKernel.html#gafe16d2f59b892d113106e562e1f4494d", null ],
+    [ "ksceKernelUserMemcpy", "group__SceSysmemKernel.html#ga0940cc90594a0c27f971e3546bf31cce", null ],
+    [ "ksceKernelProcUserMemcpy", "group__SceSysmemKernel.html#gaa737aa0cc1ba0258f4109b00b510a806", null ]
+];
