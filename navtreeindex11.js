@@ -1,9 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aa72fbf169a059f9c375593e7eefb21c0d":[1,1,2,0,115],
-"group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aa72fbf169a059f9c375593e7eefb21c0d":[4,0,1,0,15,13,5],
-"group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aa82c87f83e9d8917d75dcb24189c57392":[1,1,2,0,13,12],
-"group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aa82c87f83e9d8917d75dcb24189c57392":[1,1,2,0,122],
 "group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aa82c87f83e9d8917d75dcb24189c57392":[4,0,1,0,15,13,12],
 "group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aaa79657473221c46808603d1d97d4b12d":[1,1,2,0,13,0],
 "group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aaa79657473221c46808603d1d97d4b12d":[1,1,2,0,110],
@@ -218,8 +214,8 @@ var NAVTREEINDEX11 =
 "group__SceCompatUser.html#gga7e3c16b4e18ae5f4b264775a3fd5d58aafe0dcfd17f3eb46869cc353b8bf433dd":[4,0,1,0,17,0,2],
 "group__SceCoredump.html":[1,9,2],
 "group__SceCoredumpKernel.html":[1,9,2,0],
-"group__SceCoredumpKernel.html#ga8b500348d7c447fba2054cfb237d440b":[1,9,2,0,1],
 "group__SceCoredumpKernel.html#ga8b500348d7c447fba2054cfb237d440b":[4,0,1,2,7,1],
+"group__SceCoredumpKernel.html#ga8b500348d7c447fba2054cfb237d440b":[1,9,2,0,1],
 "group__SceCoredumpKernel.html#gad252716c7e87a79af3b307bc0a31729a":[4,0,1,2,7,0],
 "group__SceCoredumpKernel.html#gad252716c7e87a79af3b307bc0a31729a":[1,9,2,0,0],
 "group__SceCpu.html":[1,7,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX11 =
 "group__SceCpuKernel.html#ga8a93171fc77d84fa8a70b71b0798d2c8":[4,0,1,2,2,3,7],
 "group__SceCpuKernel.html#ga8a93171fc77d84fa8a70b71b0798d2c8":[1,7,3,1,7],
 "group__SceCpuKernel.html#ga97fec603f28a6c333e9469fcf1859abb":[4,0,1,2,2,3,21],
-"group__SceCpuKernel.html#ga97fec603f28a6c333e9469fcf1859abb":[1,7,3,1,21]
+"group__SceCpuKernel.html#ga97fec603f28a6c333e9469fcf1859abb":[1,7,3,1,21],
+"group__SceCpuKernel.html#ga9eeaceac9629151baafa9bcd7e37a971":[4,0,1,2,2,3,22],
+"group__SceCpuKernel.html#ga9eeaceac9629151baafa9bcd7e37a971":[1,7,3,1,22],
+"group__SceCpuKernel.html#gaa30b72fe83595ec4dfcafc14bf04b145":[4,0,1,2,2,3,19],
+"group__SceCpuKernel.html#gaa30b72fe83595ec4dfcafc14bf04b145":[1,7,3,1,19]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"align_8h.html":[4,0,1,3,0],
-"align_8h_source.html":[4,0,1,3,0],
 "annotated.html":[3,0],
 "appmgr_8h.html":[4,0,1,0,5],
 "appmgr_8h_source.html":[4,0,1,0,5],
@@ -145,8 +143,8 @@ var NAVTREEINDEX0 =
 "fios2_8h_source.html":[4,0,1,2,10],
 "fios2kernel_8h.html":[4,0,1,0,23],
 "fios2kernel_8h_source.html":[4,0,1,0,23],
-"functions.html":[3,2,0],
 "functions.html":[3,2,0,0],
+"functions.html":[3,2,0],
 "functions_a.html":[3,2,0,1],
 "functions_b.html":[3,2,0,2],
 "functions_c.html":[3,2,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "globals_t.html":[4,1,0,18],
 "globals_type.html":[4,1,3],
 "globals_type.html":[4,1,3,0],
-"globals_type_s.html":[4,1,3,1]
+"globals_type_s.html":[4,1,3,1],
+"globals_type_t.html":[4,1,3,2],
+"globals_u.html":[4,1,0,19]
 };
