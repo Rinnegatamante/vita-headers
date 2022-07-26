@@ -1266,7 +1266,7 @@ typedef struct SceKernelRWLockInfo {
  * @par Example:
  * @code
  * int rwlock_id;
- * rwlock_id = sceKernelCreateRWLock("MyMutex", 0, NULL);
+ * rwlock_id = sceKernelCreateRWLock("MyRWLock", 0, NULL);
  * @endcode
  *
  * @param name - Specifies the name of the rwlock
