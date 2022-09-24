@@ -26,8 +26,10 @@ var group__SceThreadMgrUser =
       [ "SCE_THREAD_STAGNANT", "group__SceThreadMgrKernel.html#gga552cbf506e81e208e4bf3e75badc1c40a5f6a8414593737422498665d169973aa", null ],
       [ "SCE_THREAD_SUSPENDED", "group__SceThreadMgrKernel.html#gga552cbf506e81e208e4bf3e75badc1c40a33f91543502e0a519b3013a3379ad093", null ]
     ] ],
-    [ "SceKernelMutexAttribute", "group__SceThreadMgrUser.html#gacaf974d94877969095678f463230d242", [
-      [ "SCE_KERNEL_MUTEX_ATTR_RECURSIVE", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242aafbfa4c4af35e4dbbe54d4f5b531dabe", null ]
+    [ "SceKernelWaitableAttribute", "group__SceThreadMgrUser.html#gaad5c93e9ef85b6e5a13b726df820d8ca", [
+      [ "SCE_KERNEL_ATTR_THREAD_FIFO", "group__SceThreadMgrUser.html#ggaad5c93e9ef85b6e5a13b726df820d8caa207a3e91fa76ab906f4405640e0fd47a", null ],
+      [ "SCE_KERNEL_ATTR_THREAD_PRIO", "group__SceThreadMgrUser.html#ggaad5c93e9ef85b6e5a13b726df820d8caa012546501ff6a8e454a3b7bf8fb34f4b", null ],
+      [ "SCE_KERNEL_ATTR_OPENABLE", "group__SceThreadMgrUser.html#ggaad5c93e9ef85b6e5a13b726df820d8caab491605571ed7395fc5921291bc83075", null ]
     ] ],
     [ "SceEventFlagAttributes", "group__SceThreadMgrUser.html#ga32240cfc9096477a62cfad5ee4768791", [
       [ "SCE_EVENT_THREAD_FIFO", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791abb282c0531bc7673150732bedf13f4a8", null ],
@@ -36,6 +38,10 @@ var group__SceThreadMgrUser =
       [ "SCE_EVENT_WAITMULTIPLE", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791aa0e5c42fdd6464a558f2a1fe6effa0d3", null ],
       [ "SCE_EVENT_OPENABLE", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791a82e7053e0c4bdc5c684178701e057849", null ],
       [ "SCE_EVENT_WAITMULTIPLE", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791aa0e5c42fdd6464a558f2a1fe6effa0d3", null ]
+    ] ],
+    [ "SceKernelMutexAttribute", "group__SceThreadMgrUser.html#gacaf974d94877969095678f463230d242", [
+      [ "SCE_KERNEL_MUTEX_ATTR_RECURSIVE", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242aafbfa4c4af35e4dbbe54d4f5b531dabe", null ],
+      [ "SCE_KERNEL_MUTEX_ATTR_CEILING", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242adfdcf54229dff8a001a403c3802e614b", null ]
     ] ],
     [ "SceEventFlagWaitTypes", "group__SceThreadMgrUser.html#ga705f51eec6069fac8fdd74d430472843", [
       [ "SCE_EVENT_WAITAND", "group__SceThreadMgrKernel.html#gga705f51eec6069fac8fdd74d430472843a29d7fd92bfcb7eb11354b4e3cbddc39b", null ],
@@ -91,12 +97,16 @@ var group__SceThreadMgrUser =
     [ "SCE_THREAD_DEAD", "group__SceThreadMgrKernel.html#gga552cbf506e81e208e4bf3e75badc1c40a5f584d8a118ceae4dc30acc81538bb48", null ],
     [ "SCE_THREAD_STAGNANT", "group__SceThreadMgrKernel.html#gga552cbf506e81e208e4bf3e75badc1c40a5f6a8414593737422498665d169973aa", null ],
     [ "SCE_THREAD_SUSPENDED", "group__SceThreadMgrKernel.html#gga552cbf506e81e208e4bf3e75badc1c40a33f91543502e0a519b3013a3379ad093", null ],
-    [ "SCE_KERNEL_MUTEX_ATTR_RECURSIVE", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242aafbfa4c4af35e4dbbe54d4f5b531dabe", null ],
+    [ "SCE_KERNEL_ATTR_THREAD_FIFO", "group__SceThreadMgrUser.html#ggaad5c93e9ef85b6e5a13b726df820d8caa207a3e91fa76ab906f4405640e0fd47a", null ],
+    [ "SCE_KERNEL_ATTR_THREAD_PRIO", "group__SceThreadMgrUser.html#ggaad5c93e9ef85b6e5a13b726df820d8caa012546501ff6a8e454a3b7bf8fb34f4b", null ],
+    [ "SCE_KERNEL_ATTR_OPENABLE", "group__SceThreadMgrUser.html#ggaad5c93e9ef85b6e5a13b726df820d8caab491605571ed7395fc5921291bc83075", null ],
     [ "SCE_EVENT_THREAD_FIFO", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791abb282c0531bc7673150732bedf13f4a8", null ],
     [ "SCE_EVENT_THREAD_PRIO", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791a043ee70862b8a66d35c71674b5b5279c", null ],
     [ "SCE_EVENT_WAITSINGLE", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791a2663bd3ddfbb9859304db39b2e331841", null ],
     [ "SCE_EVENT_WAITMULTIPLE", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791aa0e5c42fdd6464a558f2a1fe6effa0d3", null ],
     [ "SCE_EVENT_OPENABLE", "group__SceThreadMgrKernel.html#gga32240cfc9096477a62cfad5ee4768791a82e7053e0c4bdc5c684178701e057849", null ],
+    [ "SCE_KERNEL_MUTEX_ATTR_RECURSIVE", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242aafbfa4c4af35e4dbbe54d4f5b531dabe", null ],
+    [ "SCE_KERNEL_MUTEX_ATTR_CEILING", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242adfdcf54229dff8a001a403c3802e614b", null ],
     [ "SCE_EVENT_WAITAND", "group__SceThreadMgrKernel.html#gga705f51eec6069fac8fdd74d430472843a29d7fd92bfcb7eb11354b4e3cbddc39b", null ],
     [ "SCE_EVENT_WAITOR", "group__SceThreadMgrKernel.html#gga705f51eec6069fac8fdd74d430472843ad44fc701f872045e2e251ec1f90c2a04", null ],
     [ "SCE_EVENT_WAITCLEAR", "group__SceThreadMgrKernel.html#gga705f51eec6069fac8fdd74d430472843abf5597c6681a253a772a9c8ae32fcd10", null ],
@@ -145,6 +155,8 @@ var group__SceThreadMgrUser =
     [ "sceKernelPollSema", "group__SceThreadMgrUser.html#ga57b23ac4e988e2f461812aa06cb7928a", null ],
     [ "sceKernelCancelSema", "group__SceThreadMgrUser.html#ga9be7a097ef400710208a16325afd865e", null ],
     [ "sceKernelGetSemaInfo", "group__SceThreadMgrUser.html#gab50456c2cdfbb75fd94b3a2cfde0376a", null ],
+    [ "sceKernelOpenSema", "group__SceThreadMgrUser.html#ga4df52a5f80d2e1d39ad12bec8e514e57", null ],
+    [ "sceKernelCloseSema", "group__SceThreadMgrUser.html#ga45722c60bfc0cd19418c48c172cb3333", null ],
     [ "sceKernelCreateMutex", "group__SceThreadMgrUser.html#ga86f0e930ecdef81393d7ff1d67ca5faf", null ],
     [ "sceKernelDeleteMutex", "group__SceThreadMgrUser.html#ga2c79ea0bef6c807b46650bd4a3f5d2f2", null ],
     [ "sceKernelOpenMutex", "group__SceThreadMgrUser.html#gaec88b8bd6f478426538b184ddd6816bf", null ],
@@ -199,10 +211,25 @@ var group__SceThreadMgrUser =
     [ "sceKernelCreateLwCond", "group__SceThreadMgrUser.html#gae55d0079994bc5ef66f84321d2ffc6ff", null ],
     [ "sceKernelDeleteLwCond", "group__SceThreadMgrUser.html#gadeae7e417052b8f6009dc1f6193c1930", null ],
     [ "sceKernelSignalLwCond", "group__SceThreadMgrUser.html#ga8649a23c271251a985f0005f4199784e", null ],
+    [ "sceKernelSignalLwCondAll", "group__SceThreadMgrUser.html#ga953c79382ca3d7d425d73a30fc4eedc5", null ],
+    [ "sceKernelSignalLwCondTo", "group__SceThreadMgrUser.html#gaad8d92ec27f2bbb4c8968f30b0dc230d", null ],
     [ "sceKernelWaitLwCond", "group__SceThreadMgrUser.html#ga74fc1c0a89c8216ceb71767292d81006", null ],
     [ "sceKernelWaitSignal", "group__SceThreadMgrUser.html#ga0aa2c21b5cbd523bb7804731e235e3d3", null ],
     [ "sceKernelSendSignal", "group__SceThreadMgrUser.html#ga752c12c9395e4d3e05de3e181ab6cbfc", null ],
     [ "sceKernelGetSystemTimeWide", "group__SceThreadMgrUser.html#ga667b282cd3c9da73c237d39f8d7c11b3", null ],
     [ "sceKernelGetThreadTLSAddr", "group__SceThreadMgrUser.html#ga5c88ce8f3b9a96ce584ec3822744fe97", null ],
-    [ "sceKernelGetTLSAddr", "group__SceThreadMgrUser.html#gae74b3a3318e9781fe140bd49f56f43b6", null ]
+    [ "sceKernelGetTLSAddr", "group__SceThreadMgrUser.html#gae74b3a3318e9781fe140bd49f56f43b6", null ],
+    [ "sceKernelCreateRWLock", "group__SceThreadMgrUser.html#gae436e9ff9c632110520f547fc391efe8", null ],
+    [ "sceKernelDeleteRWLock", "group__SceThreadMgrUser.html#ga9feeb19d7954d102d387d3dba9bc83bd", null ],
+    [ "sceKernelOpenRWLock", "group__SceThreadMgrUser.html#ga7e11e59d7a71201d0e76053186aaaa75", null ],
+    [ "sceKernelCloseRWLock", "group__SceThreadMgrUser.html#ga77e0d567d14090377de60219aa8f2a91", null ],
+    [ "sceKernelLockReadRWLock", "group__SceThreadMgrUser.html#gad62cfd547c05e69b6b15ff5a9944a76a", null ],
+    [ "sceKernelLockWriteRWLock", "group__SceThreadMgrUser.html#ga374b4f279e4e1f496283be0cee453d65", null ],
+    [ "sceKernelLockReadRWLockCB", "group__SceThreadMgrUser.html#ga544c72ad99fc6d70985d0e75a03eab95", null ],
+    [ "sceKernelLockWriteRWLockCB", "group__SceThreadMgrUser.html#ga985bd0e6d349cc426135056c69c66abe", null ],
+    [ "sceKernelTryLockReadRWLock", "group__SceThreadMgrUser.html#gafa46aacb0ea16a4b8e52d2ca9896b0d2", null ],
+    [ "sceKernelTryLockWriteRWLock", "group__SceThreadMgrUser.html#gac8dd2656ea148873806ab020d23a54dc", null ],
+    [ "sceKernelUnlockReadRWLock", "group__SceThreadMgrUser.html#ga787172c8f6bb5f2f3cd11c3448b4951f", null ],
+    [ "sceKernelUnlockWriteRWLock", "group__SceThreadMgrUser.html#ga790a71e7aee6193900c03f2f1b2e9d29", null ],
+    [ "sceKernelGetRWLockInfo", "group__SceThreadMgrUser.html#ga4c20b763cf7fc189f5366d8c63fda4c4", null ]
 ];
