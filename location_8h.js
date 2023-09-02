@@ -33,22 +33,26 @@ var location_8h =
     [ "SceLocationDialogStatus", "group__SceLocationUser.html#gaede1fcb282a8e02c31961adc7dd28001", [
       [ "SCE_LOCATION_DIALOG_STATUS_IDLE", "group__SceLocationUser.html#ggaede1fcb282a8e02c31961adc7dd28001a17a9685831b73c1c27697153454e7cec", null ],
       [ "SCE_LOCATION_DIALOG_STATUS_RUNNING", "group__SceLocationUser.html#ggaede1fcb282a8e02c31961adc7dd28001a48fba000551177b35ab416ea0e12606b", null ],
-      [ "SCE_LOCATION_DIALOG_STATUS_FINISHED", "group__SceLocationUser.html#ggaede1fcb282a8e02c31961adc7dd28001ae07806ef76fbf1f702da4f26724ebcb1", null ]
+      [ "SCE_LOCATION_DIALOG_STATUS_FINISHED", "group__SceLocationUser.html#ggaede1fcb282a8e02c31961adc7dd28001ae07806ef76fbf1f702da4f26724ebcb1", null ],
+      [ "__SCE_LOCATION_DIALOG_STATUS", "group__SceLocationUser.html#ggaede1fcb282a8e02c31961adc7dd28001aa0178a972af8d823b9add2612917ca27", null ]
     ] ],
     [ "SceLocationDialogResult", "group__SceLocationUser.html#gacd49038cc21f91a3d337af5d14f17d00", [
       [ "SCE_LOCATION_DIALOG_RESULT_NONE", "group__SceLocationUser.html#ggacd49038cc21f91a3d337af5d14f17d00ac1d4cf0db1c00e9a61f08c550f1822c6", null ],
       [ "SCE_LOCATION_DIALOG_RESULT_DISABLE", "group__SceLocationUser.html#ggacd49038cc21f91a3d337af5d14f17d00a2a19317a8dc0eb7196ad0fe82ba910da", null ],
-      [ "SCE_LOCATION_DIALOG_RESULT_ENABLE", "group__SceLocationUser.html#ggacd49038cc21f91a3d337af5d14f17d00a27e1ecf075e49062d49a4b38a7512b06", null ]
+      [ "SCE_LOCATION_DIALOG_RESULT_ENABLE", "group__SceLocationUser.html#ggacd49038cc21f91a3d337af5d14f17d00a27e1ecf075e49062d49a4b38a7512b06", null ],
+      [ "__SCE_LOCATION_DIALOG_RESULT", "group__SceLocationUser.html#ggacd49038cc21f91a3d337af5d14f17d00af6d14c955ea24ecfbf0519db9be44adb", null ]
     ] ],
     [ "SceLocationPermissionApplicationStatus", "group__SceLocationUser.html#ga79d97b38146a8eee437fa1ab15d59301", [
       [ "SCE_LOCATION_PERMISSION_APPLICATION_NONE", "group__SceLocationUser.html#gga79d97b38146a8eee437fa1ab15d59301a3f5fe977f1e7c4a0437d2103fa7458bd", null ],
       [ "SCE_LOCATION_PERMISSION_APPLICATION_INIT", "group__SceLocationUser.html#gga79d97b38146a8eee437fa1ab15d59301a3a5ff782951ae4832d665c0fd055ac28", null ],
       [ "SCE_LOCATION_PERMISSION_APPLICATION_DENY", "group__SceLocationUser.html#gga79d97b38146a8eee437fa1ab15d59301a3bb8f2e54c080bac27e1daf12f6f51f7", null ],
-      [ "SCE_LOCATION_PERMISSION_APPLICATION_ALLOW", "group__SceLocationUser.html#gga79d97b38146a8eee437fa1ab15d59301addf56b1b2b24d56a70be780e62f82fbd", null ]
+      [ "SCE_LOCATION_PERMISSION_APPLICATION_ALLOW", "group__SceLocationUser.html#gga79d97b38146a8eee437fa1ab15d59301addf56b1b2b24d56a70be780e62f82fbd", null ],
+      [ "__SCE_LOCATION_PERMISSION_APPLICATION", "group__SceLocationUser.html#gga79d97b38146a8eee437fa1ab15d59301adcfe66a02f5b12cd5d046503b31223ef", null ]
     ] ],
     [ "SceLocationPermissionStatus", "group__SceLocationUser.html#ga26f6889e149bdfaa945bf67ae79315bd", [
       [ "SCE_LOCATION_PERMISSION_DENY", "group__SceLocationUser.html#gga26f6889e149bdfaa945bf67ae79315bda905cff7cac2df26c509c3f204b0fb36e", null ],
-      [ "SCE_LOCATION_PERMISSION_ALLOW", "group__SceLocationUser.html#gga26f6889e149bdfaa945bf67ae79315bda10174694069b79f874a1e7d6a3f17c7b", null ]
+      [ "SCE_LOCATION_PERMISSION_ALLOW", "group__SceLocationUser.html#gga26f6889e149bdfaa945bf67ae79315bda10174694069b79f874a1e7d6a3f17c7b", null ],
+      [ "__SCE_LOCATION_PERMISSION", "group__SceLocationUser.html#gga26f6889e149bdfaa945bf67ae79315bda37ac3752f74fb793d0915d25b17879fb", null ]
     ] ],
     [ "SceLocationLocationMethod", "group__SceLocationUser.html#gaf1a21f2a89eb1da54d3e969fee335b47", [
       [ "SCE_LOCATION_LMETHOD_NONE", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47a670cfd55c1f596592ae4cdf8aaa07cb6", null ],
@@ -56,15 +60,21 @@ var location_8h =
       [ "SCE_LOCATION_LMETHOD_GPS_AND_WIFI", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47aba6b69667b39a9304de0cc3c31d8a328", null ],
       [ "SCE_LOCATION_LMETHOD_WIFI", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47ac30679895f80b988664791481018b3b9", null ],
       [ "SCE_LOCATION_LMETHOD_3G", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47af678f3dccbfe951613764a29cee394ec", null ],
-      [ "SCE_LOCATION_LMETHOD_GPS", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47a6c1a1ec99fae21a2923091d6ecf1ff72", null ]
+      [ "SCE_LOCATION_LMETHOD_GPS", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47a6c1a1ec99fae21a2923091d6ecf1ff72", null ],
+      [ "__SCE_LOCATION_LMETHOD", "group__SceLocationUser.html#ggaf1a21f2a89eb1da54d3e969fee335b47aced490313c4ede36e37d18e04af77544", null ]
     ] ],
     [ "SceLocationHeadingMethod", "group__SceLocationUser.html#gafb8512aad9366c1c282da8218df682b6", [
       [ "SCE_LOCATION_HMETHOD_NONE", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6a93f38ff16e3eb125437ecb1b3efcc6c9", null ],
       [ "SCE_LOCATION_HMETHOD_AUTO", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6a820912380d4f5a2232eed224b652bab4", null ],
       [ "SCE_LOCATION_HMETHOD_VERTICAL", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6a44444a3a3aabb2bde13329e8d29f661b", null ],
       [ "SCE_LOCATION_HMETHOD_HORIZONTAL", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6adc17a55585e9f79738fedc8cde762071", null ],
-      [ "SCE_LOCATION_HMETHOD_CAMERA", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6abac0538fe2cdf29009883d2f79e714ca", null ]
+      [ "SCE_LOCATION_HMETHOD_CAMERA", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6abac0538fe2cdf29009883d2f79e714ca", null ],
+      [ "__SCE_LOCATION_HMETHOD", "group__SceLocationUser.html#ggafb8512aad9366c1c282da8218df682b6aa026b264d56ed240fd59568c9bea1643", null ]
     ] ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceLocationUser.html#ga076fab6b8a2097772be7fa790a0de495", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceLocationUser.html#gaed74b4f5a392f8c15da932faa91f368d", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceLocationUser.html#gac375e96bd7718bcb13e474313b1a29db", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceLocationUser.html#gae6ea3d3beeb564da84ee2d7c26f66807", null ],
     [ "sceLocationOpen", "group__SceLocationUser.html#gab902d309cdce116314386691c8a684d5", null ],
     [ "sceLocationClose", "group__SceLocationUser.html#gaa5a2156576b347f7b901b48a1f53e25f", null ],
     [ "sceLocationReopen", "group__SceLocationUser.html#gaa4f954c9cee58721b69abdc8f060d8bf", null ],

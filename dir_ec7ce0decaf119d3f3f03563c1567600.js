@@ -16,12 +16,14 @@ var dir_ec7ce0decaf119d3f3f03563c1567600 =
     [ "pm_mgr.h", "pm__mgr_8h.html", "pm__mgr_8h" ],
     [ "proc_event.h", "proc__event_8h.html", "proc__event_8h" ],
     [ "processmgr.h", "ern_2kernel_2processmgr_8h.html", "ern_2kernel_2processmgr_8h" ],
-    [ "rtc.h", "ern_2kernel_2rtc_8h.html", "ern_2kernel_2rtc_8h" ],
+    [ "rtc.h", "psp2kern_2kernel_2rtc_8h.html", "psp2kern_2kernel_2rtc_8h" ],
+    [ "sm_comm.h", "sm__comm_8h.html", "sm__comm_8h" ],
     [ "ssmgr.h", "ssmgr_8h.html", "ssmgr_8h" ],
     [ "suspend.h", "suspend_8h.html", "suspend_8h" ],
     [ "sysclib.h", "sysclib_8h.html", "sysclib_8h" ],
     [ "sysmem.h", "ern_2kernel_2sysmem_8h.html", "ern_2kernel_2sysmem_8h" ],
     [ "sysroot.h", "sysroot_8h.html", "sysroot_8h" ],
+    [ "systimer.h", "systimer_8h.html", "systimer_8h" ],
     [ "threadmgr.h", "ern_2kernel_2threadmgr_8h.html", null ],
     [ "utils.h", "psp2kern_2kernel_2utils_8h.html", "psp2kern_2kernel_2utils_8h" ]
 ];

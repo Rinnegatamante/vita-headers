@@ -1,11 +1,9 @@
 var group__SceUsbdKernel_structSceUsbdEndpointDescriptor =
 [
-    [ "bLength", "group__SceUsbdKernel.html#ga14cf5795e78034e9e794052184c0099c", null ],
-    [ "bDescriptorType", "group__SceUsbdKernel.html#gad5c22be42b405033220404b4cb6ffb3e", null ],
-    [ "bEndpointAddress", "group__SceUsbdKernel.html#ga1227dcd036586d4e9c25637cfffe45cf", null ],
-    [ "bmAttributes", "group__SceUsbdKernel.html#ga187e497f622d007d700ac7b21004817a", null ],
-    [ "wMaxPacketSize", "group__SceUsbdKernel.html#ga80d9a866f5e83300f799014c3a7b09a2", null ],
-    [ "bInterval", "group__SceUsbdKernel.html#gadaafdcf3e587c9825b0a260d0888936a", null ],
-    [ "extra", "group__SceUsbdKernel.html#ga60ad0b0e8f5a73046b76aff458b7e265", null ],
-    [ "extraLength", "group__SceUsbdKernel.html#ga9ebd62dcacd0be9278906365d763822e", null ]
+    [ "bLength", "group__SceUsbdKernel.html#gaf621a66f377ae43d209025f0cdd67961", null ],
+    [ "bDescriptorType", "group__SceUsbdKernel.html#ga7d7a527116272c30c9d804655dcea4cd", null ],
+    [ "bEndpointAddress", "group__SceUsbdKernel.html#ga0df5698c297f8a040eaa13a1acfed049", null ],
+    [ "bmAttributes", "group__SceUsbdKernel.html#gaf7aaba96212435fa33c58d14c0c999bf", null ],
+    [ "wMaxPacketSize", "group__SceUsbdKernel.html#ga6b742bd5ddac424361ba5350f49d295f", null ],
+    [ "bInterval", "group__SceUsbdKernel.html#ga67d98fc33ee34af5df2d98256762c09e", null ]
 ];

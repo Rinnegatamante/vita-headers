@@ -35,7 +35,8 @@ var group__SceRtcUser =
       [ "SCE_RTC_DAYOFWEEK_WEDNESDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aaf2f9731300aab796dbd8036bde1f1af4", null ],
       [ "SCE_RTC_DAYOFWEEK_THURSDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa4c6804613bcd0e80c587d6bf9ca0a6dd", null ],
       [ "SCE_RTC_DAYOFWEEK_FRIDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa1a7e46249b3ef02b051cbbfd527f9b42", null ],
-      [ "SCE_RTC_DAYOFWEEK_SATURDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa970a0a490d7f890d336780ff81262ac9", null ]
+      [ "SCE_RTC_DAYOFWEEK_SATURDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa970a0a490d7f890d336780ff81262ac9", null ],
+      [ "__SCE_RTC_DAYOFWEEK", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa4e740d2f5d52f8e969690602e6239419", null ]
     ] ],
     [ "SCE_RTC_ERROR_INVALID_VALUE", "group__SceRtcUser.html#gga9b9bca602e59800218435c06d5db161ba3dcc8aed359aeed23d41b5d3398ddebb", null ],
     [ "SCE_RTC_ERROR_INVALID_POINTER", "group__SceRtcUser.html#gga9b9bca602e59800218435c06d5db161ba70d011c5cc511d6a5a1434969631e9c4", null ],
@@ -57,6 +58,7 @@ var group__SceRtcUser =
     [ "SCE_RTC_DAYOFWEEK_THURSDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa4c6804613bcd0e80c587d6bf9ca0a6dd", null ],
     [ "SCE_RTC_DAYOFWEEK_FRIDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa1a7e46249b3ef02b051cbbfd527f9b42", null ],
     [ "SCE_RTC_DAYOFWEEK_SATURDAY", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa970a0a490d7f890d336780ff81262ac9", null ],
+    [ "__SCE_RTC_DAYOFWEEK", "group__SceRtcUser.html#gga87a2cf54497706f98dcb447871ab994aa4e740d2f5d52f8e969690602e6239419", null ],
     [ "sceRtcGetTickResolution", "group__SceRtcUser.html#gad07add7ff5fd320b08c88c7d88b0f80a", null ],
     [ "sceRtcGetCurrentTick", "group__SceRtcUser.html#gab091c8febd02d62bee300d09babd6107", null ],
     [ "sceRtcGetCurrentClock", "group__SceRtcUser.html#ga5faac20344bf45afde5124a7346fa627", null ],
@@ -106,5 +108,8 @@ var group__SceRtcUser =
     [ "sceRtcGetCurrentRetainedNetworkTick", "group__SceRtcUser.html#ga9f566beb12da7b022efe4725de370045", null ],
     [ "sceRtcGetLastAdjustedTick", "group__SceRtcUser.html#ga7db8195d0f084e6762199ec79895f68e", null ],
     [ "sceRtcGetLastReincarnatedTick", "group__SceRtcUser.html#ga8140fdd386e4a3cf81e4a222c199676c", null ],
-    [ "sceRtcGetAccumulativeTime", "group__SceRtcUser.html#gabeaa931f5ca66305892a92d0f2f30d85", null ]
+    [ "sceRtcGetAccumulativeTime", "group__SceRtcUser.html#gabeaa931f5ca66305892a92d0f2f30d85", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#ga90f4a057b893fbedc9e8a3cfaf8ca2c5", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#ga742d8c48ffb156b565e94d9c2bce51de", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#gafe4ce575d3e4fa57607eb120b4185b3f", null ]
 ];
