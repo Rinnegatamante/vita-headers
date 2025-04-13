@@ -32,5 +32,8 @@ var group__SceFiberUser =
     [ "sceFiberSwitch", "group__SceFiberUser.html#ga1e77ae9659ea0247cc0203c92c7c629c", null ],
     [ "sceFiberGetSelf", "group__SceFiberUser.html#ga3d2c220078141149abeed053e2c78e6f", null ],
     [ "sceFiberReturnToThread", "group__SceFiberUser.html#gaf42f877b01d334673d71de5be40a82b2", null ],
-    [ "sceFiberGetInfo", "group__SceFiberUser.html#gad01caf7d9d565e2210183e04b5c5a527", null ]
+    [ "sceFiberGetInfo", "group__SceFiberUser.html#gad01caf7d9d565e2210183e04b5c5a527", null ],
+    [ "SceFiber", "group__SceFiberUser.html#ga23cc5f55bd59cad2dc2362065b8c9698", null ],
+    [ "SceFiberOptParam", "group__SceFiberUser.html#gaf7d6f54101ea4d75d25de66186dbca7d", null ],
+    [ "SceFiberInfo", "group__SceFiberUser.html#ga02bd18f943f4892a75ee7565e4d7bf5d", null ]
 ];

@@ -1,5 +1,11 @@
 var group__SceScreenShotUser =
 [
+    [ "SceScreenShotParam", "group__SceScreenShotUser.html#structSceScreenShotParam", [
+      [ "photoTitle", "group__SceScreenShotUser.html#ga670e84779f617e0172a286e05e90b841", null ],
+      [ "gameTitle", "group__SceScreenShotUser.html#ga18e49b2bfa4681137491e07881d9cc68", null ],
+      [ "gameComment", "group__SceScreenShotUser.html#ga0e220c2adea9a110d0b95d71c8c269f2", null ],
+      [ "reserved", "group__SceScreenShotUser.html#ga06d7223af6cdf9acfcee64e17c097266", null ]
+    ] ],
     [ "SCE_SCREENSHOT_MAX_FS_PATH", "group__SceScreenShotUser.html#gaf593723d6f325ac0dfc86196430a4987", null ],
     [ "SCE_SCREENSHOT_MAX_PHOTO_TITLE_LEN", "group__SceScreenShotUser.html#ga51e07b7c8bca0b496b69a9b78d890689", null ],
     [ "SCE_SCREENSHOT_MAX_PHOTO_TITLE_SIZE", "group__SceScreenShotUser.html#ga62c7d7720e13d663b5b57e5a6f1044ff", null ],
@@ -25,5 +31,9 @@ var group__SceScreenShotUser =
     [ "sceScreenShotSetParam", "group__SceScreenShotUser.html#ga08d841dd57fbdcd1838e239f89f92ff8", null ],
     [ "sceScreenShotSetOverlayImage", "group__SceScreenShotUser.html#gab2c2e9b166ea755e957ca19c6c1d18b9", null ],
     [ "sceScreenShotDisable", "group__SceScreenShotUser.html#ga87815ecf3513b92b1c63f0ff004ed8ab", null ],
-    [ "sceScreenShotEnable", "group__SceScreenShotUser.html#gaac49665e204a84239aadcf4832884b30", null ]
+    [ "sceScreenShotEnable", "group__SceScreenShotUser.html#gaac49665e204a84239aadcf4832884b30", null ],
+    [ "SceScreenShotParam::photoTitle", "group__SceScreenShotUser.html#ga670e84779f617e0172a286e05e90b841", null ],
+    [ "SceScreenShotParam::gameTitle", "group__SceScreenShotUser.html#ga18e49b2bfa4681137491e07881d9cc68", null ],
+    [ "SceScreenShotParam::gameComment", "group__SceScreenShotUser.html#ga0e220c2adea9a110d0b95d71c8c269f2", null ],
+    [ "SceScreenShotParam::reserved", "group__SceScreenShotUser.html#ga06d7223af6cdf9acfcee64e17c097266", null ]
 ];

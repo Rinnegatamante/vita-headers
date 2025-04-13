@@ -1,6 +1,42 @@
 var group__SceDmacMgrKernel =
 [
     [ "DMAC Register Fields", "group__DmacRegisterFields.html", "group__DmacRegisterFields" ],
+    [ "SceKernelDmaOpTag", "group__SceDmacMgrKernel.html#structSceKernelDmaOpTag", [
+      [ "src", "group__SceDmacMgrKernel.html#gae5b5a70a312c25e69ae8929ce91c1c37", null ],
+      [ "dst", "group__SceDmacMgrKernel.html#gab4ad192953810c14364437c257b788a2", null ],
+      [ "len", "group__SceDmacMgrKernel.html#gacaaf4b1dfaa0d98a9cb3467efc307da0", null ],
+      [ "cmd", "group__SceDmacMgrKernel.html#ga04938c02347546d0cb5fa38e28e15a30", null ],
+      [ "keyring", "group__SceDmacMgrKernel.html#ga081012a91375b4994bfd37416918a5f0", null ],
+      [ "iv", "group__SceDmacMgrKernel.html#ga8e1e51e2e5b9b3451512f3a90c7480ab", null ],
+      [ "blockSize", "group__SceDmacMgrKernel.html#ga4caa5c0e85d4401a3be1aa6f7ec16a9d", null ],
+      [ "pNext", "group__SceDmacMgrKernel.html#ga847e53ef8c5f4bddd0b931368d9990ae", null ]
+    ] ],
+    [ "SceKernelDmaOpEncDec", "group__SceDmacMgrKernel.html#structSceKernelDmaOpEncDec", [
+      [ "keyring", "group__SceDmacMgrKernel.html#ga8ff8085d6c17eb702f62002352d2ed70", null ],
+      [ "iv", "group__SceDmacMgrKernel.html#ga439c869e888fda2be34e5488a6b074dc", null ],
+      [ "ivCoherencyMask", "group__SceDmacMgrKernel.html#ga0e067b7b40be4cf718450f3e051c3b8c", null ],
+      [ "reserved", "group__SceDmacMgrKernel.html#ga9d726218a3057f56d94dc2e9629413e8", null ],
+      [ "key", "group__SceDmacMgrKernel.html#gac96e70839699942693abcd5c0f8e8d3a", null ]
+    ] ],
+    [ "SceKernelDmaOpChainParam", "group__SceDmacMgrKernel.html#structSceKernelDmaOpChainParam", [
+      [ "size", "group__SceDmacMgrKernel.html#gab4003f8b8b93a8480ffa034ab0b85ac1", null ],
+      [ "coherencyMask", "group__SceDmacMgrKernel.html#ga2a35a5445449898a4edc3cdc55808749", null ],
+      [ "setValue", "group__SceDmacMgrKernel.html#ga687579644caddfa96105c866fbba9da2", null ]
+    ] ],
+    [ "SceKernelDmaOpEncDecChainParam", "group__SceDmacMgrKernel.html#structSceKernelDmaOpEncDecChainParam", [
+      [ "header", "group__SceDmacMgrKernel.html#ga8ed746231d5de786ac63126c2a07b4ce", null ],
+      [ "encDec", "group__SceDmacMgrKernel.html#gad8b173cabfcd8ca4a1e9f8fe2c56eeb6", null ]
+    ] ],
+    [ "SceKernelDmaOpDirectParam", "group__SceDmacMgrKernel.html#structSceKernelDmaOpDirectParam", [
+      [ "src", "group__SceDmacMgrKernel.html#gae3a40f0cbfb2456eeb46bbdcbec55f4b", null ],
+      [ "dst", "group__SceDmacMgrKernel.html#gaf8fe6d7f73fe32cc960c0594e5c9a78c", null ],
+      [ "len", "group__SceDmacMgrKernel.html#ga55c2f1a11798afe10c9cfac0a7805eb3", null ],
+      [ "cmd", "group__SceDmacMgrKernel.html#gaa149f45e269004efb9442061cde36d85", null ],
+      [ "blockSize", "group__SceDmacMgrKernel.html#ga4b14c54d74726cb5d7a6201f8fbad35c", null ],
+      [ "coherencyMask", "group__SceDmacMgrKernel.html#ga288fc244bfb58605b011e6a5d40fdf3b", null ],
+      [ "setValue", "group__SceDmacMgrKernel.html#ga00d31df3a7490297a92f019cbb76a499", null ],
+      [ "encDec", "group__SceDmacMgrKernel.html#ga797f90b994b21f48435a086f6aebe6b3", null ]
+    ] ],
     [ "SCE_KERNEL_DMAC_CHAIN_END", "group__SceDmacMgrKernel.html#gad686d9b1cfe4f8bfcc7bf350816cefac", null ],
     [ "SceKernelDmaOpId", "group__SceDmacMgrKernel.html#gae8c3d2ee8370107ff96c921a9b1f1ffb", null ],
     [ "SceKernelDmaOpCallback", "group__SceDmacMgrKernel.html#gadcb30dc30eadbf82fb12b4622f1ecc50", null ],
@@ -54,5 +90,31 @@ var group__SceDmacMgrKernel =
     [ "ksceKernelDmaOpSetupDirect", "group__SceDmacMgrKernel.html#ga95d3208b44818f75587c7eeb01444f1e", null ],
     [ "ksceKernelDmaOpSetupChain", "group__SceDmacMgrKernel.html#ga2c8724b6bd7b54ee072c4223347c94ad", null ],
     [ "ksceKernelDmaOpConcatenate", "group__SceDmacMgrKernel.html#gac6f8d49e9d17b01e0939686cae874c39", null ],
-    [ "ksceKernelDmaOpSetCallback", "group__SceDmacMgrKernel.html#ga6406a7dc4ac35a5872bb8a0fa3a0e622", null ]
+    [ "ksceKernelDmaOpSetCallback", "group__SceDmacMgrKernel.html#ga6406a7dc4ac35a5872bb8a0fa3a0e622", null ],
+    [ "SceKernelDmaOpTag::src", "group__SceDmacMgrKernel.html#gae5b5a70a312c25e69ae8929ce91c1c37", null ],
+    [ "SceKernelDmaOpTag::dst", "group__SceDmacMgrKernel.html#gab4ad192953810c14364437c257b788a2", null ],
+    [ "SceKernelDmaOpTag::len", "group__SceDmacMgrKernel.html#gacaaf4b1dfaa0d98a9cb3467efc307da0", null ],
+    [ "SceKernelDmaOpTag::cmd", "group__SceDmacMgrKernel.html#ga04938c02347546d0cb5fa38e28e15a30", null ],
+    [ "SceKernelDmaOpTag::keyring", "group__SceDmacMgrKernel.html#ga081012a91375b4994bfd37416918a5f0", null ],
+    [ "SceKernelDmaOpTag::iv", "group__SceDmacMgrKernel.html#ga8e1e51e2e5b9b3451512f3a90c7480ab", null ],
+    [ "SceKernelDmaOpTag::blockSize", "group__SceDmacMgrKernel.html#ga4caa5c0e85d4401a3be1aa6f7ec16a9d", null ],
+    [ "SceKernelDmaOpTag::pNext", "group__SceDmacMgrKernel.html#ga847e53ef8c5f4bddd0b931368d9990ae", null ],
+    [ "SceKernelDmaOpEncDec::keyring", "group__SceDmacMgrKernel.html#ga8ff8085d6c17eb702f62002352d2ed70", null ],
+    [ "SceKernelDmaOpEncDec::iv", "group__SceDmacMgrKernel.html#ga439c869e888fda2be34e5488a6b074dc", null ],
+    [ "SceKernelDmaOpEncDec::ivCoherencyMask", "group__SceDmacMgrKernel.html#ga0e067b7b40be4cf718450f3e051c3b8c", null ],
+    [ "SceKernelDmaOpEncDec::reserved", "group__SceDmacMgrKernel.html#ga9d726218a3057f56d94dc2e9629413e8", null ],
+    [ "SceKernelDmaOpEncDec::key", "group__SceDmacMgrKernel.html#gac96e70839699942693abcd5c0f8e8d3a", null ],
+    [ "SceKernelDmaOpChainParam::size", "group__SceDmacMgrKernel.html#gab4003f8b8b93a8480ffa034ab0b85ac1", null ],
+    [ "SceKernelDmaOpChainParam::coherencyMask", "group__SceDmacMgrKernel.html#ga2a35a5445449898a4edc3cdc55808749", null ],
+    [ "SceKernelDmaOpChainParam::setValue", "group__SceDmacMgrKernel.html#ga687579644caddfa96105c866fbba9da2", null ],
+    [ "SceKernelDmaOpEncDecChainParam::header", "group__SceDmacMgrKernel.html#ga8ed746231d5de786ac63126c2a07b4ce", null ],
+    [ "SceKernelDmaOpEncDecChainParam::encDec", "group__SceDmacMgrKernel.html#gad8b173cabfcd8ca4a1e9f8fe2c56eeb6", null ],
+    [ "SceKernelDmaOpDirectParam::src", "group__SceDmacMgrKernel.html#gae3a40f0cbfb2456eeb46bbdcbec55f4b", null ],
+    [ "SceKernelDmaOpDirectParam::dst", "group__SceDmacMgrKernel.html#gaf8fe6d7f73fe32cc960c0594e5c9a78c", null ],
+    [ "SceKernelDmaOpDirectParam::len", "group__SceDmacMgrKernel.html#ga55c2f1a11798afe10c9cfac0a7805eb3", null ],
+    [ "SceKernelDmaOpDirectParam::cmd", "group__SceDmacMgrKernel.html#gaa149f45e269004efb9442061cde36d85", null ],
+    [ "SceKernelDmaOpDirectParam::blockSize", "group__SceDmacMgrKernel.html#ga4b14c54d74726cb5d7a6201f8fbad35c", null ],
+    [ "SceKernelDmaOpDirectParam::coherencyMask", "group__SceDmacMgrKernel.html#ga288fc244bfb58605b011e6a5d40fdf3b", null ],
+    [ "SceKernelDmaOpDirectParam::setValue", "group__SceDmacMgrKernel.html#ga00d31df3a7490297a92f019cbb76a499", null ],
+    [ "SceKernelDmaOpDirectParam::encDec", "group__SceDmacMgrKernel.html#ga797f90b994b21f48435a086f6aebe6b3", null ]
 ];

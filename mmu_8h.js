@@ -1,10 +1,6 @@
 var mmu_8h =
 [
-    [ "ksceKernelGetPaddr", "group__SceSysmemKernel.html#ga08919a4ad0eade0704d3849a07760b4b", null ],
-    [ "ksceKernelGetPaddrList", "group__SceSysmemKernel.html#gab2cd2942139ad596a6a4e5cb8123763f", null ],
-    [ "ksceKernelVAtoPA", "group__SceSysmemKernel.html#ga1d08cf0a1dc1804d7ae09763c8aab190", null ],
-    [ "ksceKernelVARangeToPAVector", "group__SceSysmemKernel.html#ga2c25db542655e83ab9e43c1971beaf2a", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceSysmemKernel.html#ga51da91157080bf920fabfc83e88ec210", null ],
-    [ "ksceKernelGetPidContext", "group__SceSysmemKernel.html#ga4f729c86c562de2f4e171db24ee7ba74", null ],
-    [ "ksceKernelSwitchVmaForPid", "group__SceSysmemKernel.html#ga84ce525e598a9194ae0d479da2404e4d", null ]
+    [ "ksceKernelMMUGetMemoryType", "group__SceCpuKernel.html#ga16d856ed97f3acdc5a74648138cc65b7", null ],
+    [ "ksceKernelMMUVAtoPA", "group__SceCpuKernel.html#ga36a37abe1dc9a56ff819c29dac3e8de4", null ],
+    [ "ksceKernelMMUVAtoPAWithMode", "group__SceCpuKernel.html#ga469a55904192c82d3fbae5603f8e156f", null ]
 ];

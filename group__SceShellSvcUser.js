@@ -1,5 +1,8 @@
 var group__SceShellSvcUser =
 [
+    [ "SceShellUtilLaunchAppParam", "group__SceShellSvcUser.html#structSceShellUtilLaunchAppParam", [
+      [ "cmd", "group__SceShellSvcUser.html#gafc49bfdd603b28b91d2baff515ad8694", null ]
+    ] ],
     [ "SceShellUtilEventHandler", "group__SceShellSvcUser.html#ga07896b82d1034d756ebbc7d5046bb7d4", null ],
     [ "SceShellUtilLockType", "group__SceShellSvcUser.html#ga785a75673cf82d991dd9df9b245ff88d", [
       [ "SCE_SHELL_UTIL_LOCK_TYPE_PS_BTN", "group__SceShellSvcUser.html#gga785a75673cf82d991dd9df9b245ff88daed2da002d490e65d9c490df72a89db0a", null ],
@@ -39,5 +42,6 @@ var group__SceShellSvcUser =
     [ "sceShellUtilUnlock", "group__SceShellSvcUser.html#gaf7817cd6e37c91b1756b06b143663896", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceShellSvcUser.html#ga441c90a1fe29603d433fb4c31b14b285", null ],
     [ "sceShellUtilRequestLaunchApp", "group__SceShellSvcUser.html#gaabebcc1d43c0fb99be2984c7f66a34e4", null ],
-    [ "sceShellUtilLaunchAppRequestLaunchApp", "group__SceShellSvcUser.html#ga65ccc9f3672d314501c982b4c791c268", null ]
+    [ "sceShellUtilLaunchAppRequestLaunchApp", "group__SceShellSvcUser.html#ga65ccc9f3672d314501c982b4c791c268", null ],
+    [ "SceShellUtilLaunchAppParam::cmd", "group__SceShellSvcUser.html#gafc49bfdd603b28b91d2baff515ad8694", null ]
 ];

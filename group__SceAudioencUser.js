@@ -1,5 +1,46 @@
 var group__SceAudioencUser =
 [
+    [ "SceAudioencInitStreamParam", "group__SceAudioencUser.html#structSceAudioencInitStreamParam", [
+      [ "size", "group__SceAudioencUser.html#ga8b4232eb5adb4c3b9e2a67d7d85242f0", null ],
+      [ "totalStreams", "group__SceAudioencUser.html#ga829d2c82e8adc3ca62ed756e7d9caca1", null ]
+    ] ],
+    [ "SceAudioencInfoCelp", "group__SceAudioencUser.html#structSceAudioencInfoCelp", [
+      [ "size", "group__SceAudioencUser.html#ga9dec9d693b8991914fee0bf0ddcbafb1", null ],
+      [ "excitationMode", "group__SceAudioencUser.html#gafd9b4cbdc47b221217c7f99b6d562d1a", null ],
+      [ "samplingRate", "group__SceAudioencUser.html#gab1c85538613a4605bf9790fb732022b9", null ],
+      [ "bitRate", "group__SceAudioencUser.html#ga136d483cc2ab5dddbc5e7e658ae4882e", null ]
+    ] ],
+    [ "SceAudioencOptInfoCelp", "group__SceAudioencUser.html#structSceAudioencOptInfoCelp", [
+      [ "size", "group__SceAudioencUser.html#ga040f70f191ce9b5f49c1f7c84c57f252", null ],
+      [ "header", "group__SceAudioencUser.html#gad0352b837f2cd1b3d51f472b76f7464e", null ],
+      [ "headerSize", "group__SceAudioencUser.html#ga3087182f030eb83483ba95ef0543a4f7", null ],
+      [ "encoderVersion", "group__SceAudioencUser.html#ga9e68b409a66ebebbb6f951e74a4fee36", null ]
+    ] ],
+    [ "SceAudioencInitParam", "group__SceAudioencUser.html#unionSceAudioencInitParam", [
+      [ "size", "group__SceAudioencUser.html#ga5ab6925685bbe9500e6c995d9e027561", null ],
+      [ "celp", "group__SceAudioencUser.html#ga29125ee4b1325da065c841ada1bde8df", null ]
+    ] ],
+    [ "SceAudioencInfo", "group__SceAudioencUser.html#unionSceAudioencInfo", [
+      [ "size", "group__SceAudioencUser.html#ga74bb972e0aad2f2f13a0e5e1e1273f5b", null ],
+      [ "celp", "group__SceAudioencUser.html#ga90b3c2704f46dc3af4336fb38ea64560", null ]
+    ] ],
+    [ "SceAudioencOptInfo", "group__SceAudioencUser.html#unionSceAudioencOptInfo", [
+      [ "size", "group__SceAudioencUser.html#gaed6bf8ca02445e1a6eb8c592fbef4f60", null ],
+      [ "celp", "group__SceAudioencUser.html#gac7f6f37f93f4d60e2b9dd4655d1314c4", null ]
+    ] ],
+    [ "SceAudioencCtrl", "group__SceAudioencUser.html#structSceAudioencCtrl", [
+      [ "size", "group__SceAudioencUser.html#ga8409e1c69364f7090fe31b1883d09373", null ],
+      [ "handle", "group__SceAudioencUser.html#gaddb3588f2f5628c9957131de455c0f02", null ],
+      [ "pInputPcm", "group__SceAudioencUser.html#ga136ce6a1b5a71d438b2c8dc6125af1be", null ],
+      [ "inputPcmSize", "group__SceAudioencUser.html#gaff2833cf4249b601249d23437a78c5a4", null ],
+      [ "maxPcmSize", "group__SceAudioencUser.html#gacefe9130ad8a1da665a8a9b79c04acbb", null ],
+      [ "pOutputEs", "group__SceAudioencUser.html#gac352baa6d5587fc7223769e46e147df2", null ],
+      [ "outputEsSize", "group__SceAudioencUser.html#ga68ade3f309e10f77af8fb90380674e3e", null ],
+      [ "maxEsSize", "group__SceAudioencUser.html#ga4c293eb54fa86b33faf6c3e847de9b28", null ],
+      [ "wordLength", "group__SceAudioencUser.html#ga0b685a82520e63fa6dda4f77b18fd0ac", null ],
+      [ "pInfo", "group__SceAudioencUser.html#ga2543c1de30788261b42ece3d232ac00b", null ],
+      [ "pOptInfo", "group__SceAudioencUser.html#ga74532d956576d8a2fe81c64e37c63f60", null ]
+    ] ],
     [ "SCE_AUDIOENC_WORD_LENGTH_16BITS", "group__SceAudioencUser.html#gad4bb28b9aedbcb04d3b7d6eeb8af824d", null ],
     [ "SCE_AUDIOENC_TYPE_CELP", "group__SceAudioencUser.html#gac9c959f81cf8434c0501b9be7569b590", null ],
     [ "SCE_AUDIOENC_CELP_MAX_STREAMS", "group__SceAudioencUser.html#gae52560aa93159eebd8001535dd0e8baa", null ],
@@ -81,5 +122,32 @@ var group__SceAudioencUser =
     [ "sceAudioencEncode", "group__SceAudioencUser.html#ga4ae57e0c26174cdca9f94f8b8bfbfcee", null ],
     [ "sceAudioencClearContext", "group__SceAudioencUser.html#ga90c2b47daa35ee1e01765e9e77d4ffac", null ],
     [ "sceAudioencGetOptInfo", "group__SceAudioencUser.html#ga8c6351f3e69ff388c54b52fdd60fc6dc", null ],
-    [ "sceAudioencGetInternalError", "group__SceAudioencUser.html#ga2a71fdd0c43fea0f976b5fba6fa4429c", null ]
+    [ "sceAudioencGetInternalError", "group__SceAudioencUser.html#ga2a71fdd0c43fea0f976b5fba6fa4429c", null ],
+    [ "SceAudioencInitStreamParam::size", "group__SceAudioencUser.html#ga8b4232eb5adb4c3b9e2a67d7d85242f0", null ],
+    [ "SceAudioencInitStreamParam::totalStreams", "group__SceAudioencUser.html#ga829d2c82e8adc3ca62ed756e7d9caca1", null ],
+    [ "SceAudioencInfoCelp::size", "group__SceAudioencUser.html#ga9dec9d693b8991914fee0bf0ddcbafb1", null ],
+    [ "SceAudioencInfoCelp::excitationMode", "group__SceAudioencUser.html#gafd9b4cbdc47b221217c7f99b6d562d1a", null ],
+    [ "SceAudioencInfoCelp::samplingRate", "group__SceAudioencUser.html#gab1c85538613a4605bf9790fb732022b9", null ],
+    [ "SceAudioencInfoCelp::bitRate", "group__SceAudioencUser.html#ga136d483cc2ab5dddbc5e7e658ae4882e", null ],
+    [ "SceAudioencOptInfoCelp::size", "group__SceAudioencUser.html#ga040f70f191ce9b5f49c1f7c84c57f252", null ],
+    [ "SceAudioencOptInfoCelp::header", "group__SceAudioencUser.html#gad0352b837f2cd1b3d51f472b76f7464e", null ],
+    [ "SceAudioencOptInfoCelp::headerSize", "group__SceAudioencUser.html#ga3087182f030eb83483ba95ef0543a4f7", null ],
+    [ "SceAudioencOptInfoCelp::encoderVersion", "group__SceAudioencUser.html#ga9e68b409a66ebebbb6f951e74a4fee36", null ],
+    [ "SceAudioencInitParam::size", "group__SceAudioencUser.html#ga5ab6925685bbe9500e6c995d9e027561", null ],
+    [ "SceAudioencInitParam::celp", "group__SceAudioencUser.html#ga29125ee4b1325da065c841ada1bde8df", null ],
+    [ "SceAudioencInfo::size", "group__SceAudioencUser.html#ga74bb972e0aad2f2f13a0e5e1e1273f5b", null ],
+    [ "SceAudioencInfo::celp", "group__SceAudioencUser.html#ga90b3c2704f46dc3af4336fb38ea64560", null ],
+    [ "SceAudioencOptInfo::size", "group__SceAudioencUser.html#gaed6bf8ca02445e1a6eb8c592fbef4f60", null ],
+    [ "SceAudioencOptInfo::celp", "group__SceAudioencUser.html#gac7f6f37f93f4d60e2b9dd4655d1314c4", null ],
+    [ "SceAudioencCtrl::size", "group__SceAudioencUser.html#ga8409e1c69364f7090fe31b1883d09373", null ],
+    [ "SceAudioencCtrl::handle", "group__SceAudioencUser.html#gaddb3588f2f5628c9957131de455c0f02", null ],
+    [ "SceAudioencCtrl::pInputPcm", "group__SceAudioencUser.html#ga136ce6a1b5a71d438b2c8dc6125af1be", null ],
+    [ "SceAudioencCtrl::inputPcmSize", "group__SceAudioencUser.html#gaff2833cf4249b601249d23437a78c5a4", null ],
+    [ "SceAudioencCtrl::maxPcmSize", "group__SceAudioencUser.html#gacefe9130ad8a1da665a8a9b79c04acbb", null ],
+    [ "SceAudioencCtrl::pOutputEs", "group__SceAudioencUser.html#gac352baa6d5587fc7223769e46e147df2", null ],
+    [ "SceAudioencCtrl::outputEsSize", "group__SceAudioencUser.html#ga68ade3f309e10f77af8fb90380674e3e", null ],
+    [ "SceAudioencCtrl::maxEsSize", "group__SceAudioencUser.html#ga4c293eb54fa86b33faf6c3e847de9b28", null ],
+    [ "SceAudioencCtrl::wordLength", "group__SceAudioencUser.html#ga0b685a82520e63fa6dda4f77b18fd0ac", null ],
+    [ "SceAudioencCtrl::pInfo", "group__SceAudioencUser.html#ga2543c1de30788261b42ece3d232ac00b", null ],
+    [ "SceAudioencCtrl::pOptInfo", "group__SceAudioencUser.html#ga74532d956576d8a2fe81c64e37c63f60", null ]
 ];

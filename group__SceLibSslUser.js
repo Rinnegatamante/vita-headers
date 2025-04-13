@@ -1,5 +1,11 @@
 var group__SceLibSslUser =
 [
+    [ "SceSslMemoryPoolStats", "group__SceLibSslUser.html#structSceSslMemoryPoolStats", [
+      [ "poolSize", "group__SceLibSslUser.html#gad99c700cf0c35d1be72105e96a78c0fc", null ],
+      [ "maxInuseSize", "group__SceLibSslUser.html#ga21fd7ae1cf252310b3e29944a6be7b0d", null ],
+      [ "currentInuseSize", "group__SceLibSslUser.html#ga90bcf5f1aa745fef9e38d1f208d0334e", null ],
+      [ "reserved", "group__SceLibSslUser.html#ga375e028da7795819a48ec39e18cf1649", null ]
+    ] ],
     [ "sceSslEnd", "group__SceLibSslUser.html#ga598673a1d142658420541cb65eda0024", null ],
     [ "SceSslCert", "group__SceLibSslUser.html#ga55dcf3cb200b414fbb1dfce2a9a4ac61", null ],
     [ "SceSslCertName", "group__SceLibSslUser.html#gae981fc6a227fee69c4492d1dd76f9a97", null ],
@@ -28,7 +34,11 @@ var group__SceLibSslUser =
     [ "sceSslGetNotAfter", "group__SceLibSslUser.html#gafa209c71c2205c2ce7e4cf78aa21e0dc", null ],
     [ "sceSslGetNameEntryCount", "group__SceLibSslUser.html#ga2226619231d9e18c0f4e58fb48fc8c16", null ],
     [ "sceSslGetNameEntryInfo", "group__SceLibSslUser.html#gac23339aac973b39e0e74701c1ff4e484", null ],
-    [ "sceSslGetSubjectName", "group__SceLibSslUser.html#gae1ba256263383abca54f686720ecc873", null ],
-    [ "sceSslGetIssuerName", "group__SceLibSslUser.html#ga1e75cf79605b30062c33b03b622438da", null ],
-    [ "sceSslFreeSslCertName", "group__SceLibSslUser.html#ga52861a9bb6eee66901b8393dc50b152b", null ]
+    [ "sceSslGetSubjectName", "group__SceLibSslUser.html#ga0ae549d4b609ea4919d42d4d66716d0d", null ],
+    [ "sceSslGetIssuerName", "group__SceLibSslUser.html#gab11f8d374a759e2e582db418dbbab95e", null ],
+    [ "sceSslFreeSslCertName", "group__SceLibSslUser.html#ga52861a9bb6eee66901b8393dc50b152b", null ],
+    [ "SceSslMemoryPoolStats::poolSize", "group__SceLibSslUser.html#gad99c700cf0c35d1be72105e96a78c0fc", null ],
+    [ "SceSslMemoryPoolStats::maxInuseSize", "group__SceLibSslUser.html#ga21fd7ae1cf252310b3e29944a6be7b0d", null ],
+    [ "SceSslMemoryPoolStats::currentInuseSize", "group__SceLibSslUser.html#ga90bcf5f1aa745fef9e38d1f208d0334e", null ],
+    [ "SceSslMemoryPoolStats::reserved", "group__SceLibSslUser.html#ga375e028da7795819a48ec39e18cf1649", null ]
 ];

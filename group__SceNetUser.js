@@ -1,5 +1,176 @@
 var group__SceNetUser =
 [
+    [ "SceNetInitParam", "group__SceNetUser.html#structSceNetInitParam", [
+      [ "memory", "group__SceNetUser.html#ga2802ccb9feb2b13f5d811cc944db9d43", null ],
+      [ "size", "group__SceNetUser.html#ga40b926cc6025a8b503fe027e5d9d2ce1", null ],
+      [ "flags", "group__SceNetUser.html#gac8e8f3f3424a144b586ba124ee4bf21c", null ]
+    ] ],
+    [ "SceNetEmulationData", "group__SceNetUser.html#structSceNetEmulationData", [
+      [ "drop_rate", "group__SceNetUser.html#gac2632ca5ecfb0dd4e7bfec81dbea54b6", null ],
+      [ "drop_duration", "group__SceNetUser.html#ga4b5ed5598b0c2e14482c7f9ea55c6a8b", null ],
+      [ "pass_duration", "group__SceNetUser.html#ga9696d151f6362f5a24f6faa8460164e7", null ],
+      [ "delay_time", "group__SceNetUser.html#gaf69fe9906d6efb8358c7d60ca55629e4", null ],
+      [ "delay_jitter", "group__SceNetUser.html#gabef928521ac987d8572846180044f7f3", null ],
+      [ "order_rate", "group__SceNetUser.html#gaa5c2b47da1ea885253fdd20aae689750", null ],
+      [ "order_delay_time", "group__SceNetUser.html#gac9214c2620691e61df8f134cfb4f8a23", null ],
+      [ "duplication_rate", "group__SceNetUser.html#ga7cab1626a9b32dd56e62e322d6be9a8f", null ],
+      [ "bps_limit", "group__SceNetUser.html#ga457a4468702eae180aee84f969617443", null ],
+      [ "lower_size_limit", "group__SceNetUser.html#gabba03d3f7cb68efc5c58581a72511ee3", null ],
+      [ "upper_size_limit", "group__SceNetUser.html#ga2e20fff065b06dcc13383a324ee8c202", null ],
+      [ "system_policy_pattern", "group__SceNetUser.html#ga50cf2014059fe0be69a699aebd62610f", null ],
+      [ "game_policy_pattern", "group__SceNetUser.html#ga72fa6dad316ea7606fd726e5f120a057", null ],
+      [ "policy_flags", "group__SceNetUser.html#gaea159ca85fb3c771c514f89ce05157df", null ],
+      [ "reserved", "group__SceNetUser.html#gab173f348138cb12dc52855dff8fc3e69", null ]
+    ] ],
+    [ "SceNetEmulationParam", "group__SceNetUser.html#structSceNetEmulationParam", [
+      [ "version", "group__SceNetUser.html#ga7ee06aef40cec32164228c16146b474b", null ],
+      [ "option_number", "group__SceNetUser.html#gabc5a8073bcca0b72dbe7be5da9889c86", null ],
+      [ "current_version", "group__SceNetUser.html#gad0d8ac0b8949b5da79e583257861cc9a", null ],
+      [ "result", "group__SceNetUser.html#ga8c043b0390224449e5f32ac196088d4b", null ],
+      [ "flags", "group__SceNetUser.html#gadecd01fe7637327d075dc704eb9350f3", null ],
+      [ "reserved1", "group__SceNetUser.html#ga915740cb5414ce0e6383848e8f3707a3", null ],
+      [ "send", "group__SceNetUser.html#ga141e1581c0e294378c8ec1afd52ac34e", null ],
+      [ "recv", "group__SceNetUser.html#gafbd7beab9a1755eb377e4e2487c8647f", null ],
+      [ "seed", "group__SceNetUser.html#ga48d74eb3c14face8d2f8fccc81f68b58", null ],
+      [ "reserved", "group__SceNetUser.html#ga1193297c84ae1825cefc1dc6239e9ee4", null ]
+    ] ],
+    [ "SceNetEpollDataExt", "group__SceNetUser.html#structSceNetEpollDataExt", [
+      [ "id", "group__SceNetUser.html#gae07886ce4c23f20cfc14fae1570c2df1", null ],
+      [ "u32", "group__SceNetUser.html#ga2fd8027131db8e53955d986b5c97ff04", null ]
+    ] ],
+    [ "SceNetEpollData", "group__SceNetUser.html#unionSceNetEpollData", [
+      [ "ptr", "group__SceNetUser.html#ga36e3390d551699648d60857b623a29f9", null ],
+      [ "fd", "group__SceNetUser.html#gad6814b8ee2aec1741987c3f20ac5a02c", null ],
+      [ "u32", "group__SceNetUser.html#gaed2f41ad3cbb44b127bfdb505a01e443", null ],
+      [ "u64", "group__SceNetUser.html#gaffc603a50d29de0cd3d5ade589ca1fd2", null ],
+      [ "ext", "group__SceNetUser.html#gad396b284064714a85847adbfaa351655", null ]
+    ] ],
+    [ "SceNetEpollSystemData", "group__SceNetUser.html#structSceNetEpollSystemData", [
+      [ "system", "group__SceNetUser.html#ga66ea04ab52d8a30b14271674ba824e7e", null ]
+    ] ],
+    [ "SceNetEpollEvent", "group__SceNetUser.html#structSceNetEpollEvent", [
+      [ "events", "group__SceNetUser.html#ga704c7772d186ada575428fa7410dd75b", null ],
+      [ "reserved", "group__SceNetUser.html#ga87bf467e9da39612ebc156ad4355f92a", null ],
+      [ "system", "group__SceNetUser.html#gabcecf978293bb82f60dca96c0a5d8969", null ],
+      [ "data", "group__SceNetUser.html#ga90f61fb083bb09e7b89206b65f5640ba", null ]
+    ] ],
+    [ "SceNetResolverParam", "group__SceNetUser.html#structSceNetResolverParam", [
+      [ "allocate", "group__SceNetUser.html#gaa37cc77a689bba5a45347d0982a2c928", null ],
+      [ "free", "group__SceNetUser.html#ga199dfca804e61011fe32479aded28a2d", null ],
+      [ "user", "group__SceNetUser.html#ga38a0705f824ca805215356c2d61932f8", null ]
+    ] ],
+    [ "SceNetFdSet", "group__SceNetUser.html#structSceNetFdSet", [
+      [ "bits", "group__SceNetUser.html#gaec5447c1b6f6dcb47036aa2b5db01ee1", null ]
+    ] ],
+    [ "SceNetInAddr", "group__SceNetUser.html#structSceNetInAddr", [
+      [ "s_addr", "group__SceNetUser.html#ga40306e4f889075f5f9abab8e56971ae6", null ]
+    ] ],
+    [ "SceNetSockaddrIn", "group__SceNetUser.html#structSceNetSockaddrIn", [
+      [ "sin_len", "group__SceNetUser.html#gac479353a4404f51ba0c9d3f426445da8", null ],
+      [ "sin_family", "group__SceNetUser.html#gad73204a838812cf72a24a1623a5c8271", null ],
+      [ "sin_port", "group__SceNetUser.html#gaa6b56a9484c92aee0df370af67b9a2ce", null ],
+      [ "sin_addr", "group__SceNetUser.html#gacd0fdb267854850b6210ab28dc268ae1", null ],
+      [ "sin_vport", "group__SceNetUser.html#ga2404f6b7061bb3c8ff326ea74cf790a3", null ],
+      [ "sin_zero", "group__SceNetUser.html#ga31a00afdf14e7f71e1428ff442cc916f", null ]
+    ] ],
+    [ "SceNetIpMreq", "group__SceNetUser.html#structSceNetIpMreq", [
+      [ "imr_multiaddr", "group__SceNetUser.html#ga4babe31cb78ba1f49cd19f19babecd65", null ],
+      [ "imr_interface", "group__SceNetUser.html#ga248cdd4f6beb090ce1539b655ab89dd0", null ]
+    ] ],
+    [ "SceNetEtherAddr", "group__SceNetUser.html#structSceNetEtherAddr", [
+      [ "data", "group__SceNetUser.html#ga0aafc3f4ff120bfe1f4b665f35be1869", null ]
+    ] ],
+    [ "SceNetDnsInfo", "group__SceNetUser.html#structSceNetDnsInfo", [
+      [ "dns_addr", "group__SceNetUser.html#ga0f6ed56a3ca2545931c77f8848408f00", null ]
+    ] ],
+    [ "SceNetLinger", "group__SceNetUser.html#structSceNetLinger", [
+      [ "l_onoff", "group__SceNetUser.html#ga55f1f4237bc331d9fc119480fead09d0", null ],
+      [ "l_linger", "group__SceNetUser.html#ga92ce1f8218014318817fedd363068b35", null ]
+    ] ],
+    [ "SceNetSockaddr", "group__SceNetUser.html#structSceNetSockaddr", [
+      [ "sa_len", "group__SceNetUser.html#gaa2d185da1ee96e36057e2e961c151105", null ],
+      [ "sa_family", "group__SceNetUser.html#ga67296f89505c1fd4b84606c06695ee1f", null ],
+      [ "sa_data", "group__SceNetUser.html#ga9bf8ee6b294735c8762740bfa13343f3", null ]
+    ] ],
+    [ "SceNetIovec", "group__SceNetUser.html#structSceNetIovec", [
+      [ "iov_base", "group__SceNetUser.html#ga3e237234cc39fdd4c63faa3898508490", null ],
+      [ "iov_len", "group__SceNetUser.html#gad1b3d5cd76fbb30a1837017068e364b7", null ]
+    ] ],
+    [ "SceNetMsghdr", "group__SceNetUser.html#structSceNetMsghdr", [
+      [ "msg_name", "group__SceNetUser.html#gaed5ba5646af2ab083f4f00197194df65", null ],
+      [ "msg_namelen", "group__SceNetUser.html#ga1138af680a3460989f95a9d6081e4e3e", null ],
+      [ "msg_iov", "group__SceNetUser.html#ga2981b85bd4e5a426ddea780b032ecebc", null ],
+      [ "msg_iovlen", "group__SceNetUser.html#ga681d22e675cc1c5bc72ee481593ba543", null ],
+      [ "msg_control", "group__SceNetUser.html#ga9f7f05026f8229bf8a49bb4a5963f0ec", null ],
+      [ "msg_controllen", "group__SceNetUser.html#ga41fd38f7a96491b01dc7edfe393fccc6", null ],
+      [ "msg_flags", "group__SceNetUser.html#ga2cf95e4fef19ea1e3ad45a0767dcfe7c", null ]
+    ] ],
+    [ "SceNetSockInfo", "group__SceNetUser.html#structSceNetSockInfo", [
+      [ "name", "group__SceNetUser.html#gaf9c8b5b9f1a609a43067c71f65332ade", null ],
+      [ "pid", "group__SceNetUser.html#ga6cafa2ca0c46ee9cd5bcd17402bd2dc3", null ],
+      [ "s", "group__SceNetUser.html#gaf234709f9de8cedfed64b1363518c37a", null ],
+      [ "socket_type", "group__SceNetUser.html#ga9cc30231c28207c8debf5b7cbe9b8e11", null ],
+      [ "policy", "group__SceNetUser.html#ga3577dc0a9b8cea9859adfc829381691d", null ],
+      [ "reserved16", "group__SceNetUser.html#gab8cdc3146858eb11e4328e4bfaeeea09", null ],
+      [ "recv_queue_length", "group__SceNetUser.html#ga34b5ad826cf02557f4533b217bdd40f0", null ],
+      [ "send_queue_length", "group__SceNetUser.html#ga5b122d63efbbe5dd6866c2a65578a674", null ],
+      [ "local_adr", "group__SceNetUser.html#ga16bb936ccb88c7054a0c8daf82e46eb4", null ],
+      [ "remote_adr", "group__SceNetUser.html#ga5f1c627268819e97d20854b62c933d11", null ],
+      [ "local_port", "group__SceNetUser.html#gaf436e2857a796ebeeb3f3c45995478f5", null ],
+      [ "remote_port", "group__SceNetUser.html#ga716a7692462c4871220f727bcc8f2016", null ],
+      [ "local_vport", "group__SceNetUser.html#ga3fc488eee753d16dea570eaa6846acd9", null ],
+      [ "remote_vport", "group__SceNetUser.html#gad2d5052837518f0fbc451822865c7c55", null ],
+      [ "state", "group__SceNetUser.html#gad3b748906c58e74c4d929adb66669451", null ],
+      [ "flags", "group__SceNetUser.html#ga30931886611d80b8dce35a3a38b29a43", null ],
+      [ "reserved", "group__SceNetUser.html#ga6608de13c79245b191c1a0ddbbc14138", null ]
+    ] ],
+    [ "SceNetStatisticsInfo", "group__SceNetUser.html#structSceNetStatisticsInfo", [
+      [ "kernel_mem_free_size", "group__SceNetUser.html#gadf0782e00d4fc5b694f4c826e500eb80", null ],
+      [ "kernel_mem_free_min", "group__SceNetUser.html#ga80809fbc7e8e9ff9b95f7a7943773a6d", null ],
+      [ "packet_count", "group__SceNetUser.html#gaf8e4a1d195191a06da2a357a5f0c9d42", null ],
+      [ "packet_qos_count", "group__SceNetUser.html#gaaa1f251a6ca5181bc392c1f74f9624af", null ],
+      [ "libnet_mem_free_size", "group__SceNetUser.html#gac81f691593f9bafc86743c30ffce32f1", null ],
+      [ "libnet_mem_free_min", "group__SceNetUser.html#ga2f9ef89a955f4b5c60d5e8dd4263305f", null ]
+    ] ],
+    [ "SceNetIpHeaderIpVerHl", "group__SceNetUser.html#structSceNetIpHeaderIpVerHl", [
+      [ "hl", "group__SceNetUser.html#gab0c23a943d522cfbabcd675761f9f26d", null ],
+      [ "ver", "group__SceNetUser.html#ga07af8edf0631338145bba463cb33dc97", null ]
+    ] ],
+    [ "SceNetIpHeaderUnion", "group__SceNetUser.html#unionSceNetIpHeaderUnion", [
+      [ "ip_ver_hl", "group__SceNetUser.html#gab5e0b5edf3957432a774f868ec139e05", null ],
+      [ "ver_hl", "group__SceNetUser.html#gaaaa6d33c1d9a2f0fda91dd7841a98c4c", null ]
+    ] ],
+    [ "SceNetIpHeader", "group__SceNetUser.html#structSceNetIpHeader", [
+      [ "un", "group__SceNetUser.html#ga086d0f0c5e30528c7a5557f578824237", null ],
+      [ "ip_tos", "group__SceNetUser.html#gab1c2bbd9d1f2134a441c5964fb4e110c", null ],
+      [ "ip_len", "group__SceNetUser.html#gaa7599e847e251f6f6357aa448d24dcc2", null ],
+      [ "ip_id", "group__SceNetUser.html#ga0e986cc60bd84578b5b7b308e90c2cec", null ],
+      [ "ip_off", "group__SceNetUser.html#gabdff0a08c4d5847fd1a255c9a8efb5af", null ],
+      [ "ip_ttl", "group__SceNetUser.html#ga49b4d62492114506318be9d6b9d0504b", null ],
+      [ "ip_p", "group__SceNetUser.html#ga63d5a16e5ddd53113ed740d6ec9effa0", null ],
+      [ "ip_sum", "group__SceNetUser.html#gaf4c011aad7a123ff110bab429f44da26", null ],
+      [ "ip_src", "group__SceNetUser.html#ga79b7c259303a6719471aecc6533f1610", null ],
+      [ "ip_dst", "group__SceNetUser.html#gacdcf84481067b1da1429fb7e6a604a7d", null ]
+    ] ],
+    [ "SceNetIcmpHeaderEcho", "group__SceNetUser.html#structSceNetIcmpHeaderEcho", [
+      [ "id", "group__SceNetUser.html#ga2cf9ff28dbbacf2a710e273d10169de7", null ],
+      [ "sequence", "group__SceNetUser.html#ga2c692c1a370fb62513f2fa919a2fa4ae", null ]
+    ] ],
+    [ "SceNetIcmpHeaderFrag", "group__SceNetUser.html#structSceNetIcmpHeaderFrag", [
+      [ "unused", "group__SceNetUser.html#gad95a4dcdf2ffa21492d95064f206cf36", null ],
+      [ "mtu", "group__SceNetUser.html#gad9c61add131d763d706bc78ebe2cf42f", null ]
+    ] ],
+    [ "SceNetIcmpHeaderUnion", "group__SceNetUser.html#unionSceNetIcmpHeaderUnion", [
+      [ "echo", "group__SceNetUser.html#ga80a6a9363283ac9c16d74c87a284e0b5", null ],
+      [ "gateway", "group__SceNetUser.html#ga93cb4c88cb9d39c1318fe47a6d5df8a4", null ],
+      [ "frag", "group__SceNetUser.html#ga6bb9fe898b65e0b8b095366f63023417", null ]
+    ] ],
+    [ "SceNetIcmpHeader", "group__SceNetUser.html#structSceNetIcmpHeader", [
+      [ "type", "group__SceNetUser.html#gaa0226dd0b3c1f602a1b1fbf76c168d16", null ],
+      [ "code", "group__SceNetUser.html#ga386cf6a87730f5a0de8a69a1e2df54ef", null ],
+      [ "checksum", "group__SceNetUser.html#ga6d0bfae5b174add22285771c82577858", null ],
+      [ "un", "group__SceNetUser.html#gaa8e78474b680a4bcc8a358a9f279fb21", null ]
+    ] ],
     [ "SCE_NET_EPOLL_ABORT_FLAG_PRESERVATION", "group__SceNetUser.html#ga1c1181dad159246cabc55c6b18ee5e65", null ],
     [ "SCE_NET_RESOLVER_PORT", "group__SceNetUser.html#gab082cf5a54b7ab21e09b2912f601eba9", null ],
     [ "SCE_NET_RESOLVER_HOSTNAME_LEN_MAX", "group__SceNetUser.html#ga5a0f227806acd8e3f0127363d04a3240", null ],
@@ -22,7 +193,7 @@ var group__SceNetUser =
     [ "SCE_NET_DEBUG_NAME_LEN_MAX", "group__SceNetUser.html#ga5676fe21a495a55df7ee92b79bef7ccf", null ],
     [ "SCE_NET_ID_SOCKET_MIN", "group__SceNetUser.html#ga5bd1591024878b9392ffc1e1ed309953", null ],
     [ "SCE_NET_ID_SOCKET_MAX", "group__SceNetUser.html#ga4e3ea0bd604a1874b44ad9a56819e40c", null ],
-    [ "SceNetResolverFunctionAllocate", "group__SceNetUser.html#ga8d3b116dc09c949f38c2863cfef16c8e", null ],
+    [ "SceNetResolverFunctionAllocate", "group__SceNetUser.html#ga29688e8499a50b72b20802eca20415b8", null ],
     [ "SceNetResolverFunctionFree", "group__SceNetUser.html#gaff1dc586af8124462ebe48ab445c03b3", null ],
     [ "SceNetResolverErrorCode", "group__SceNetUser.html#ga0afc1f6c3ee846a7a577450323ea268b", [
       [ "SCE_NET_RESOLVER_EINTERNAL", "group__SceNetUser.html#gga0afc1f6c3ee846a7a577450323ea268baaa40660cddb8859a14029fcb54bd47fe", null ],
@@ -833,7 +1004,7 @@ var group__SceNetUser =
     [ "sceNetGetStatisticsInfo", "group__SceNetUser.html#gadced820fafe0994573799d825a9257ac", null ],
     [ "sceNetSetDnsInfo", "group__SceNetUser.html#gac334fd7ea92d6507921844bd762c8032", null ],
     [ "sceNetClearDnsCache", "group__SceNetUser.html#ga05801345b64a356f85632c70ddb3c7fa", null ],
-    [ "sceNetInetNtop", "group__SceNetUser.html#ga359446517eb46f05a8360429ed48fd82", null ],
+    [ "sceNetInetNtop", "group__SceNetUser.html#ga67ed22822670a2247550bfe66511215d", null ],
     [ "sceNetInetPton", "group__SceNetUser.html#gab69c98ff6e0ba31ac57bc22130fd34ff", null ],
     [ "sceNetHtonll", "group__SceNetUser.html#ga73643376f69871d2023b7bb5bdf50592", null ],
     [ "sceNetHtonl", "group__SceNetUser.html#gab7add7b0125675007cba6470a3adaa32", null ],
@@ -841,7 +1012,7 @@ var group__SceNetUser =
     [ "sceNetNtohll", "group__SceNetUser.html#ga718c307037dc034e731bd68c85cc70e3", null ],
     [ "sceNetNtohl", "group__SceNetUser.html#gaf0079d91bfd48309ff3717692f98ef5a", null ],
     [ "sceNetNtohs", "group__SceNetUser.html#ga2538abe15fa19b0250f80705a0e3ca94", null ],
-    [ "sceNetErrnoLoc", "group__SceNetUser.html#ga3b63382213be67f4ff0de70394226a28", null ],
+    [ "sceNetErrnoLoc", "group__SceNetUser.html#ga96b450ab97463cd44fd043c3369ad09b", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#ga1d32a486abb2c53de9676f636717f4b0", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#ga9e0fb95e8a2267e5775c9c7395841d9b", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#ga2342fbbfa7c885f0c6a0e90e3fdca7cc", null ],
@@ -860,5 +1031,122 @@ var group__SceNetUser =
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#gad883318a7bb94b329375c51ea38bf95e", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#ga872a4b6dbef1f405a278a8e267653274", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#ga91a03b5628da447c4636766f591d4393", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#gabe48d1525a4defe663bc22355e05a8d8", null ]
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceNetUser.html#gabe48d1525a4defe663bc22355e05a8d8", null ],
+    [ "SceNetInitParam::memory", "group__SceNetUser.html#ga2802ccb9feb2b13f5d811cc944db9d43", null ],
+    [ "SceNetInitParam::size", "group__SceNetUser.html#ga40b926cc6025a8b503fe027e5d9d2ce1", null ],
+    [ "SceNetInitParam::flags", "group__SceNetUser.html#gac8e8f3f3424a144b586ba124ee4bf21c", null ],
+    [ "SceNetEmulationData::drop_rate", "group__SceNetUser.html#gac2632ca5ecfb0dd4e7bfec81dbea54b6", null ],
+    [ "SceNetEmulationData::drop_duration", "group__SceNetUser.html#ga4b5ed5598b0c2e14482c7f9ea55c6a8b", null ],
+    [ "SceNetEmulationData::pass_duration", "group__SceNetUser.html#ga9696d151f6362f5a24f6faa8460164e7", null ],
+    [ "SceNetEmulationData::delay_time", "group__SceNetUser.html#gaf69fe9906d6efb8358c7d60ca55629e4", null ],
+    [ "SceNetEmulationData::delay_jitter", "group__SceNetUser.html#gabef928521ac987d8572846180044f7f3", null ],
+    [ "SceNetEmulationData::order_rate", "group__SceNetUser.html#gaa5c2b47da1ea885253fdd20aae689750", null ],
+    [ "SceNetEmulationData::order_delay_time", "group__SceNetUser.html#gac9214c2620691e61df8f134cfb4f8a23", null ],
+    [ "SceNetEmulationData::duplication_rate", "group__SceNetUser.html#ga7cab1626a9b32dd56e62e322d6be9a8f", null ],
+    [ "SceNetEmulationData::bps_limit", "group__SceNetUser.html#ga457a4468702eae180aee84f969617443", null ],
+    [ "SceNetEmulationData::lower_size_limit", "group__SceNetUser.html#gabba03d3f7cb68efc5c58581a72511ee3", null ],
+    [ "SceNetEmulationData::upper_size_limit", "group__SceNetUser.html#ga2e20fff065b06dcc13383a324ee8c202", null ],
+    [ "SceNetEmulationData::system_policy_pattern", "group__SceNetUser.html#ga50cf2014059fe0be69a699aebd62610f", null ],
+    [ "SceNetEmulationData::game_policy_pattern", "group__SceNetUser.html#ga72fa6dad316ea7606fd726e5f120a057", null ],
+    [ "SceNetEmulationData::policy_flags", "group__SceNetUser.html#gaea159ca85fb3c771c514f89ce05157df", null ],
+    [ "SceNetEmulationData::reserved", "group__SceNetUser.html#gab173f348138cb12dc52855dff8fc3e69", null ],
+    [ "SceNetEmulationParam::version", "group__SceNetUser.html#ga7ee06aef40cec32164228c16146b474b", null ],
+    [ "SceNetEmulationParam::option_number", "group__SceNetUser.html#gabc5a8073bcca0b72dbe7be5da9889c86", null ],
+    [ "SceNetEmulationParam::current_version", "group__SceNetUser.html#gad0d8ac0b8949b5da79e583257861cc9a", null ],
+    [ "SceNetEmulationParam::result", "group__SceNetUser.html#ga8c043b0390224449e5f32ac196088d4b", null ],
+    [ "SceNetEmulationParam::flags", "group__SceNetUser.html#gadecd01fe7637327d075dc704eb9350f3", null ],
+    [ "SceNetEmulationParam::reserved1", "group__SceNetUser.html#ga915740cb5414ce0e6383848e8f3707a3", null ],
+    [ "SceNetEmulationParam::send", "group__SceNetUser.html#ga141e1581c0e294378c8ec1afd52ac34e", null ],
+    [ "SceNetEmulationParam::recv", "group__SceNetUser.html#gafbd7beab9a1755eb377e4e2487c8647f", null ],
+    [ "SceNetEmulationParam::seed", "group__SceNetUser.html#ga48d74eb3c14face8d2f8fccc81f68b58", null ],
+    [ "SceNetEmulationParam::reserved", "group__SceNetUser.html#ga1193297c84ae1825cefc1dc6239e9ee4", null ],
+    [ "SceNetEpollDataExt::id", "group__SceNetUser.html#gae07886ce4c23f20cfc14fae1570c2df1", null ],
+    [ "SceNetEpollDataExt::u32", "group__SceNetUser.html#ga2fd8027131db8e53955d986b5c97ff04", null ],
+    [ "SceNetEpollData::ptr", "group__SceNetUser.html#ga36e3390d551699648d60857b623a29f9", null ],
+    [ "SceNetEpollData::fd", "group__SceNetUser.html#gad6814b8ee2aec1741987c3f20ac5a02c", null ],
+    [ "SceNetEpollData::u32", "group__SceNetUser.html#gaed2f41ad3cbb44b127bfdb505a01e443", null ],
+    [ "SceNetEpollData::u64", "group__SceNetUser.html#gaffc603a50d29de0cd3d5ade589ca1fd2", null ],
+    [ "SceNetEpollData::ext", "group__SceNetUser.html#gad396b284064714a85847adbfaa351655", null ],
+    [ "SceNetEpollSystemData::system", "group__SceNetUser.html#ga66ea04ab52d8a30b14271674ba824e7e", null ],
+    [ "SceNetEpollEvent::events", "group__SceNetUser.html#ga704c7772d186ada575428fa7410dd75b", null ],
+    [ "SceNetEpollEvent::reserved", "group__SceNetUser.html#ga87bf467e9da39612ebc156ad4355f92a", null ],
+    [ "SceNetEpollEvent::system", "group__SceNetUser.html#gabcecf978293bb82f60dca96c0a5d8969", null ],
+    [ "SceNetEpollEvent::data", "group__SceNetUser.html#ga90f61fb083bb09e7b89206b65f5640ba", null ],
+    [ "SceNetResolverParam::allocate", "group__SceNetUser.html#gaa37cc77a689bba5a45347d0982a2c928", null ],
+    [ "SceNetResolverParam::free", "group__SceNetUser.html#ga199dfca804e61011fe32479aded28a2d", null ],
+    [ "SceNetResolverParam::user", "group__SceNetUser.html#ga38a0705f824ca805215356c2d61932f8", null ],
+    [ "SceNetFdSet::bits", "group__SceNetUser.html#gaec5447c1b6f6dcb47036aa2b5db01ee1", null ],
+    [ "SceNetInAddr::s_addr", "group__SceNetUser.html#ga40306e4f889075f5f9abab8e56971ae6", null ],
+    [ "SceNetSockaddrIn::sin_len", "group__SceNetUser.html#gac479353a4404f51ba0c9d3f426445da8", null ],
+    [ "SceNetSockaddrIn::sin_family", "group__SceNetUser.html#gad73204a838812cf72a24a1623a5c8271", null ],
+    [ "SceNetSockaddrIn::sin_port", "group__SceNetUser.html#gaa6b56a9484c92aee0df370af67b9a2ce", null ],
+    [ "SceNetSockaddrIn::sin_addr", "group__SceNetUser.html#gacd0fdb267854850b6210ab28dc268ae1", null ],
+    [ "SceNetSockaddrIn::sin_vport", "group__SceNetUser.html#ga2404f6b7061bb3c8ff326ea74cf790a3", null ],
+    [ "SceNetSockaddrIn::sin_zero", "group__SceNetUser.html#ga31a00afdf14e7f71e1428ff442cc916f", null ],
+    [ "SceNetIpMreq::imr_multiaddr", "group__SceNetUser.html#ga4babe31cb78ba1f49cd19f19babecd65", null ],
+    [ "SceNetIpMreq::imr_interface", "group__SceNetUser.html#ga248cdd4f6beb090ce1539b655ab89dd0", null ],
+    [ "SceNetEtherAddr::data", "group__SceNetUser.html#ga0aafc3f4ff120bfe1f4b665f35be1869", null ],
+    [ "SceNetDnsInfo::dns_addr", "group__SceNetUser.html#ga0f6ed56a3ca2545931c77f8848408f00", null ],
+    [ "SceNetLinger::l_onoff", "group__SceNetUser.html#ga55f1f4237bc331d9fc119480fead09d0", null ],
+    [ "SceNetLinger::l_linger", "group__SceNetUser.html#ga92ce1f8218014318817fedd363068b35", null ],
+    [ "SceNetSockaddr::sa_len", "group__SceNetUser.html#gaa2d185da1ee96e36057e2e961c151105", null ],
+    [ "SceNetSockaddr::sa_family", "group__SceNetUser.html#ga67296f89505c1fd4b84606c06695ee1f", null ],
+    [ "SceNetSockaddr::sa_data", "group__SceNetUser.html#ga9bf8ee6b294735c8762740bfa13343f3", null ],
+    [ "SceNetIovec::iov_base", "group__SceNetUser.html#ga3e237234cc39fdd4c63faa3898508490", null ],
+    [ "SceNetIovec::iov_len", "group__SceNetUser.html#gad1b3d5cd76fbb30a1837017068e364b7", null ],
+    [ "SceNetMsghdr::msg_name", "group__SceNetUser.html#gaed5ba5646af2ab083f4f00197194df65", null ],
+    [ "SceNetMsghdr::msg_namelen", "group__SceNetUser.html#ga1138af680a3460989f95a9d6081e4e3e", null ],
+    [ "SceNetMsghdr::msg_iov", "group__SceNetUser.html#ga2981b85bd4e5a426ddea780b032ecebc", null ],
+    [ "SceNetMsghdr::msg_iovlen", "group__SceNetUser.html#ga681d22e675cc1c5bc72ee481593ba543", null ],
+    [ "SceNetMsghdr::msg_control", "group__SceNetUser.html#ga9f7f05026f8229bf8a49bb4a5963f0ec", null ],
+    [ "SceNetMsghdr::msg_controllen", "group__SceNetUser.html#ga41fd38f7a96491b01dc7edfe393fccc6", null ],
+    [ "SceNetMsghdr::msg_flags", "group__SceNetUser.html#ga2cf95e4fef19ea1e3ad45a0767dcfe7c", null ],
+    [ "SceNetSockInfo::name", "group__SceNetUser.html#gaf9c8b5b9f1a609a43067c71f65332ade", null ],
+    [ "SceNetSockInfo::pid", "group__SceNetUser.html#ga6cafa2ca0c46ee9cd5bcd17402bd2dc3", null ],
+    [ "SceNetSockInfo::s", "group__SceNetUser.html#gaf234709f9de8cedfed64b1363518c37a", null ],
+    [ "SceNetSockInfo::socket_type", "group__SceNetUser.html#ga9cc30231c28207c8debf5b7cbe9b8e11", null ],
+    [ "SceNetSockInfo::policy", "group__SceNetUser.html#ga3577dc0a9b8cea9859adfc829381691d", null ],
+    [ "SceNetSockInfo::reserved16", "group__SceNetUser.html#gab8cdc3146858eb11e4328e4bfaeeea09", null ],
+    [ "SceNetSockInfo::recv_queue_length", "group__SceNetUser.html#ga34b5ad826cf02557f4533b217bdd40f0", null ],
+    [ "SceNetSockInfo::send_queue_length", "group__SceNetUser.html#ga5b122d63efbbe5dd6866c2a65578a674", null ],
+    [ "SceNetSockInfo::local_adr", "group__SceNetUser.html#ga16bb936ccb88c7054a0c8daf82e46eb4", null ],
+    [ "SceNetSockInfo::remote_adr", "group__SceNetUser.html#ga5f1c627268819e97d20854b62c933d11", null ],
+    [ "SceNetSockInfo::local_port", "group__SceNetUser.html#gaf436e2857a796ebeeb3f3c45995478f5", null ],
+    [ "SceNetSockInfo::remote_port", "group__SceNetUser.html#ga716a7692462c4871220f727bcc8f2016", null ],
+    [ "SceNetSockInfo::local_vport", "group__SceNetUser.html#ga3fc488eee753d16dea570eaa6846acd9", null ],
+    [ "SceNetSockInfo::remote_vport", "group__SceNetUser.html#gad2d5052837518f0fbc451822865c7c55", null ],
+    [ "SceNetSockInfo::state", "group__SceNetUser.html#gad3b748906c58e74c4d929adb66669451", null ],
+    [ "SceNetSockInfo::flags", "group__SceNetUser.html#ga30931886611d80b8dce35a3a38b29a43", null ],
+    [ "SceNetSockInfo::reserved", "group__SceNetUser.html#ga6608de13c79245b191c1a0ddbbc14138", null ],
+    [ "SceNetStatisticsInfo::kernel_mem_free_size", "group__SceNetUser.html#gadf0782e00d4fc5b694f4c826e500eb80", null ],
+    [ "SceNetStatisticsInfo::kernel_mem_free_min", "group__SceNetUser.html#ga80809fbc7e8e9ff9b95f7a7943773a6d", null ],
+    [ "SceNetStatisticsInfo::packet_count", "group__SceNetUser.html#gaf8e4a1d195191a06da2a357a5f0c9d42", null ],
+    [ "SceNetStatisticsInfo::packet_qos_count", "group__SceNetUser.html#gaaa1f251a6ca5181bc392c1f74f9624af", null ],
+    [ "SceNetStatisticsInfo::libnet_mem_free_size", "group__SceNetUser.html#gac81f691593f9bafc86743c30ffce32f1", null ],
+    [ "SceNetStatisticsInfo::libnet_mem_free_min", "group__SceNetUser.html#ga2f9ef89a955f4b5c60d5e8dd4263305f", null ],
+    [ "SceNetIpHeaderIpVerHl::hl", "group__SceNetUser.html#gab0c23a943d522cfbabcd675761f9f26d", null ],
+    [ "SceNetIpHeaderIpVerHl::ver", "group__SceNetUser.html#ga07af8edf0631338145bba463cb33dc97", null ],
+    [ "SceNetIpHeaderUnion::ip_ver_hl", "group__SceNetUser.html#gab5e0b5edf3957432a774f868ec139e05", null ],
+    [ "SceNetIpHeaderUnion::ver_hl", "group__SceNetUser.html#gaaaa6d33c1d9a2f0fda91dd7841a98c4c", null ],
+    [ "SceNetIpHeader::un", "group__SceNetUser.html#ga086d0f0c5e30528c7a5557f578824237", null ],
+    [ "SceNetIpHeader::ip_tos", "group__SceNetUser.html#gab1c2bbd9d1f2134a441c5964fb4e110c", null ],
+    [ "SceNetIpHeader::ip_len", "group__SceNetUser.html#gaa7599e847e251f6f6357aa448d24dcc2", null ],
+    [ "SceNetIpHeader::ip_id", "group__SceNetUser.html#ga0e986cc60bd84578b5b7b308e90c2cec", null ],
+    [ "SceNetIpHeader::ip_off", "group__SceNetUser.html#gabdff0a08c4d5847fd1a255c9a8efb5af", null ],
+    [ "SceNetIpHeader::ip_ttl", "group__SceNetUser.html#ga49b4d62492114506318be9d6b9d0504b", null ],
+    [ "SceNetIpHeader::ip_p", "group__SceNetUser.html#ga63d5a16e5ddd53113ed740d6ec9effa0", null ],
+    [ "SceNetIpHeader::ip_sum", "group__SceNetUser.html#gaf4c011aad7a123ff110bab429f44da26", null ],
+    [ "SceNetIpHeader::ip_src", "group__SceNetUser.html#ga79b7c259303a6719471aecc6533f1610", null ],
+    [ "SceNetIpHeader::ip_dst", "group__SceNetUser.html#gacdcf84481067b1da1429fb7e6a604a7d", null ],
+    [ "SceNetIcmpHeaderEcho::id", "group__SceNetUser.html#ga2cf9ff28dbbacf2a710e273d10169de7", null ],
+    [ "SceNetIcmpHeaderEcho::sequence", "group__SceNetUser.html#ga2c692c1a370fb62513f2fa919a2fa4ae", null ],
+    [ "SceNetIcmpHeaderFrag::unused", "group__SceNetUser.html#gad95a4dcdf2ffa21492d95064f206cf36", null ],
+    [ "SceNetIcmpHeaderFrag::mtu", "group__SceNetUser.html#gad9c61add131d763d706bc78ebe2cf42f", null ],
+    [ "SceNetIcmpHeaderUnion::echo", "group__SceNetUser.html#ga80a6a9363283ac9c16d74c87a284e0b5", null ],
+    [ "SceNetIcmpHeaderUnion::gateway", "group__SceNetUser.html#ga93cb4c88cb9d39c1318fe47a6d5df8a4", null ],
+    [ "SceNetIcmpHeaderUnion::frag", "group__SceNetUser.html#ga6bb9fe898b65e0b8b095366f63023417", null ],
+    [ "SceNetIcmpHeader::type", "group__SceNetUser.html#gaa0226dd0b3c1f602a1b1fbf76c168d16", null ],
+    [ "SceNetIcmpHeader::code", "group__SceNetUser.html#ga386cf6a87730f5a0de8a69a1e2df54ef", null ],
+    [ "SceNetIcmpHeader::checksum", "group__SceNetUser.html#ga6d0bfae5b174add22285771c82577858", null ],
+    [ "SceNetIcmpHeader::un", "group__SceNetUser.html#gaa8e78474b680a4bcc8a358a9f279fb21", null ]
 ];

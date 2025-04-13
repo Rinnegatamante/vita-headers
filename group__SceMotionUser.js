@@ -1,5 +1,37 @@
 var group__SceMotionUser =
 [
+    [ "SceMotionState", "group__SceMotionUser.html#structSceMotionState", [
+      [ "timestamp", "group__SceMotionUser.html#gaa12bef5bd6433afb47d88a32b99322c5", null ],
+      [ "acceleration", "group__SceMotionUser.html#ga435859c3c6817c515980f9c063ab66b4", null ],
+      [ "angularVelocity", "group__SceMotionUser.html#gae1056c8994dd91568e2d37e9e1400a10", null ],
+      [ "reserved1", "group__SceMotionUser.html#ga8dbf4cc7562984a44a44f975aa28df3a", null ],
+      [ "deviceQuat", "group__SceMotionUser.html#ga2aecca6955f4273ac70fecce7e4bd79f", null ],
+      [ "rotationMatrix", "group__SceMotionUser.html#gafa04868acee83ef01a2667ec88925c3e", null ],
+      [ "nedMatrix", "group__SceMotionUser.html#ga44881ddf752e191b35221e3480805e2d", null ],
+      [ "reserved2", "group__SceMotionUser.html#gaed1378199cc3e5391233ac37e3a837ee", null ],
+      [ "basicOrientation", "group__SceMotionUser.html#ga355ea78d453e822f662fb15f03edcb0a", null ],
+      [ "hostTimestamp", "group__SceMotionUser.html#ga64c98b53f70c7e9d99e08574bd98b53a", null ],
+      [ "reserved3", "group__SceMotionUser.html#ga7e5163676a2a2109345ec2792f2aa1e5", null ],
+      [ "magFieldStability", "group__SceMotionUser.html#gae00cc1e0f75d52c3fe1dc4ca2af202fa", null ],
+      [ "unknown", "group__SceMotionUser.html#gafcf1a1828e5049e5e1b2a45c2e1d5330", null ],
+      [ "reserved4", "group__SceMotionUser.html#ga498feeb8e59bab592e86da5d2b588d6c", null ]
+    ] ],
+    [ "SceMotionSensorState", "group__SceMotionUser.html#structSceMotionSensorState", [
+      [ "accelerometer", "group__SceMotionUser.html#ga9dc438d95f74919afdb148266bac03d8", null ],
+      [ "gyro", "group__SceMotionUser.html#ga12f64b34c0537622d5f5a06c91860dc0", null ],
+      [ "reserved1", "group__SceMotionUser.html#gad11e5a3f93d50113ae8f8f2dbb186831", null ],
+      [ "timestamp", "group__SceMotionUser.html#ga66ec4f2befe18b2990dc570e5e580ab5", null ],
+      [ "counter", "group__SceMotionUser.html#ga18379d8bdae6bc65d4436e63422fba75", null ],
+      [ "reserved2", "group__SceMotionUser.html#ga98d17b4e988cd31f3f193c0b801c9c83", null ],
+      [ "hostTimestamp", "group__SceMotionUser.html#gaf291022bab2fd26deaa83ba16a315ca3", null ],
+      [ "unknown", "group__SceMotionUser.html#gabb97c6a5839c3f815c3c4d72d5dad49c", null ],
+      [ "reserved3", "group__SceMotionUser.html#ga733f4b148e5b37ffabdf8a2a39ee8069", null ]
+    ] ],
+    [ "SceMotionDeviceLocation", "group__SceMotionUser.html#structSceMotionDeviceLocation", [
+      [ "accelerometer", "group__SceMotionUser.html#gadbd4c86b67905ff9dddaca930be6aa75", null ],
+      [ "gyro", "group__SceMotionUser.html#gaaef58853d33027c72bba93297730e9d8", null ],
+      [ "reserved", "group__SceMotionUser.html#ga0a6791043e00d9bbb9f6315809044b6d", null ]
+    ] ],
     [ "SceMotionMagFieldStability", "group__SceMotionUser.html#gafbfdbb2de5f1fd0fd3725812c8c2bfeb", [
       [ "SCE_MOTION_MAGFIELD_UNSTABLE", "group__SceMotionUser.html#ggafbfdbb2de5f1fd0fd3725812c8c2bfeba39bc8394def8c5b8ff1c0cb7b3cb6382", null ],
       [ "SCE_MOTION_MAGFIELD_UNUSED", "group__SceMotionUser.html#ggafbfdbb2de5f1fd0fd3725812c8c2bfeba6cb9e96b1d1c24f3fbd9964ec93cb2a2", null ],
@@ -49,5 +81,31 @@ var group__SceMotionUser =
     [ "sceMotionMagnetometerOff", "group__SceMotionUser.html#gad51ffc9432116e069a748aeaf7c03193", null ],
     [ "sceMotionGetMagnetometerState", "group__SceMotionUser.html#ga3387646a1bacba7f8603ccd567aee949", null ],
     [ "sceMotionStartSampling", "group__SceMotionUser.html#gab4b684147d6117fe4301bd1e1fb462da", null ],
-    [ "sceMotionStopSampling", "group__SceMotionUser.html#gaa790e15855bf15a26f80debc10a79d63", null ]
+    [ "sceMotionStopSampling", "group__SceMotionUser.html#gaa790e15855bf15a26f80debc10a79d63", null ],
+    [ "SceMotionState::timestamp", "group__SceMotionUser.html#gaa12bef5bd6433afb47d88a32b99322c5", null ],
+    [ "SceMotionState::acceleration", "group__SceMotionUser.html#ga435859c3c6817c515980f9c063ab66b4", null ],
+    [ "SceMotionState::angularVelocity", "group__SceMotionUser.html#gae1056c8994dd91568e2d37e9e1400a10", null ],
+    [ "SceMotionState::reserved1", "group__SceMotionUser.html#ga8dbf4cc7562984a44a44f975aa28df3a", null ],
+    [ "SceMotionState::deviceQuat", "group__SceMotionUser.html#ga2aecca6955f4273ac70fecce7e4bd79f", null ],
+    [ "SceMotionState::rotationMatrix", "group__SceMotionUser.html#gafa04868acee83ef01a2667ec88925c3e", null ],
+    [ "SceMotionState::nedMatrix", "group__SceMotionUser.html#ga44881ddf752e191b35221e3480805e2d", null ],
+    [ "SceMotionState::reserved2", "group__SceMotionUser.html#gaed1378199cc3e5391233ac37e3a837ee", null ],
+    [ "SceMotionState::basicOrientation", "group__SceMotionUser.html#ga355ea78d453e822f662fb15f03edcb0a", null ],
+    [ "SceMotionState::hostTimestamp", "group__SceMotionUser.html#ga64c98b53f70c7e9d99e08574bd98b53a", null ],
+    [ "SceMotionState::reserved3", "group__SceMotionUser.html#ga7e5163676a2a2109345ec2792f2aa1e5", null ],
+    [ "SceMotionState::magFieldStability", "group__SceMotionUser.html#gae00cc1e0f75d52c3fe1dc4ca2af202fa", null ],
+    [ "SceMotionState::unknown", "group__SceMotionUser.html#gafcf1a1828e5049e5e1b2a45c2e1d5330", null ],
+    [ "SceMotionState::reserved4", "group__SceMotionUser.html#ga498feeb8e59bab592e86da5d2b588d6c", null ],
+    [ "SceMotionSensorState::accelerometer", "group__SceMotionUser.html#ga9dc438d95f74919afdb148266bac03d8", null ],
+    [ "SceMotionSensorState::gyro", "group__SceMotionUser.html#ga12f64b34c0537622d5f5a06c91860dc0", null ],
+    [ "SceMotionSensorState::reserved1", "group__SceMotionUser.html#gad11e5a3f93d50113ae8f8f2dbb186831", null ],
+    [ "SceMotionSensorState::timestamp", "group__SceMotionUser.html#ga66ec4f2befe18b2990dc570e5e580ab5", null ],
+    [ "SceMotionSensorState::counter", "group__SceMotionUser.html#ga18379d8bdae6bc65d4436e63422fba75", null ],
+    [ "SceMotionSensorState::reserved2", "group__SceMotionUser.html#ga98d17b4e988cd31f3f193c0b801c9c83", null ],
+    [ "SceMotionSensorState::hostTimestamp", "group__SceMotionUser.html#gaf291022bab2fd26deaa83ba16a315ca3", null ],
+    [ "SceMotionSensorState::unknown", "group__SceMotionUser.html#gabb97c6a5839c3f815c3c4d72d5dad49c", null ],
+    [ "SceMotionSensorState::reserved3", "group__SceMotionUser.html#ga733f4b148e5b37ffabdf8a2a39ee8069", null ],
+    [ "SceMotionDeviceLocation::accelerometer", "group__SceMotionUser.html#gadbd4c86b67905ff9dddaca930be6aa75", null ],
+    [ "SceMotionDeviceLocation::gyro", "group__SceMotionUser.html#gaaef58853d33027c72bba93297730e9d8", null ],
+    [ "SceMotionDeviceLocation::reserved", "group__SceMotionUser.html#ga0a6791043e00d9bbb9f6315809044b6d", null ]
 ];

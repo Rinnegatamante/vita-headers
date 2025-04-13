@@ -1,5 +1,44 @@
 var group__SceIofilemgrKernel =
 [
+    [ "SceIoDevInfo", "group__SceIofilemgrKernel.html#structSceIoDevInfo", [
+      [ "max_size", "group__SceIofilemgrKernel.html#ga186cfae72ffe72d61eac92d8db3521d9", null ],
+      [ "free_size", "group__SceIofilemgrKernel.html#gad75b9b528ae43fb7c0f6de70ac305512", null ],
+      [ "cluster_size", "group__SceIofilemgrKernel.html#ga9f8a7d31dd90980c2a8c31e672b9c1d6", null ],
+      [ "unk", "group__SceIofilemgrKernel.html#gabd4a8af2a5b1956782ab288fad5e60fa", null ]
+    ] ],
+    [ "SceIoStat", "group__SceIofilemgrKernel.html#structSceIoStat", [
+      [ "st_mode", "group__SceIofilemgrKernel.html#ga432ee7ab09142b707686e318ae5f8f83", null ],
+      [ "st_attr", "group__SceIofilemgrKernel.html#gaf32aa0a6b11893ba19b2d369159830cb", null ],
+      [ "st_size", "group__SceIofilemgrKernel.html#ga67a3e4e86264a440da54204caeeafb16", null ],
+      [ "st_ctime", "group__SceIofilemgrKernel.html#gaa05df6c104b75d64411e07b73e3c92a8", null ],
+      [ "st_atime", "group__SceIofilemgrKernel.html#gaa4fdf932210dbb1abf8b171732efe946", null ],
+      [ "st_mtime", "group__SceIofilemgrKernel.html#ga3c15df236ec4703d958ab0d8fdbd1ba3", null ],
+      [ "st_private", "group__SceIofilemgrKernel.html#gaf7b69aca53d97b66ebebfa7d2c7309a8", null ]
+    ] ],
+    [ "SceIoDirent", "group__SceIofilemgrKernel.html#structSceIoDirent", [
+      [ "d_stat", "group__SceIofilemgrKernel.html#ga3a4bcbbc3ff31daf29269f6edd0ef058", null ],
+      [ "d_name", "group__SceIofilemgrKernel.html#ga26afa621714ed02e988a758c8e69496a", null ],
+      [ "d_private", "group__SceIofilemgrKernel.html#ga3a5a0bd642cc54433fbeca9ce1d10682", null ],
+      [ "dummy", "group__SceIofilemgrKernel.html#gac2a6943eda6b27d5c20d6389ad9ab680", null ]
+    ] ],
+    [ "SceIoFdInfo", "group__SceIofilemgrKernel.html#structSceIoFdInfo", [
+      [ "fd", "group__SceIofilemgrKernel.html#ga731737916f516f0541b9ad2a7c516140", null ],
+      [ "pid", "group__SceIofilemgrKernel.html#ga09466d8d5240c2ff2f45042c078b68a2", null ]
+    ] ],
+    [ "SceIofileInfo", "group__SceIofilemgrKernel.html#structSceIofileInfo", [
+      [ "path", "group__SceIofilemgrKernel.html#ga9ab593ba172ec467c6a97c07baa5b568", null ],
+      [ "path2", "group__SceIofilemgrKernel.html#ga67df3fc7410ea31a08442a88d6587a7a", null ],
+      [ "pid", "group__SceIofilemgrKernel.html#ga58be55beb81c687ab2a69970c3859054", null ],
+      [ "data_0x804", "group__SceIofilemgrKernel.html#ga19f9825911f2bbcf97a178cf2366ec81", null ],
+      [ "data_0x808", "group__SceIofilemgrKernel.html#gaa0b41e325ee8917ccea386117b0e5be6", null ],
+      [ "data_0x80C", "group__SceIofilemgrKernel.html#ga375f3da6fd2fca1e1e3e1b923490dc86", null ],
+      [ "data_0x810", "group__SceIofilemgrKernel.html#gac9cb23e6500ee40ffd1547e11cbd3325", null ],
+      [ "data_0x814", "group__SceIofilemgrKernel.html#gaa393acdc4987953289a8e9b88bffdaea", null ],
+      [ "data_0x818", "group__SceIofilemgrKernel.html#ga6990184c749e2984702309d5b221909d", null ],
+      [ "data_0x81C", "group__SceIofilemgrKernel.html#ga326d7572a731116366d3443f58e9c45f", null ],
+      [ "data_0x820", "group__SceIofilemgrKernel.html#gac46e56aee0f9078509e851aacca550a0", null ],
+      [ "data_0x824", "group__SceIofilemgrKernel.html#gaa96113341b2952edfd7665b06cbb5cf9", null ]
+    ] ],
     [ "SCE_S_ISLNK", "group__SceIofilemgrKernel.html#ga2561715990b2e05ef0b56237b18e5d21", null ],
     [ "SCE_S_ISREG", "group__SceIofilemgrKernel.html#ga67719e79d77b8d45c94e97d02548dee6", null ],
     [ "SCE_S_ISDIR", "group__SceIofilemgrKernel.html#gadd2d8a2c5c3095032e1999771132e115", null ],
@@ -147,5 +186,34 @@ var group__SceIofilemgrKernel =
     [ "ksceIoGetFileInfo", "group__SceIofilemgrKernel.html#ga6662c00770b242df9b67ff70ba7e394d", null ],
     [ "ksceIoMount", "group__SceIofilemgrKernel.html#ga75d8f502a4cb2c3e28bdb0d75d020b89", null ],
     [ "ksceIoUmount", "group__SceIofilemgrKernel.html#gad4ba496c026bde1c5fc674ce0d77de5a", null ],
-    [ "ksceIoGetRemoteKPLSData", "group__SceIofilemgrKernel.html#gafd20ef3906fc99765a6b4c28a1a4ada2", null ]
+    [ "ksceIoGetRemoteKPLSData", "group__SceIofilemgrKernel.html#gafd20ef3906fc99765a6b4c28a1a4ada2", null ],
+    [ "SceIoDevInfo::max_size", "group__SceIofilemgrKernel.html#ga186cfae72ffe72d61eac92d8db3521d9", null ],
+    [ "SceIoDevInfo::free_size", "group__SceIofilemgrKernel.html#gad75b9b528ae43fb7c0f6de70ac305512", null ],
+    [ "SceIoDevInfo::cluster_size", "group__SceIofilemgrKernel.html#ga9f8a7d31dd90980c2a8c31e672b9c1d6", null ],
+    [ "SceIoDevInfo::unk", "group__SceIofilemgrKernel.html#gabd4a8af2a5b1956782ab288fad5e60fa", null ],
+    [ "SceIoStat::st_mode", "group__SceIofilemgrKernel.html#ga432ee7ab09142b707686e318ae5f8f83", null ],
+    [ "SceIoStat::st_attr", "group__SceIofilemgrKernel.html#gaf32aa0a6b11893ba19b2d369159830cb", null ],
+    [ "SceIoStat::st_size", "group__SceIofilemgrKernel.html#ga67a3e4e86264a440da54204caeeafb16", null ],
+    [ "SceIoStat::st_ctime", "group__SceIofilemgrKernel.html#gaa05df6c104b75d64411e07b73e3c92a8", null ],
+    [ "SceIoStat::st_atime", "group__SceIofilemgrKernel.html#gaa4fdf932210dbb1abf8b171732efe946", null ],
+    [ "SceIoStat::st_mtime", "group__SceIofilemgrKernel.html#ga3c15df236ec4703d958ab0d8fdbd1ba3", null ],
+    [ "SceIoStat::st_private", "group__SceIofilemgrKernel.html#gaf7b69aca53d97b66ebebfa7d2c7309a8", null ],
+    [ "SceIoDirent::d_stat", "group__SceIofilemgrKernel.html#ga3a4bcbbc3ff31daf29269f6edd0ef058", null ],
+    [ "SceIoDirent::d_name", "group__SceIofilemgrKernel.html#ga26afa621714ed02e988a758c8e69496a", null ],
+    [ "SceIoDirent::d_private", "group__SceIofilemgrKernel.html#ga3a5a0bd642cc54433fbeca9ce1d10682", null ],
+    [ "SceIoDirent::dummy", "group__SceIofilemgrKernel.html#gac2a6943eda6b27d5c20d6389ad9ab680", null ],
+    [ "SceIoFdInfo::fd", "group__SceIofilemgrKernel.html#ga731737916f516f0541b9ad2a7c516140", null ],
+    [ "SceIoFdInfo::pid", "group__SceIofilemgrKernel.html#ga09466d8d5240c2ff2f45042c078b68a2", null ],
+    [ "SceIofileInfo::path", "group__SceIofilemgrKernel.html#ga9ab593ba172ec467c6a97c07baa5b568", null ],
+    [ "SceIofileInfo::path2", "group__SceIofilemgrKernel.html#ga67df3fc7410ea31a08442a88d6587a7a", null ],
+    [ "SceIofileInfo::pid", "group__SceIofilemgrKernel.html#ga58be55beb81c687ab2a69970c3859054", null ],
+    [ "SceIofileInfo::data_0x804", "group__SceIofilemgrKernel.html#ga19f9825911f2bbcf97a178cf2366ec81", null ],
+    [ "SceIofileInfo::data_0x808", "group__SceIofilemgrKernel.html#gaa0b41e325ee8917ccea386117b0e5be6", null ],
+    [ "SceIofileInfo::data_0x80C", "group__SceIofilemgrKernel.html#ga375f3da6fd2fca1e1e3e1b923490dc86", null ],
+    [ "SceIofileInfo::data_0x810", "group__SceIofilemgrKernel.html#gac9cb23e6500ee40ffd1547e11cbd3325", null ],
+    [ "SceIofileInfo::data_0x814", "group__SceIofilemgrKernel.html#gaa393acdc4987953289a8e9b88bffdaea", null ],
+    [ "SceIofileInfo::data_0x818", "group__SceIofilemgrKernel.html#ga6990184c749e2984702309d5b221909d", null ],
+    [ "SceIofileInfo::data_0x81C", "group__SceIofilemgrKernel.html#ga326d7572a731116366d3443f58e9c45f", null ],
+    [ "SceIofileInfo::data_0x820", "group__SceIofilemgrKernel.html#gac46e56aee0f9078509e851aacca550a0", null ],
+    [ "SceIofileInfo::data_0x824", "group__SceIofilemgrKernel.html#gaa96113341b2952edfd7665b06cbb5cf9", null ]
 ];

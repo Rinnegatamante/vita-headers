@@ -1,5 +1,14 @@
 var group__SceJpegEncUser =
 [
+    [ "SceJpegEncoderInitParam", "group__SceJpegEncUser.html#structSceJpegEncoderInitParam", [
+      [ "size", "group__SceJpegEncUser.html#gab86a5c48880610efd9f5ff2aaa43eccd", null ],
+      [ "inWidth", "group__SceJpegEncUser.html#ga083cfb54769083a0317bbb5f5fdff71e", null ],
+      [ "inHeight", "group__SceJpegEncUser.html#ga35b712b10ad33649c041a313014106b7", null ],
+      [ "pixelFormat", "group__SceJpegEncUser.html#gafc003ec88451f83eabcd24db02208cfd", null ],
+      [ "outBuffer", "group__SceJpegEncUser.html#gaf54adeaaca16bb8e8afed671749adacf", null ],
+      [ "outSize", "group__SceJpegEncUser.html#ga4bcf82bf7555573a5315fa5f783c4098", null ],
+      [ "option", "group__SceJpegEncUser.html#ga534e6acfcd4becc2aa82b0fd3bcdafae", null ]
+    ] ],
     [ "SceJpegEncoderContext", "group__SceJpegEncUser.html#ga882d171ac9cb67d91643f8ff525adb77", null ],
     [ "SceJpegEncoderInitParamOption", "group__SceJpegEncUser.html#ga6e7c1e7560d2eafb40da505711686f9b", [
       [ "SCE_JPEGENC_INIT_PARAM_OPTION_NONE", "group__SceJpegEncUser.html#gga6e7c1e7560d2eafb40da505711686f9ba44b005da815f7976345d0a80533a3737", null ],
@@ -50,5 +59,12 @@ var group__SceJpegEncUser =
     [ "sceJpegEncoderGetContextSize", "group__SceJpegEncUser.html#ga61998ab72318fcc4d806d3ca6476a5e0", null ],
     [ "sceJpegEncoderSetValidRegion", "group__SceJpegEncUser.html#gae995a98b8f55400e55e255f20287a43e", null ],
     [ "sceJpegEncoderSetHeaderMode", "group__SceJpegEncUser.html#gaa7503f04dac7ffc95fe72c77801c1331", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceJpegEncUser.html#ga5e58a6315aa72a8f4de88cea4bf001dd", null ]
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceJpegEncUser.html#ga5e58a6315aa72a8f4de88cea4bf001dd", null ],
+    [ "SceJpegEncoderInitParam::size", "group__SceJpegEncUser.html#gab86a5c48880610efd9f5ff2aaa43eccd", null ],
+    [ "SceJpegEncoderInitParam::inWidth", "group__SceJpegEncUser.html#ga083cfb54769083a0317bbb5f5fdff71e", null ],
+    [ "SceJpegEncoderInitParam::inHeight", "group__SceJpegEncUser.html#ga35b712b10ad33649c041a313014106b7", null ],
+    [ "SceJpegEncoderInitParam::pixelFormat", "group__SceJpegEncUser.html#gafc003ec88451f83eabcd24db02208cfd", null ],
+    [ "SceJpegEncoderInitParam::outBuffer", "group__SceJpegEncUser.html#gaf54adeaaca16bb8e8afed671749adacf", null ],
+    [ "SceJpegEncoderInitParam::outSize", "group__SceJpegEncUser.html#ga4bcf82bf7555573a5315fa5f783c4098", null ],
+    [ "SceJpegEncoderInitParam::option", "group__SceJpegEncUser.html#ga534e6acfcd4becc2aa82b0fd3bcdafae", null ]
 ];

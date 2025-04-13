@@ -1,7 +1,5 @@
 var kernel_2processmgr_8h =
 [
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceProcessmgrUser.html#ga9096b15aff065259faae93c7ce23f577", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceProcessmgrUser.html#ga34870f1e1be9758fbad54254ab5aee26", null ],
     [ "sceKernelExitProcess", "group__SceProcessmgrUser.html#gaf64b2cd0fc96095e3f77dee2dc9a68c3", null ],
     [ "sceKernelPowerTick", "group__SceProcessmgrUser.html#ga2255f042fe267ddd8b38eee5fa578e33", null ],
     [ "sceKernelPowerLock", "group__SceProcessmgrUser.html#ga2cd2b3124993e2b420003f7d9d6dc5a8", null ],
@@ -14,7 +12,7 @@ var kernel_2processmgr_8h =
     [ "sceKernelGetStderr", "group__SceProcessmgrUser.html#gab38fe0fad51a7082476a8f45c2dcb74f", null ],
     [ "sceKernelGetStdin", "group__SceProcessmgrUser.html#gaca5042f4a41a131e4cbc3cd5574d02fb", null ],
     [ "sceKernelGetStdout", "group__SceProcessmgrUser.html#ga4fbcd594d41dd94430d79e9ac6ee8f6b", null ],
-    [ "sceKernelGetProcessParam", "group__SceProcessmgrUser.html#ga3eb82309ef0b6a3e4e2dd233635ffd35", null ],
+    [ "sceKernelGetProcessParam", "group__SceProcessmgrUser.html#gace18679986df83eff860e2e7f6cb44b5", null ],
     [ "sceKernelLibcClock", "group__SceProcessmgrUser.html#gaa06b7d896c6611f1250b60711ed065fd", null ],
     [ "sceKernelLibcTime", "group__SceProcessmgrUser.html#ga2ce94ab54870f46ed95bbb2917be4477", null ],
     [ "sceKernelLibcGettimeofday", "group__SceProcessmgrUser.html#gac268657dfbfea56250ac6438f24ad149", null ]

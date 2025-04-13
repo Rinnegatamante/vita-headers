@@ -7,5 +7,6 @@ var group__Lowio =
     [ "UART Library", "group__SceUart.html", "group__SceUart" ],
     [ "DSI Library", "group__SceDsi.html", "group__SceDsi" ],
     [ "IFTU Library", "group__SceIftu.html", "group__SceIftu" ],
-    [ "Memory stick interface Library", "group__SceMsif.html", "group__SceMsif" ]
+    [ "Memory stick interface Library", "group__SceMsif.html", "group__SceMsif" ],
+    [ "SD Interface Library", "group__SceSdif.html", "group__SceSdif" ]
 ];

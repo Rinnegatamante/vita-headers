@@ -1,5 +1,10 @@
 var group__SceSysmoduleUser =
 [
+    [ "SceSysmoduleOpt", "group__SceSysmoduleUser.html#structSceSysmoduleOpt", [
+      [ "flags", "group__SceSysmoduleUser.html#ga35057b17bf53bd1c81540699ddc28eb7", null ],
+      [ "result", "group__SceSysmoduleUser.html#gad87a7bfcaa0aedc50b582f455d05e504", null ],
+      [ "unused", "group__SceSysmoduleUser.html#ga2bf1d8aeced1d6f094ae54d63cac9e55", null ]
+    ] ],
     [ "SceSysmoduleErrorCode", "group__SceSysmoduleUser.html#gaf745da7104a5f5de2ce268dd05d6622f", [
       [ "SCE_SYSMODULE_LOADED", "group__SceSysmoduleUser.html#ggaf745da7104a5f5de2ce268dd05d6622fa6bce01f74c74e7a3bff9ed96db975734", null ],
       [ "SCE_SYSMODULE_ERROR_INVALID_VALUE", "group__SceSysmoduleUser.html#ggaf745da7104a5f5de2ce268dd05d6622fac333fd7416f4da074bb813b0ea0dd0e8", null ],
@@ -272,5 +277,8 @@ var group__SceSysmoduleUser =
     [ "sceSysmoduleUnloadModuleInternal", "group__SceSysmoduleUser.html#ga050f298fc16c20814383ccf4931b9ad5", null ],
     [ "sceSysmoduleIsLoadedInternal", "group__SceSysmoduleUser.html#ga4e9f895ef35ecf418edbfad969b87116", null ],
     [ "sceSysmoduleLoadModuleInternalWithArg", "group__SceSysmoduleUser.html#ga93b1e31b43f67367d1942c8a8d00a707", null ],
-    [ "sceSysmoduleUnloadModuleInternalWithArg", "group__SceSysmoduleUser.html#ga8c029a6a4cffd85af964c8c2e2a015cb", null ]
+    [ "sceSysmoduleUnloadModuleInternalWithArg", "group__SceSysmoduleUser.html#ga8c029a6a4cffd85af964c8c2e2a015cb", null ],
+    [ "SceSysmoduleOpt::flags", "group__SceSysmoduleUser.html#ga35057b17bf53bd1c81540699ddc28eb7", null ],
+    [ "SceSysmoduleOpt::result", "group__SceSysmoduleUser.html#gad87a7bfcaa0aedc50b582f455d05e504", null ],
+    [ "SceSysmoduleOpt::unused", "group__SceSysmoduleUser.html#ga2bf1d8aeced1d6f094ae54d63cac9e55", null ]
 ];

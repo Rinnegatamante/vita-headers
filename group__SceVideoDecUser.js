@@ -1,5 +1,89 @@
 var group__SceVideoDecUser =
 [
+    [ "SceVideodecQueryInitInfoHwAvcdec", "group__SceVideoDecUser.html#structSceVideodecQueryInitInfoHwAvcdec", [
+      [ "size", "group__SceVideoDecUser.html#ga0b24188e8e67c0b3fb566ef7ba3197cd", null ],
+      [ "horizontal", "group__SceVideoDecUser.html#gadfc02f9f335efbf196407906cf6727bd", null ],
+      [ "vertical", "group__SceVideoDecUser.html#ga626182902f03c460c12d016b1d674996", null ],
+      [ "numOfRefFrames", "group__SceVideoDecUser.html#gad92e58bacf871d72d5a28939db530b84", null ],
+      [ "numOfStreams", "group__SceVideoDecUser.html#gad4c8cdf3df78a5dbb2239c1fc7bfd83b", null ]
+    ] ],
+    [ "SceVideodecQueryInitInfo", "group__SceVideoDecUser.html#unionSceVideodecQueryInitInfo", [
+      [ "reserved", "group__SceVideoDecUser.html#gabb1698bee4ccded8df557a8fb767020f", null ],
+      [ "hwAvc", "group__SceVideoDecUser.html#ga0262c840c73d4cae3ffeece800bd15e4", null ]
+    ] ],
+    [ "SceVideodecTimeStamp", "group__SceVideoDecUser.html#structSceVideodecTimeStamp", [
+      [ "upper", "group__SceVideoDecUser.html#ga982f60ef3180fd842eddb8a0e34e3dec", null ],
+      [ "lower", "group__SceVideoDecUser.html#ga9bb768133a96c06f19b372830f05d5ed", null ]
+    ] ],
+    [ "SceAvcdecQueryDecoderInfo", "group__SceVideoDecUser.html#structSceAvcdecQueryDecoderInfo", [
+      [ "horizontal", "group__SceVideoDecUser.html#ga7eee3f60fc7303ee303d6a479b41bf12", null ],
+      [ "vertical", "group__SceVideoDecUser.html#ga6ec30bf07243aa69a08b1fa2d98f404e", null ],
+      [ "numOfRefFrames", "group__SceVideoDecUser.html#ga756668cc4f5a6d4892d22b0ec0ff0b1b", null ]
+    ] ],
+    [ "SceAvcdecDecoderInfo", "group__SceVideoDecUser.html#structSceAvcdecDecoderInfo", [
+      [ "frameMemSize", "group__SceVideoDecUser.html#gaecf224bcdb847f1e4e19982c97e1bd2d", null ]
+    ] ],
+    [ "SceAvcdecBuf", "group__SceVideoDecUser.html#structSceAvcdecBuf", [
+      [ "pBuf", "group__SceVideoDecUser.html#gaa93055f02cac3819a2e36a06f7d1ed4d", null ],
+      [ "size", "group__SceVideoDecUser.html#gad6a5c75f7ddf72aa67018abb078f9c37", null ]
+    ] ],
+    [ "SceAvcdecCtrl", "group__SceVideoDecUser.html#structSceAvcdecCtrl", [
+      [ "handle", "group__SceVideoDecUser.html#ga7e8e1075bce7300236f769c1c4702def", null ],
+      [ "frameBuf", "group__SceVideoDecUser.html#ga80fa79b848ef1c167a84065410e44c1b", null ]
+    ] ],
+    [ "SceAvcdecAu", "group__SceVideoDecUser.html#structSceAvcdecAu", [
+      [ "pts", "group__SceVideoDecUser.html#gab598cb02ae88474b8d467c9740eb6664", null ],
+      [ "dts", "group__SceVideoDecUser.html#gad25d18ba0abc0fdf05059fe4827e432d", null ],
+      [ "es", "group__SceVideoDecUser.html#ga448ab30b839355c8ea107d281049414c", null ]
+    ] ],
+    [ "SceAvcdecInfo", "group__SceVideoDecUser.html#structSceAvcdecInfo", [
+      [ "numUnitsInTick", "group__SceVideoDecUser.html#gad091fb253ac7835865f4a4317dda096b", null ],
+      [ "timeScale", "group__SceVideoDecUser.html#gaa8998797ab1e739b39e48514565c46f9", null ],
+      [ "fixedFrameRateFlag", "group__SceVideoDecUser.html#ga7a1ee27e6030e15d66a54fd376b1be09", null ],
+      [ "aspectRatioIdc", "group__SceVideoDecUser.html#gae355dab0c456e40005e334ab1a30f1c5", null ],
+      [ "sarWidth", "group__SceVideoDecUser.html#ga0be67aeaccc1ad0daea9ee1977984339", null ],
+      [ "sarHeight", "group__SceVideoDecUser.html#ga31e0abf0f7c47f2cad0c7a3e94283e20", null ],
+      [ "colourPrimaries", "group__SceVideoDecUser.html#ga5b3b3056eb0b2adf8a3b964ee93f1246", null ],
+      [ "transferCharacteristics", "group__SceVideoDecUser.html#ga0900a19c69ec41d5a64b53d0b35364f4", null ],
+      [ "matrixCoefficients", "group__SceVideoDecUser.html#ga2ae88c48ca7929d4b06fe9c3da1e66ee", null ],
+      [ "videoFullRangeFlag", "group__SceVideoDecUser.html#gae8d1ebdd5cd4fd40ccad96d2f49c08db", null ],
+      [ "picStruct", "group__SceVideoDecUser.html#gaf787771137a7f4cbeeb09eade7eb20fa", null ],
+      [ "ctType", "group__SceVideoDecUser.html#gac245eb3dc60d1dd1d84bf24a18f40a42", null ],
+      [ "pts", "group__SceVideoDecUser.html#gac31d75c92e01e90ed130fde2f96ee024", null ]
+    ] ],
+    [ "SceAvcdecFrameOptionRGBA", "group__SceVideoDecUser.html#structSceAvcdecFrameOptionRGBA", [
+      [ "alpha", "group__SceVideoDecUser.html#ga97181212802ca02e0bc91c6ccb61cad7", null ],
+      [ "cscCoefficient", "group__SceVideoDecUser.html#gae8e35d1bdd56a1f9e32e524a26e9c75f", null ],
+      [ "reserved", "group__SceVideoDecUser.html#ga88d62b77a0d9682e80851c730c5e89ee", null ]
+    ] ],
+    [ "SceAvcdecFrameOption", "group__SceVideoDecUser.html#unionSceAvcdecFrameOption", [
+      [ "reserved", "group__SceVideoDecUser.html#ga0581f92f5036180dad8120c54b2d9550", null ],
+      [ "rgba", "group__SceVideoDecUser.html#ga9b88dae2e4e035893abfe9d7fdaa8c4b", null ]
+    ] ],
+    [ "SceAvcdecFrame", "group__SceVideoDecUser.html#structSceAvcdecFrame", [
+      [ "pixelType", "group__SceVideoDecUser.html#ga1215fe331510d752de6dda9ca76ec819", null ],
+      [ "framePitch", "group__SceVideoDecUser.html#ga308d6f35e8033a706722912e01cc2d4b", null ],
+      [ "frameWidth", "group__SceVideoDecUser.html#ga5f0718cc21fb8020816df8f94d8388bd", null ],
+      [ "frameHeight", "group__SceVideoDecUser.html#gaac29abb6f8e3dd72af411fc171c8dda7", null ],
+      [ "horizontalSize", "group__SceVideoDecUser.html#ga46726fb564c3749f5bbfdcc8df2b179d", null ],
+      [ "verticalSize", "group__SceVideoDecUser.html#gad56e8cbf507da95d69476a9360a81291", null ],
+      [ "frameCropLeftOffset", "group__SceVideoDecUser.html#ga1ff6ab45d5343590c06355319f2c1e72", null ],
+      [ "frameCropRightOffset", "group__SceVideoDecUser.html#gac62a2f9fb0c2bdc44569a3d3e4c7ed3b", null ],
+      [ "frameCropTopOffset", "group__SceVideoDecUser.html#gaeec8f17b23747ade1afda03c4e7db588", null ],
+      [ "frameCropBottomOffset", "group__SceVideoDecUser.html#gaa8a087ceece72ef504511a50fe223783", null ],
+      [ "opt", "group__SceVideoDecUser.html#gabf452d07798e293fbfd01081c35a649f", null ],
+      [ "pPicture", "group__SceVideoDecUser.html#ga180cbb7fc4da1185fab46c998ae22b2b", null ]
+    ] ],
+    [ "SceAvcdecPicture", "group__SceVideoDecUser.html#structSceAvcdecPicture", [
+      [ "size", "group__SceVideoDecUser.html#gab38ae58ad16cc97dc5b5e3aa7b95d271", null ],
+      [ "frame", "group__SceVideoDecUser.html#ga8ca1722ba42eb01dc1ba9cacd20ba5f2", null ],
+      [ "info", "group__SceVideoDecUser.html#gae5457beade74932e000e910037f7020f", null ]
+    ] ],
+    [ "SceAvcdecArrayPicture", "group__SceVideoDecUser.html#structSceAvcdecArrayPicture", [
+      [ "numOfOutput", "group__SceVideoDecUser.html#ga311131644601a5cd8f195bd049ca92eb", null ],
+      [ "numOfElm", "group__SceVideoDecUser.html#gaf7fdbcc2a201933c7aa0778c62fc62b0", null ],
+      [ "pPicture", "group__SceVideoDecUser.html#gad3ac22010c7c47569e346a720b9fbffa", null ]
+    ] ],
     [ "SceVideodecErrorCode", "group__SceVideoDecUser.html#gacab7dff1511b1a3851ffeec15fb9d3ea", [
       [ "SCE_VIDEODEC_ERROR_INVALID_TYPE", "group__SceVideoDecUser.html#ggacab7dff1511b1a3851ffeec15fb9d3eaa19c98b8a75796bd0360d751e61869054", null ],
       [ "SCE_VIDEODEC_ERROR_INVALID_PARAM", "group__SceVideoDecUser.html#ggacab7dff1511b1a3851ffeec15fb9d3eaae472ef2110ed957573e4a1898757a3d8", null ],
@@ -95,5 +179,61 @@ var group__SceVideoDecUser =
     [ "sceAvcdecQueryDecoderMemSize", "group__SceVideoDecUser.html#gafd62bbaf116461d1d4b993f8b818f4af", null ],
     [ "sceAvcdecCreateDecoder", "group__SceVideoDecUser.html#ga60e790eac99ad60ddd3dae1a2d4ef0ab", null ],
     [ "sceAvcdecDeleteDecoder", "group__SceVideoDecUser.html#ga7fd2527071b87b4c11c8c8b8b1d113f1", null ],
-    [ "sceAvcdecDecode", "group__SceVideoDecUser.html#ga6230244733b5d420f7d8d3659542b2f0", null ]
+    [ "sceAvcdecDecode", "group__SceVideoDecUser.html#ga6230244733b5d420f7d8d3659542b2f0", null ],
+    [ "SceVideodecQueryInitInfoHwAvcdec::size", "group__SceVideoDecUser.html#ga0b24188e8e67c0b3fb566ef7ba3197cd", null ],
+    [ "SceVideodecQueryInitInfoHwAvcdec::horizontal", "group__SceVideoDecUser.html#gadfc02f9f335efbf196407906cf6727bd", null ],
+    [ "SceVideodecQueryInitInfoHwAvcdec::vertical", "group__SceVideoDecUser.html#ga626182902f03c460c12d016b1d674996", null ],
+    [ "SceVideodecQueryInitInfoHwAvcdec::numOfRefFrames", "group__SceVideoDecUser.html#gad92e58bacf871d72d5a28939db530b84", null ],
+    [ "SceVideodecQueryInitInfoHwAvcdec::numOfStreams", "group__SceVideoDecUser.html#gad4c8cdf3df78a5dbb2239c1fc7bfd83b", null ],
+    [ "SceVideodecQueryInitInfo::reserved", "group__SceVideoDecUser.html#gabb1698bee4ccded8df557a8fb767020f", null ],
+    [ "SceVideodecQueryInitInfo::hwAvc", "group__SceVideoDecUser.html#ga0262c840c73d4cae3ffeece800bd15e4", null ],
+    [ "SceVideodecTimeStamp::upper", "group__SceVideoDecUser.html#ga982f60ef3180fd842eddb8a0e34e3dec", null ],
+    [ "SceVideodecTimeStamp::lower", "group__SceVideoDecUser.html#ga9bb768133a96c06f19b372830f05d5ed", null ],
+    [ "SceAvcdecQueryDecoderInfo::horizontal", "group__SceVideoDecUser.html#ga7eee3f60fc7303ee303d6a479b41bf12", null ],
+    [ "SceAvcdecQueryDecoderInfo::vertical", "group__SceVideoDecUser.html#ga6ec30bf07243aa69a08b1fa2d98f404e", null ],
+    [ "SceAvcdecQueryDecoderInfo::numOfRefFrames", "group__SceVideoDecUser.html#ga756668cc4f5a6d4892d22b0ec0ff0b1b", null ],
+    [ "SceAvcdecDecoderInfo::frameMemSize", "group__SceVideoDecUser.html#gaecf224bcdb847f1e4e19982c97e1bd2d", null ],
+    [ "SceAvcdecBuf::pBuf", "group__SceVideoDecUser.html#gaa93055f02cac3819a2e36a06f7d1ed4d", null ],
+    [ "SceAvcdecBuf::size", "group__SceVideoDecUser.html#gad6a5c75f7ddf72aa67018abb078f9c37", null ],
+    [ "SceAvcdecCtrl::handle", "group__SceVideoDecUser.html#ga7e8e1075bce7300236f769c1c4702def", null ],
+    [ "SceAvcdecCtrl::frameBuf", "group__SceVideoDecUser.html#ga80fa79b848ef1c167a84065410e44c1b", null ],
+    [ "SceAvcdecAu::pts", "group__SceVideoDecUser.html#gab598cb02ae88474b8d467c9740eb6664", null ],
+    [ "SceAvcdecAu::dts", "group__SceVideoDecUser.html#gad25d18ba0abc0fdf05059fe4827e432d", null ],
+    [ "SceAvcdecAu::es", "group__SceVideoDecUser.html#ga448ab30b839355c8ea107d281049414c", null ],
+    [ "SceAvcdecInfo::numUnitsInTick", "group__SceVideoDecUser.html#gad091fb253ac7835865f4a4317dda096b", null ],
+    [ "SceAvcdecInfo::timeScale", "group__SceVideoDecUser.html#gaa8998797ab1e739b39e48514565c46f9", null ],
+    [ "SceAvcdecInfo::fixedFrameRateFlag", "group__SceVideoDecUser.html#ga7a1ee27e6030e15d66a54fd376b1be09", null ],
+    [ "SceAvcdecInfo::aspectRatioIdc", "group__SceVideoDecUser.html#gae355dab0c456e40005e334ab1a30f1c5", null ],
+    [ "SceAvcdecInfo::sarWidth", "group__SceVideoDecUser.html#ga0be67aeaccc1ad0daea9ee1977984339", null ],
+    [ "SceAvcdecInfo::sarHeight", "group__SceVideoDecUser.html#ga31e0abf0f7c47f2cad0c7a3e94283e20", null ],
+    [ "SceAvcdecInfo::colourPrimaries", "group__SceVideoDecUser.html#ga5b3b3056eb0b2adf8a3b964ee93f1246", null ],
+    [ "SceAvcdecInfo::transferCharacteristics", "group__SceVideoDecUser.html#ga0900a19c69ec41d5a64b53d0b35364f4", null ],
+    [ "SceAvcdecInfo::matrixCoefficients", "group__SceVideoDecUser.html#ga2ae88c48ca7929d4b06fe9c3da1e66ee", null ],
+    [ "SceAvcdecInfo::videoFullRangeFlag", "group__SceVideoDecUser.html#gae8d1ebdd5cd4fd40ccad96d2f49c08db", null ],
+    [ "SceAvcdecInfo::picStruct", "group__SceVideoDecUser.html#gaf787771137a7f4cbeeb09eade7eb20fa", null ],
+    [ "SceAvcdecInfo::ctType", "group__SceVideoDecUser.html#gac245eb3dc60d1dd1d84bf24a18f40a42", null ],
+    [ "SceAvcdecInfo::pts", "group__SceVideoDecUser.html#gac31d75c92e01e90ed130fde2f96ee024", null ],
+    [ "SceAvcdecFrameOptionRGBA::alpha", "group__SceVideoDecUser.html#ga97181212802ca02e0bc91c6ccb61cad7", null ],
+    [ "SceAvcdecFrameOptionRGBA::cscCoefficient", "group__SceVideoDecUser.html#gae8e35d1bdd56a1f9e32e524a26e9c75f", null ],
+    [ "SceAvcdecFrameOptionRGBA::reserved", "group__SceVideoDecUser.html#ga88d62b77a0d9682e80851c730c5e89ee", null ],
+    [ "SceAvcdecFrameOption::reserved", "group__SceVideoDecUser.html#ga0581f92f5036180dad8120c54b2d9550", null ],
+    [ "SceAvcdecFrameOption::rgba", "group__SceVideoDecUser.html#ga9b88dae2e4e035893abfe9d7fdaa8c4b", null ],
+    [ "SceAvcdecFrame::pixelType", "group__SceVideoDecUser.html#ga1215fe331510d752de6dda9ca76ec819", null ],
+    [ "SceAvcdecFrame::framePitch", "group__SceVideoDecUser.html#ga308d6f35e8033a706722912e01cc2d4b", null ],
+    [ "SceAvcdecFrame::frameWidth", "group__SceVideoDecUser.html#ga5f0718cc21fb8020816df8f94d8388bd", null ],
+    [ "SceAvcdecFrame::frameHeight", "group__SceVideoDecUser.html#gaac29abb6f8e3dd72af411fc171c8dda7", null ],
+    [ "SceAvcdecFrame::horizontalSize", "group__SceVideoDecUser.html#ga46726fb564c3749f5bbfdcc8df2b179d", null ],
+    [ "SceAvcdecFrame::verticalSize", "group__SceVideoDecUser.html#gad56e8cbf507da95d69476a9360a81291", null ],
+    [ "SceAvcdecFrame::frameCropLeftOffset", "group__SceVideoDecUser.html#ga1ff6ab45d5343590c06355319f2c1e72", null ],
+    [ "SceAvcdecFrame::frameCropRightOffset", "group__SceVideoDecUser.html#gac62a2f9fb0c2bdc44569a3d3e4c7ed3b", null ],
+    [ "SceAvcdecFrame::frameCropTopOffset", "group__SceVideoDecUser.html#gaeec8f17b23747ade1afda03c4e7db588", null ],
+    [ "SceAvcdecFrame::frameCropBottomOffset", "group__SceVideoDecUser.html#gaa8a087ceece72ef504511a50fe223783", null ],
+    [ "SceAvcdecFrame::opt", "group__SceVideoDecUser.html#gabf452d07798e293fbfd01081c35a649f", null ],
+    [ "SceAvcdecFrame::pPicture", "group__SceVideoDecUser.html#ga180cbb7fc4da1185fab46c998ae22b2b", null ],
+    [ "SceAvcdecPicture::size", "group__SceVideoDecUser.html#gab38ae58ad16cc97dc5b5e3aa7b95d271", null ],
+    [ "SceAvcdecPicture::frame", "group__SceVideoDecUser.html#ga8ca1722ba42eb01dc1ba9cacd20ba5f2", null ],
+    [ "SceAvcdecPicture::info", "group__SceVideoDecUser.html#gae5457beade74932e000e910037f7020f", null ],
+    [ "SceAvcdecArrayPicture::numOfOutput", "group__SceVideoDecUser.html#ga311131644601a5cd8f195bd049ca92eb", null ],
+    [ "SceAvcdecArrayPicture::numOfElm", "group__SceVideoDecUser.html#gaf7fdbcc2a201933c7aa0778c62fc62b0", null ],
+    [ "SceAvcdecArrayPicture::pPicture", "group__SceVideoDecUser.html#gad3ac22010c7c47569e346a720b9fbffa", null ]
 ];

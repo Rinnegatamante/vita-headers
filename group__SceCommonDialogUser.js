@@ -1,5 +1,45 @@
 var group__SceCommonDialogUser =
 [
+    [ "SceCommonDialogConfigParam", "group__SceCommonDialogUser.html#structSceCommonDialogConfigParam", [
+      [ "sdkVersion", "group__SceCommonDialogUser.html#ga1a157d60998a8c6b24845e765ab9c387", null ],
+      [ "language", "group__SceCommonDialogUser.html#gab9d811c4dc3bfdc7e9b44c2df1196f58", null ],
+      [ "enterButtonAssign", "group__SceCommonDialogUser.html#ga6174bea63458a18e792529895cc9d8c2", null ],
+      [ "reserved", "group__SceCommonDialogUser.html#ga08935b3260c68ffa932a6ff904b5bd73", null ]
+    ] ],
+    [ "SceCommonDialogRenderTargetInfo", "group__SceCommonDialogUser.html#structSceCommonDialogRenderTargetInfo", [
+      [ "depthSurfaceData", "group__SceCommonDialogUser.html#gae5469d848a2ef84cb5b59505f101ecaf", null ],
+      [ "colorSurfaceData", "group__SceCommonDialogUser.html#gac8106ac7cb1684be729de9097e09f6f9", null ],
+      [ "surfaceType", "group__SceCommonDialogUser.html#ga23bdd5d73a3f5d9c6c6e81170e146cb0", null ],
+      [ "colorFormat", "group__SceCommonDialogUser.html#ga505e9289d13c9838dc86993850bffb20", null ],
+      [ "width", "group__SceCommonDialogUser.html#ga82da9d6ebdba6e6cd86a558eabfbe02f", null ],
+      [ "height", "group__SceCommonDialogUser.html#ga00bcc46ef2fe559308933fa733da3cd2", null ],
+      [ "strideInPixels", "group__SceCommonDialogUser.html#ga433c0836f48de373fa5dcc2e17c79ec6", null ],
+      [ "reserved", "group__SceCommonDialogUser.html#ga74c189492be446c60faf0346c0963b2c", null ]
+    ] ],
+    [ "SceCommonDialogUpdateParam", "group__SceCommonDialogUser.html#structSceCommonDialogUpdateParam", [
+      [ "renderTarget", "group__SceCommonDialogUser.html#ga89264e9d037256363f02d6adc9b03fc2", null ],
+      [ "displaySyncObject", "group__SceCommonDialogUser.html#gacf5cb8fb04ea38fe970e8b5a2bb719af", null ],
+      [ "reserved", "group__SceCommonDialogUser.html#ga7bc82e227f1acd55a5681d601ffc361c", null ]
+    ] ],
+    [ "SceCommonDialogInfobarParam", "group__SceCommonDialogUser.html#structSceCommonDialogInfobarParam", [
+      [ "visibility", "group__SceCommonDialogUser.html#gaf259362c15c71b0f65596a8295e32025", null ],
+      [ "color", "group__SceCommonDialogUser.html#ga6588960eb2287824b5aa9fb48e778a69", null ],
+      [ "transparency", "group__SceCommonDialogUser.html#gaa71351f2f062e1880ea2fcbc1582750f", null ],
+      [ "reserved", "group__SceCommonDialogUser.html#ga365eeedae17f315e3fc0f7086474e5c8", null ]
+    ] ],
+    [ "SceCommonDialogColor", "group__SceCommonDialogUser.html#structSceCommonDialogColor", [
+      [ "r", "group__SceCommonDialogUser.html#gaac3e40388715ef052e6685604cde94d5", null ],
+      [ "g", "group__SceCommonDialogUser.html#ga643d205b030d6cb3391ebaa0ade39f53", null ],
+      [ "b", "group__SceCommonDialogUser.html#ga3e38aa7e06a5bf9b9ba04754a6d5a0e8", null ],
+      [ "a", "group__SceCommonDialogUser.html#ga7b1f5e338d27b7d44b1ee3dbce59aef0", null ]
+    ] ],
+    [ "SceCommonDialogParam", "group__SceCommonDialogUser.html#structSceCommonDialogParam", [
+      [ "infobarParam", "group__SceCommonDialogUser.html#ga1b087eccd9b0ba48dfa24f148d7118b4", null ],
+      [ "bgColor", "group__SceCommonDialogUser.html#ga11139bf11961e3c6672bae2d5505e1d7", null ],
+      [ "dimmerColor", "group__SceCommonDialogUser.html#gaab111c55072d1c16d0028c737b6599e4", null ],
+      [ "reserved", "group__SceCommonDialogUser.html#ga15d9fad2e1881adf0dbd46399498021a", null ],
+      [ "magic", "group__SceCommonDialogUser.html#ga93b86388ec194a9287a306be9d5e84fb", null ]
+    ] ],
     [ "SCE_COMMON_DIALOG_MAGIC_NUMBER", "group__SceCommonDialogUser.html#gab92d87deb4c90c3f0a5ea601a523db1c", null ],
     [ "SceCommonDialogBgColor", "group__SceCommonDialogUser.html#ga1d143911972c19bd0a7322e7e7c62b98", null ],
     [ "SceCommonDialogErrorCode", "group__SceCommonDialogUser.html#ga1f883eb600e02da2af5c449cf479e4da", [
@@ -73,5 +113,33 @@ var group__SceCommonDialogUser =
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCommonDialogUser.html#gaa52089b41d65da06e8cb455a665002d0", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCommonDialogUser.html#gab624cfd211f1a16c1c8daea073942dfd", null ],
     [ "sceCommonDialogSetConfigParam", "group__SceCommonDialogUser.html#gabd988f7619d3142141d20430ffcdc9f5", null ],
-    [ "sceCommonDialogUpdate", "group__SceCommonDialogUser.html#gaee0f5feb36b2342d41aa9907e1a7a245", null ]
+    [ "sceCommonDialogUpdate", "group__SceCommonDialogUser.html#gaee0f5feb36b2342d41aa9907e1a7a245", null ],
+    [ "SceCommonDialogConfigParam::sdkVersion", "group__SceCommonDialogUser.html#ga1a157d60998a8c6b24845e765ab9c387", null ],
+    [ "SceCommonDialogConfigParam::language", "group__SceCommonDialogUser.html#gab9d811c4dc3bfdc7e9b44c2df1196f58", null ],
+    [ "SceCommonDialogConfigParam::enterButtonAssign", "group__SceCommonDialogUser.html#ga6174bea63458a18e792529895cc9d8c2", null ],
+    [ "SceCommonDialogConfigParam::reserved", "group__SceCommonDialogUser.html#ga08935b3260c68ffa932a6ff904b5bd73", null ],
+    [ "SceCommonDialogRenderTargetInfo::depthSurfaceData", "group__SceCommonDialogUser.html#gae5469d848a2ef84cb5b59505f101ecaf", null ],
+    [ "SceCommonDialogRenderTargetInfo::colorSurfaceData", "group__SceCommonDialogUser.html#gac8106ac7cb1684be729de9097e09f6f9", null ],
+    [ "SceCommonDialogRenderTargetInfo::surfaceType", "group__SceCommonDialogUser.html#ga23bdd5d73a3f5d9c6c6e81170e146cb0", null ],
+    [ "SceCommonDialogRenderTargetInfo::colorFormat", "group__SceCommonDialogUser.html#ga505e9289d13c9838dc86993850bffb20", null ],
+    [ "SceCommonDialogRenderTargetInfo::width", "group__SceCommonDialogUser.html#ga82da9d6ebdba6e6cd86a558eabfbe02f", null ],
+    [ "SceCommonDialogRenderTargetInfo::height", "group__SceCommonDialogUser.html#ga00bcc46ef2fe559308933fa733da3cd2", null ],
+    [ "SceCommonDialogRenderTargetInfo::strideInPixels", "group__SceCommonDialogUser.html#ga433c0836f48de373fa5dcc2e17c79ec6", null ],
+    [ "SceCommonDialogRenderTargetInfo::reserved", "group__SceCommonDialogUser.html#ga74c189492be446c60faf0346c0963b2c", null ],
+    [ "SceCommonDialogUpdateParam::renderTarget", "group__SceCommonDialogUser.html#ga89264e9d037256363f02d6adc9b03fc2", null ],
+    [ "SceCommonDialogUpdateParam::displaySyncObject", "group__SceCommonDialogUser.html#gacf5cb8fb04ea38fe970e8b5a2bb719af", null ],
+    [ "SceCommonDialogUpdateParam::reserved", "group__SceCommonDialogUser.html#ga7bc82e227f1acd55a5681d601ffc361c", null ],
+    [ "SceCommonDialogInfobarParam::visibility", "group__SceCommonDialogUser.html#gaf259362c15c71b0f65596a8295e32025", null ],
+    [ "SceCommonDialogInfobarParam::color", "group__SceCommonDialogUser.html#ga6588960eb2287824b5aa9fb48e778a69", null ],
+    [ "SceCommonDialogInfobarParam::transparency", "group__SceCommonDialogUser.html#gaa71351f2f062e1880ea2fcbc1582750f", null ],
+    [ "SceCommonDialogInfobarParam::reserved", "group__SceCommonDialogUser.html#ga365eeedae17f315e3fc0f7086474e5c8", null ],
+    [ "SceCommonDialogColor::r", "group__SceCommonDialogUser.html#gaac3e40388715ef052e6685604cde94d5", null ],
+    [ "SceCommonDialogColor::g", "group__SceCommonDialogUser.html#ga643d205b030d6cb3391ebaa0ade39f53", null ],
+    [ "SceCommonDialogColor::b", "group__SceCommonDialogUser.html#ga3e38aa7e06a5bf9b9ba04754a6d5a0e8", null ],
+    [ "SceCommonDialogColor::a", "group__SceCommonDialogUser.html#ga7b1f5e338d27b7d44b1ee3dbce59aef0", null ],
+    [ "SceCommonDialogParam::infobarParam", "group__SceCommonDialogUser.html#ga1b087eccd9b0ba48dfa24f148d7118b4", null ],
+    [ "SceCommonDialogParam::bgColor", "group__SceCommonDialogUser.html#ga11139bf11961e3c6672bae2d5505e1d7", null ],
+    [ "SceCommonDialogParam::dimmerColor", "group__SceCommonDialogUser.html#gaab111c55072d1c16d0028c737b6599e4", null ],
+    [ "SceCommonDialogParam::reserved", "group__SceCommonDialogUser.html#ga15d9fad2e1881adf0dbd46399498021a", null ],
+    [ "SceCommonDialogParam::magic", "group__SceCommonDialogUser.html#ga93b86388ec194a9287a306be9d5e84fb", null ]
 ];

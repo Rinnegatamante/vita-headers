@@ -1,7 +1,14 @@
 var ommon_2kernel_2threadmgr_8h =
 [
     [ "SCE_KERNEL_THREAD_CPU_AFFINITY_MASK_DEFAULT", "group__SceThreadMgrUser.html#ga187ec3703b6e03f0c898fdd45d674802", null ],
-    [ "SCE_KERNEL_MUTEX_ATTR_RECURSIVE", "group__SceThreadMgrUser.html#ga276cbf64a90f4dbb228165980b454361", null ],
+    [ "SCE_KERNEL_VFP_EXCP_IOC", "group__SceThreadMgrUser.html#ga802264c726e0d3c425fbb668e9df5a66", null ],
+    [ "SCE_KERNEL_VFP_EXCP_DZC", "group__SceThreadMgrUser.html#ga866e11c0ca11a642232fbc62502dbfd0", null ],
+    [ "SCE_KERNEL_VFP_EXCP_OFC", "group__SceThreadMgrUser.html#ga6b24d7dce09d9e375f3ed7c267f2f631", null ],
+    [ "SCE_KERNEL_VFP_EXCP_UFC", "group__SceThreadMgrUser.html#ga0f8116f64c99bc4c9823b7fef5d5934f", null ],
+    [ "SCE_KERNEL_VFP_EXCP_IXC", "group__SceThreadMgrUser.html#gafe824c6ba4eeed5c86d6696a274e0d46", null ],
+    [ "SCE_KERNEL_VFP_EXCP_IDC", "group__SceThreadMgrUser.html#gacfe9aedb03c7483fb9242d447e84d810", null ],
+    [ "SCE_KERNEL_VFP_EXCP_QC", "group__SceThreadMgrUser.html#ga86f92b8cb4c5bb4d10965c46bba27b1d", null ],
+    [ "SCE_KERNEL_VFP_EXCP_ALL", "group__SceThreadMgrUser.html#ga9a00e8f6f666651c1711f63b55defce8", null ],
     [ "SceKernelThreadEntry", "group__SceThreadMgrUser.html#gaed1c8b50410fdccf5d5dc00563499662", null ],
     [ "SceKernelCallbackFunction", "group__SceThreadMgrUser.html#ga1466aebeba490fe29f9beb1adf84160e", null ],
     [ "SceKernelIdListType", "group__SceThreadMgrUser.html#gab73e1647ba8ce49d40132e57883602dc", [
@@ -58,7 +65,7 @@ var ommon_2kernel_2threadmgr_8h =
       [ "SCE_KERNEL_MUTEX_ATTR_CEILING", "group__SceThreadMgrUser.html#ggacaf974d94877969095678f463230d242adfdcf54229dff8a001a403c3802e614b", null ]
     ] ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceThreadMgrUser.html#gabad12e90a6c274821cd5f202ff3c7897", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceThreadMgrUser.html#ga66580ad672c63cb3b54a910e0dbbd331", null ],
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceThreadMgrUser.html#ga97149af01bfb79f07b3a5d794a59199f", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceThreadMgrUser.html#gaa74ad12a10bc8cfb5ef3469331569863", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceThreadMgrUser.html#ga6f3985da305cd603b6ad27aba47c1b5f", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceThreadMgrUser.html#ga5a3866ac4781d27797ba6178131666fd", null ],

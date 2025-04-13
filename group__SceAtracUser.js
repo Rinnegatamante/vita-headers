@@ -1,5 +1,31 @@
 var group__SceAtracUser =
 [
+    [ "SceAtracDecoderGroup", "group__SceAtracUser.html#structSceAtracDecoderGroup", [
+      [ "size", "group__SceAtracUser.html#ga525c3a93a24aaa638ea374b02fa54932", null ],
+      [ "wordLength", "group__SceAtracUser.html#ga1ded2787b39385c075f317d149361d15", null ],
+      [ "totalCh", "group__SceAtracUser.html#ga8ff88d03ac8902b6172434d14c6c1f09", null ]
+    ] ],
+    [ "SceAtracContentInfo", "group__SceAtracUser.html#structSceAtracContentInfo", [
+      [ "size", "group__SceAtracUser.html#gad55d9b340c366d9a6e68d69aefe20b15", null ],
+      [ "atracType", "group__SceAtracUser.html#gad3ab9f30e4432a7b8ca5e24c12876157", null ],
+      [ "channel", "group__SceAtracUser.html#ga0a864177ff8781fc4d5cae2c5abdca2e", null ],
+      [ "samplingRate", "group__SceAtracUser.html#gab96843647568d6df5394f5e6d1969323", null ],
+      [ "endSample", "group__SceAtracUser.html#ga8c3858a2f477fdb40d242f5e5a87de68", null ],
+      [ "loopStartSample", "group__SceAtracUser.html#ga6ad793674ccb27814c2300a9fedc87e1", null ],
+      [ "loopEndSample", "group__SceAtracUser.html#ga6f56c7464638d8c7100cee1ed663b308", null ],
+      [ "bitRate", "group__SceAtracUser.html#ga69e9daac58522c1f57ed5a5fdd3f0aa8", null ],
+      [ "fixedEncBlockSize", "group__SceAtracUser.html#ga612648d59c8d098455ea6104dc5b44ab", null ],
+      [ "fixedEncBlockSample", "group__SceAtracUser.html#ga27a83cdd028cf0757747a7612d561537", null ],
+      [ "frameSample", "group__SceAtracUser.html#ga6192259a2a8927681fa5aaf6cc5328bb", null ],
+      [ "loopBlockOffset", "group__SceAtracUser.html#ga526cbae8ed74ba2d4c2022517f821dd6", null ],
+      [ "loopBlockSize", "group__SceAtracUser.html#gab5779918cfd59991cf6914e3fcdff6c6", null ]
+    ] ],
+    [ "SceAtracStreamInfo", "group__SceAtracUser.html#structSceAtracStreamInfo", [
+      [ "size", "group__SceAtracUser.html#ga6a4e8210497a53130ce885c5efb83e95", null ],
+      [ "pWritePosition", "group__SceAtracUser.html#ga5a7202feca57ba19cf8af0ac0d9b0771", null ],
+      [ "readPosition", "group__SceAtracUser.html#gaa86d90b3330f74d222eb1c3536f27a4e", null ],
+      [ "writableSize", "group__SceAtracUser.html#gabb34636845e30ba9ab899133f12ba33e", null ]
+    ] ],
     [ "SCE_ATRAC_ALIGNMENT_SIZE", "group__SceAtracUser.html#ga3da14a4d7d145b5bba0b9b2a5f033be1", null ],
     [ "SCE_ATRAC_ROUND_UP", "group__SceAtracUser.html#ga693981f78a408342811906435b353726", null ],
     [ "SCE_ATRAC_TYPE_AT9", "group__SceAtracUser.html#ga0e277764979d547a211f248dd9d6f080", null ],
@@ -108,5 +134,25 @@ var group__SceAtracUser =
     [ "sceAtracGetOutputableSamples", "group__SceAtracUser.html#gaa7f1eb3c8b152bcce8c2db497accb48a", null ],
     [ "sceAtracGetDecoderStatus", "group__SceAtracUser.html#ga23223aeeefb4aae294860bf6e5a92196", null ],
     [ "sceAtracGetVacantSize", "group__SceAtracUser.html#gac3212b9824297c7e6a9fed21afe79bfc", null ],
-    [ "sceAtracGetInternalError", "group__SceAtracUser.html#gac396ee93c4eca75f79427f7264857ed8", null ]
+    [ "sceAtracGetInternalError", "group__SceAtracUser.html#gac396ee93c4eca75f79427f7264857ed8", null ],
+    [ "SceAtracDecoderGroup::size", "group__SceAtracUser.html#ga525c3a93a24aaa638ea374b02fa54932", null ],
+    [ "SceAtracDecoderGroup::wordLength", "group__SceAtracUser.html#ga1ded2787b39385c075f317d149361d15", null ],
+    [ "SceAtracDecoderGroup::totalCh", "group__SceAtracUser.html#ga8ff88d03ac8902b6172434d14c6c1f09", null ],
+    [ "SceAtracContentInfo::size", "group__SceAtracUser.html#gad55d9b340c366d9a6e68d69aefe20b15", null ],
+    [ "SceAtracContentInfo::atracType", "group__SceAtracUser.html#gad3ab9f30e4432a7b8ca5e24c12876157", null ],
+    [ "SceAtracContentInfo::channel", "group__SceAtracUser.html#ga0a864177ff8781fc4d5cae2c5abdca2e", null ],
+    [ "SceAtracContentInfo::samplingRate", "group__SceAtracUser.html#gab96843647568d6df5394f5e6d1969323", null ],
+    [ "SceAtracContentInfo::endSample", "group__SceAtracUser.html#ga8c3858a2f477fdb40d242f5e5a87de68", null ],
+    [ "SceAtracContentInfo::loopStartSample", "group__SceAtracUser.html#ga6ad793674ccb27814c2300a9fedc87e1", null ],
+    [ "SceAtracContentInfo::loopEndSample", "group__SceAtracUser.html#ga6f56c7464638d8c7100cee1ed663b308", null ],
+    [ "SceAtracContentInfo::bitRate", "group__SceAtracUser.html#ga69e9daac58522c1f57ed5a5fdd3f0aa8", null ],
+    [ "SceAtracContentInfo::fixedEncBlockSize", "group__SceAtracUser.html#ga612648d59c8d098455ea6104dc5b44ab", null ],
+    [ "SceAtracContentInfo::fixedEncBlockSample", "group__SceAtracUser.html#ga27a83cdd028cf0757747a7612d561537", null ],
+    [ "SceAtracContentInfo::frameSample", "group__SceAtracUser.html#ga6192259a2a8927681fa5aaf6cc5328bb", null ],
+    [ "SceAtracContentInfo::loopBlockOffset", "group__SceAtracUser.html#ga526cbae8ed74ba2d4c2022517f821dd6", null ],
+    [ "SceAtracContentInfo::loopBlockSize", "group__SceAtracUser.html#gab5779918cfd59991cf6914e3fcdff6c6", null ],
+    [ "SceAtracStreamInfo::size", "group__SceAtracUser.html#ga6a4e8210497a53130ce885c5efb83e95", null ],
+    [ "SceAtracStreamInfo::pWritePosition", "group__SceAtracUser.html#ga5a7202feca57ba19cf8af0ac0d9b0771", null ],
+    [ "SceAtracStreamInfo::readPosition", "group__SceAtracUser.html#gaa86d90b3330f74d222eb1c3536f27a4e", null ],
+    [ "SceAtracStreamInfo::writableSize", "group__SceAtracUser.html#gabb34636845e30ba9ab899133f12ba33e", null ]
 ];

@@ -1,5 +1,18 @@
 var group__SceCompatUser =
 [
+    [ "SceCompatCdram", "group__SceCompatUser.html#structSceCompatCdram", [
+      [ "cached_cdram", "group__SceCompatUser.html#gac1bf91a1e9e424135dc8b876431c258b", null ],
+      [ "uncached_cdram", "group__SceCompatUser.html#gaf83aabba5a9822e9181e2225525a1364", null ]
+    ] ],
+    [ "SceCtrlDataPsp", "group__SceCompatUser.html#structSceCtrlDataPsp", [
+      [ "TimeStamp", "group__SceCompatUser.html#ga911a2d76c1a62564ee4c181833c4c33e", null ],
+      [ "Buttons", "group__SceCompatUser.html#ga1450535089bceeede61520b3db3292e2", null ],
+      [ "Lx", "group__SceCompatUser.html#gad11e366fc923f71f7650240c41ae5b72", null ],
+      [ "Ly", "group__SceCompatUser.html#ga932a3c26e9e80ed4a8d267f3cc28a59b", null ],
+      [ "Rx", "group__SceCompatUser.html#gaf2743416cd6e64bd3c4f1bef6bd0dbb4", null ],
+      [ "Ry", "group__SceCompatUser.html#gaaf5c302949d50666b44439d4b59359c6", null ],
+      [ "Rsrv", "group__SceCompatUser.html#gad3cff0e24cd17c6ddbf97fe939a8babb", null ]
+    ] ],
     [ "SceCompatCacheMode", "group__SceCompatUser.html#ga7e3c16b4e18ae5f4b264775a3fd5d58a", [
       [ "SCE_COMPAT_CACHE_NONE", "group__SceCompatUser.html#gga7e3c16b4e18ae5f4b264775a3fd5d58aa447e459d57ed8ad2095fb0c44506ab3a", null ],
       [ "SCE_COMPAT_CACHE_INVALIDATE", "group__SceCompatUser.html#gga7e3c16b4e18ae5f4b264775a3fd5d58aaa9fb791ba2e33b77a7fda26d567de9ad", null ],
@@ -49,5 +62,14 @@ var group__SceCompatUser =
     [ "sceCompatWriteSharedCtrl", "group__SceCompatUser.html#gac6a0a5d6f6af05f136bee53026a9db53", null ],
     [ "sceCompatGetTitleList", "group__SceCompatUser.html#gacea36d5ee9b1ec184bb19c9876b86953", null ],
     [ "sceCompatGetDevInf", "group__SceCompatUser.html#gaf8dd62a11db364ba0accf5f513b85435", null ],
-    [ "sceCompatGetCurrentSecureTick", "group__SceCompatUser.html#ga233fc42e19338dbb1166ac71b1b2e39d", null ]
+    [ "sceCompatGetCurrentSecureTick", "group__SceCompatUser.html#ga233fc42e19338dbb1166ac71b1b2e39d", null ],
+    [ "SceCompatCdram::cached_cdram", "group__SceCompatUser.html#gac1bf91a1e9e424135dc8b876431c258b", null ],
+    [ "SceCompatCdram::uncached_cdram", "group__SceCompatUser.html#gaf83aabba5a9822e9181e2225525a1364", null ],
+    [ "SceCtrlDataPsp::TimeStamp", "group__SceCompatUser.html#ga911a2d76c1a62564ee4c181833c4c33e", null ],
+    [ "SceCtrlDataPsp::Buttons", "group__SceCompatUser.html#ga1450535089bceeede61520b3db3292e2", null ],
+    [ "SceCtrlDataPsp::Lx", "group__SceCompatUser.html#gad11e366fc923f71f7650240c41ae5b72", null ],
+    [ "SceCtrlDataPsp::Ly", "group__SceCompatUser.html#ga932a3c26e9e80ed4a8d267f3cc28a59b", null ],
+    [ "SceCtrlDataPsp::Rx", "group__SceCompatUser.html#gaf2743416cd6e64bd3c4f1bef6bd0dbb4", null ],
+    [ "SceCtrlDataPsp::Ry", "group__SceCompatUser.html#gaaf5c302949d50666b44439d4b59359c6", null ],
+    [ "SceCtrlDataPsp::Rsrv", "group__SceCompatUser.html#gad3cff0e24cd17c6ddbf97fe939a8babb", null ]
 ];

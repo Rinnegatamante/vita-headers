@@ -1,5 +1,21 @@
 var group__SceDisplayKernel =
 [
+    [ "SceDisplayFrameBuf", "group__SceDisplayKernel.html#structSceDisplayFrameBuf", [
+      [ "size", "group__SceDisplayKernel.html#ga4818747e9c93ab650824cd4c484506df", null ],
+      [ "base", "group__SceDisplayKernel.html#gaf65ac368b8054a7d77fbbaafe307b945", null ],
+      [ "pitch", "group__SceDisplayKernel.html#ga44160853361a441b8e43578d0a2941b9", null ],
+      [ "pixelformat", "group__SceDisplayKernel.html#ga00b8ff65e24a20a98cbced5ea7925089", null ],
+      [ "width", "group__SceDisplayKernel.html#ga4443600a76935ec481ca282d48e9268c", null ],
+      [ "height", "group__SceDisplayKernel.html#gacf6c5759f48d231bd31415cbe552ca3d", null ]
+    ] ],
+    [ "SceDisplayFrameBufInfo", "group__SceDisplayKernel.html#structSceDisplayFrameBufInfo", [
+      [ "size", "group__SceDisplayKernel.html#gae73edbc4a45330dcf1c1e8505380d2a0", null ],
+      [ "pid", "group__SceDisplayKernel.html#ga88acd1dc990b6e485cef630941a77a02", null ],
+      [ "vblankcount", "group__SceDisplayKernel.html#ga650fa3e9c459d0eb1904906a80efeb10", null ],
+      [ "paddr", "group__SceDisplayKernel.html#ga60165f518513b69febbba1ff2c80d8b3", null ],
+      [ "framebuf", "group__SceDisplayKernel.html#gabc3c8c036f63af068b848b0d039e08dc", null ],
+      [ "resolution", "group__SceDisplayKernel.html#ga66105322c2fa987559ee4625f427e3c0", null ]
+    ] ],
     [ "SceDisplayErrorCode", "group__SceDisplayKernel.html#gaa1abc2fc8664f894ce78aaf58160b728", [
       [ "SCE_DISPLAY_ERROR_OK", "group__SceDisplayKernel.html#ggaa1abc2fc8664f894ce78aaf58160b728ab68af62b91ef823420da383066b8bc2d", null ],
       [ "SCE_DISPLAY_ERROR_INVALID_HEAD", "group__SceDisplayKernel.html#ggaa1abc2fc8664f894ce78aaf58160b728a11a0efb6ab214c0f991a3e60dc097cf1", null ],
@@ -69,5 +85,17 @@ var group__SceDisplayKernel =
     [ "ksceDisplayRegisterFrameBufCallback", "group__SceDisplayKernel.html#gaab3ff65454443a1588267a69656d357e", null ],
     [ "ksceDisplayRegisterFrameBufCallbackInternal", "group__SceDisplayKernel.html#gafd9e3a943ae8d532f6bca093b7f16ae6", null ],
     [ "ksceDisplaySetInvertColors", "group__SceDisplayKernel.html#gaba015ee6bd3e5d4b83efd0151dbb8552", null ],
-    [ "ksceDisplaySetOwner", "group__SceDisplayKernel.html#ga8b2cb118d615ec679b40f8d7367790c1", null ]
+    [ "ksceDisplaySetOwner", "group__SceDisplayKernel.html#ga8b2cb118d615ec679b40f8d7367790c1", null ],
+    [ "SceDisplayFrameBuf::size", "group__SceDisplayKernel.html#ga4818747e9c93ab650824cd4c484506df", null ],
+    [ "SceDisplayFrameBuf::base", "group__SceDisplayKernel.html#gaf65ac368b8054a7d77fbbaafe307b945", null ],
+    [ "SceDisplayFrameBuf::pitch", "group__SceDisplayKernel.html#ga44160853361a441b8e43578d0a2941b9", null ],
+    [ "SceDisplayFrameBuf::pixelformat", "group__SceDisplayKernel.html#ga00b8ff65e24a20a98cbced5ea7925089", null ],
+    [ "SceDisplayFrameBuf::width", "group__SceDisplayKernel.html#ga4443600a76935ec481ca282d48e9268c", null ],
+    [ "SceDisplayFrameBuf::height", "group__SceDisplayKernel.html#gacf6c5759f48d231bd31415cbe552ca3d", null ],
+    [ "SceDisplayFrameBufInfo::size", "group__SceDisplayKernel.html#gae73edbc4a45330dcf1c1e8505380d2a0", null ],
+    [ "SceDisplayFrameBufInfo::pid", "group__SceDisplayKernel.html#ga88acd1dc990b6e485cef630941a77a02", null ],
+    [ "SceDisplayFrameBufInfo::vblankcount", "group__SceDisplayKernel.html#ga650fa3e9c459d0eb1904906a80efeb10", null ],
+    [ "SceDisplayFrameBufInfo::paddr", "group__SceDisplayKernel.html#ga60165f518513b69febbba1ff2c80d8b3", null ],
+    [ "SceDisplayFrameBufInfo::framebuf", "group__SceDisplayKernel.html#gabc3c8c036f63af068b848b0d039e08dc", null ],
+    [ "SceDisplayFrameBufInfo::resolution", "group__SceDisplayKernel.html#ga66105322c2fa987559ee4625f427e3c0", null ]
 ];

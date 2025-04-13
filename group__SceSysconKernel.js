@@ -1,5 +1,23 @@
 var group__SceSysconKernel =
 [
+    [ "SceSysconPacket", "group__SceSysconKernel.html#structSceSysconPacket", [
+      [ "next", "group__SceSysconKernel.html#gafd9c0972258645e6995287e8c1bd11ec", null ],
+      [ "status", "group__SceSysconKernel.html#ga2c56f70ac3b7f1cb74a8ff4dc5f11f87", null ],
+      [ "semaId", "group__SceSysconKernel.html#ga9315b4db99bca39dd1b6fbb0cef26935", null ],
+      [ "unk", "group__SceSysconKernel.html#ga29d55fa04d7aae3a6b11fb506123dfe5", null ],
+      [ "tx", "group__SceSysconKernel.html#gaa87440170576e52004a47d85ae236a13", null ],
+      [ "rx", "group__SceSysconKernel.html#ga38a60268c453481de6a0b240a40109c6", null ],
+      [ "unk1", "group__SceSysconKernel.html#gac8a25c4bd2772ca16d4bb340de6967ec", null ],
+      [ "callback", "group__SceSysconKernel.html#ga7a04ac886ba32813e645dd1edc29eec1", null ],
+      [ "argp", "group__SceSysconKernel.html#ga0b59714adc2340967bf5300c09bdb179", null ],
+      [ "time", "group__SceSysconKernel.html#ga7f7e0f8cf85b2fa64a1c3a1846e69b32", null ],
+      [ "unk2", "group__SceSysconKernel.html#ga95cad90cbf1bad947f641bdb76c1f79f", null ]
+    ] ],
+    [ "SceSysconDebugHandlers", "group__SceSysconKernel.html#structSceSysconDebugHandlers", [
+      [ "size", "group__SceSysconKernel.html#gac362ab71ec3d266fe02bcf750bd21fbd", null ],
+      [ "start", "group__SceSysconKernel.html#ga369571b579013b714ba7686aba1fcab5", null ],
+      [ "end", "group__SceSysconKernel.html#ga2fffde9cae3be628b0128a5f7bf72c65", null ]
+    ] ],
     [ "SCE_SYSCON_PACKET_TX_CMD_LO", "group__SceSysconKernel.html#gac819bc1a3c44d5f533b86d09f1d8100d", null ],
     [ "SCE_SYSCON_PACKET_TX_CMD_HI", "group__SceSysconKernel.html#gaab9f8bd2486bd583c8a803102828db74", null ],
     [ "SCE_SYSCON_PACKET_TX_LENGTH", "group__SceSysconKernel.html#ga7d8dc68bb03c9028b7f29547bf537bd6", null ],
@@ -104,5 +122,19 @@ var group__SceSysconKernel =
     [ "ksceSysconSetAlarmCallback", "group__SceSysconKernel.html#ga709e091a8a156e457907af9606c84d40", null ],
     [ "ksceSysconSetLowBatteryCallback", "group__SceSysconKernel.html#ga19209e2b0ee8adf1a05e983e45e6271a", null ],
     [ "ksceSysconSetThermalAlertCallback", "group__SceSysconKernel.html#gaec856771758bff4fceda58297c2b7f10", null ],
-    [ "ksceSysconGetControlsInfo", "group__SceSysconKernel.html#ga1e5958bfa3875d475e217942d5d16663", null ]
+    [ "ksceSysconGetControlsInfo", "group__SceSysconKernel.html#ga1e5958bfa3875d475e217942d5d16663", null ],
+    [ "SceSysconPacket::next", "group__SceSysconKernel.html#gafd9c0972258645e6995287e8c1bd11ec", null ],
+    [ "SceSysconPacket::status", "group__SceSysconKernel.html#ga2c56f70ac3b7f1cb74a8ff4dc5f11f87", null ],
+    [ "SceSysconPacket::semaId", "group__SceSysconKernel.html#ga9315b4db99bca39dd1b6fbb0cef26935", null ],
+    [ "SceSysconPacket::unk", "group__SceSysconKernel.html#ga29d55fa04d7aae3a6b11fb506123dfe5", null ],
+    [ "SceSysconPacket::tx", "group__SceSysconKernel.html#gaa87440170576e52004a47d85ae236a13", null ],
+    [ "SceSysconPacket::rx", "group__SceSysconKernel.html#ga38a60268c453481de6a0b240a40109c6", null ],
+    [ "SceSysconPacket::unk1", "group__SceSysconKernel.html#gac8a25c4bd2772ca16d4bb340de6967ec", null ],
+    [ "SceSysconPacket::callback", "group__SceSysconKernel.html#ga7a04ac886ba32813e645dd1edc29eec1", null ],
+    [ "SceSysconPacket::argp", "group__SceSysconKernel.html#ga0b59714adc2340967bf5300c09bdb179", null ],
+    [ "SceSysconPacket::time", "group__SceSysconKernel.html#ga7f7e0f8cf85b2fa64a1c3a1846e69b32", null ],
+    [ "SceSysconPacket::unk2", "group__SceSysconKernel.html#ga95cad90cbf1bad947f641bdb76c1f79f", null ],
+    [ "SceSysconDebugHandlers::size", "group__SceSysconKernel.html#gac362ab71ec3d266fe02bcf750bd21fbd", null ],
+    [ "SceSysconDebugHandlers::start", "group__SceSysconKernel.html#ga369571b579013b714ba7686aba1fcab5", null ],
+    [ "SceSysconDebugHandlers::end", "group__SceSysconKernel.html#ga2fffde9cae3be628b0128a5f7bf72c65", null ]
 ];

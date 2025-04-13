@@ -1,5 +1,31 @@
 var group__SceHttpUser =
 [
+    [ "SceHttpMemoryPoolStats", "group__SceHttpUser.html#structSceHttpMemoryPoolStats", [
+      [ "poolSize", "group__SceHttpUser.html#ga9e157c86a0a8a0b0cede146e864131b3", null ],
+      [ "maxInuseSize", "group__SceHttpUser.html#ga70e8a16cb6c809500462df1f61ed18b1", null ],
+      [ "currentInuseSize", "group__SceHttpUser.html#ga3b3534168edb7b4e11305ea5a9358247", null ],
+      [ "reserved", "group__SceHttpUser.html#ga25a502ab9d4c2b58e6ada10673bed2d1", null ]
+    ] ],
+    [ "SceHttpUriElement", "group__SceHttpUser.html#structSceHttpUriElement", [
+      [ "opaque", "group__SceHttpUser.html#ga7443a86d2b67db8b37fa1999e8b9577a", null ],
+      [ "scheme", "group__SceHttpUser.html#gaf7b5b3bc506ceb2e499d19a0645a97ed", null ],
+      [ "username", "group__SceHttpUser.html#gafae0f016becb53e5fd21735e1a98a55f", null ],
+      [ "password", "group__SceHttpUser.html#ga394a0c149786e984d1b15ac73aa6ec90", null ],
+      [ "hostname", "group__SceHttpUser.html#gac92ec8ef8f3170f0e4fb538a8198b881", null ],
+      [ "path", "group__SceHttpUser.html#ga07a5c6eebb6ce138a7831d69a262b0c5", null ],
+      [ "query", "group__SceHttpUser.html#ga2b4c28f0d66c93c7111e9fd9220ccf30", null ],
+      [ "fragment", "group__SceHttpUser.html#gab734def5abb1692f28b1fbb679874c81", null ],
+      [ "port", "group__SceHttpUser.html#gaebd9d2d27cc011b31b76d0545111d76b", null ],
+      [ "reserved", "group__SceHttpUser.html#gaf08df69098c44a1a62dc579d0b85f809", null ]
+    ] ],
+    [ "SceHttpsData", "group__SceHttpUser.html#structSceHttpsData", [
+      [ "ptr", "group__SceHttpUser.html#ga6caffdd103ee90840038c2321c55419d", null ],
+      [ "size", "group__SceHttpUser.html#ga63b722cb239ba3971f2ff0c2f229f566", null ]
+    ] ],
+    [ "SceHttpsCaList", "group__SceHttpUser.html#structSceHttpsCaList", [
+      [ "caCerts", "group__SceHttpUser.html#ga1bc8c626302d4c730d4d0b08491a2d31", null ],
+      [ "caNum", "group__SceHttpUser.html#ga7a6c5b37f91ef895d59c463a09b671db", null ]
+    ] ],
     [ "SCE_HTTP_DEFAULT_RESOLVER_TIMEOUT", "group__SceHttpUser.html#gae118e9bc539481e8962a9fc913f6e7d5", null ],
     [ "SCE_HTTP_DEFAULT_RESOLVER_RETRY", "group__SceHttpUser.html#ga38d96f61e6e830471287d3818f80668b", null ],
     [ "SCE_HTTP_DEFAULT_CONNECT_TIMEOUT", "group__SceHttpUser.html#ga2a5c44cc38f5c6a494b21c534c44e0ca", null ],
@@ -370,5 +396,23 @@ var group__SceHttpUser =
     [ "sceHttpGetCookie", "group__SceHttpUser.html#ga0cb7e4aed03cca2149b6b6a5443b2632", null ],
     [ "sceHttpAddCookie", "group__SceHttpUser.html#ga84073a996c9a530e92f5ccbd288ea86b", null ],
     [ "sceHttpSetCookieRecvCallback", "group__SceHttpUser.html#gaa46bc555da078f82863c079ce48c7ba6", null ],
-    [ "sceHttpSetCookieSendCallback", "group__SceHttpUser.html#ga1ce16f8bdb8567f57dd415b10acfe1f3", null ]
+    [ "sceHttpSetCookieSendCallback", "group__SceHttpUser.html#ga1ce16f8bdb8567f57dd415b10acfe1f3", null ],
+    [ "SceHttpMemoryPoolStats::poolSize", "group__SceHttpUser.html#ga9e157c86a0a8a0b0cede146e864131b3", null ],
+    [ "SceHttpMemoryPoolStats::maxInuseSize", "group__SceHttpUser.html#ga70e8a16cb6c809500462df1f61ed18b1", null ],
+    [ "SceHttpMemoryPoolStats::currentInuseSize", "group__SceHttpUser.html#ga3b3534168edb7b4e11305ea5a9358247", null ],
+    [ "SceHttpMemoryPoolStats::reserved", "group__SceHttpUser.html#ga25a502ab9d4c2b58e6ada10673bed2d1", null ],
+    [ "SceHttpUriElement::opaque", "group__SceHttpUser.html#ga7443a86d2b67db8b37fa1999e8b9577a", null ],
+    [ "SceHttpUriElement::scheme", "group__SceHttpUser.html#gaf7b5b3bc506ceb2e499d19a0645a97ed", null ],
+    [ "SceHttpUriElement::username", "group__SceHttpUser.html#gafae0f016becb53e5fd21735e1a98a55f", null ],
+    [ "SceHttpUriElement::password", "group__SceHttpUser.html#ga394a0c149786e984d1b15ac73aa6ec90", null ],
+    [ "SceHttpUriElement::hostname", "group__SceHttpUser.html#gac92ec8ef8f3170f0e4fb538a8198b881", null ],
+    [ "SceHttpUriElement::path", "group__SceHttpUser.html#ga07a5c6eebb6ce138a7831d69a262b0c5", null ],
+    [ "SceHttpUriElement::query", "group__SceHttpUser.html#ga2b4c28f0d66c93c7111e9fd9220ccf30", null ],
+    [ "SceHttpUriElement::fragment", "group__SceHttpUser.html#gab734def5abb1692f28b1fbb679874c81", null ],
+    [ "SceHttpUriElement::port", "group__SceHttpUser.html#gaebd9d2d27cc011b31b76d0545111d76b", null ],
+    [ "SceHttpUriElement::reserved", "group__SceHttpUser.html#gaf08df69098c44a1a62dc579d0b85f809", null ],
+    [ "SceHttpsData::ptr", "group__SceHttpUser.html#ga6caffdd103ee90840038c2321c55419d", null ],
+    [ "SceHttpsData::size", "group__SceHttpUser.html#ga63b722cb239ba3971f2ff0c2f229f566", null ],
+    [ "SceHttpsCaList::caCerts", "group__SceHttpUser.html#ga1bc8c626302d4c730d4d0b08491a2d31", null ],
+    [ "SceHttpsCaList::caNum", "group__SceHttpUser.html#ga7a6c5b37f91ef895d59c463a09b671db", null ]
 ];

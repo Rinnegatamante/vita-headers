@@ -1,5 +1,13 @@
 var group__SceUsbAudioUser =
 [
+    [ "SceUsbAudioInDeviceInfo", "group__SceUsbAudioUser.html#structSceUsbAudioInDeviceInfo", [
+      [ "vendor", "group__SceUsbAudioUser.html#ga05c9d5ac3caa849c2e6bfa00c2b9a73a", null ],
+      [ "product", "group__SceUsbAudioUser.html#gaee36727d6256ea8d4b8670e452dd3b9c", null ],
+      [ "_reserved", "group__SceUsbAudioUser.html#ga97f7d543723f79bf45855f9827abaf6c", null ]
+    ] ],
+    [ "SceUsbAudioInDeviceListItem", "group__SceUsbAudioUser.html#structSceUsbAudioInDeviceListItem", [
+      [ "device_id", "group__SceUsbAudioUser.html#ga3bc0bcd37d701d42277b36284c44d554", null ]
+    ] ],
     [ "SceUsbAudioInErrorCode", "group__SceUsbAudioUser.html#ga320de6c80839a882a0445397d3259399", [
       [ "SCE_USBAUDIO_IN_ERROR_INVALID_ARGUMENT", "group__SceUsbAudioUser.html#gga320de6c80839a882a0445397d3259399a1ebc2ebf44e3d40b055bef085935112b", null ],
       [ "SCE_USBAUDIO_IN_ERROR_DUPLICATE_ID", "group__SceUsbAudioUser.html#gga320de6c80839a882a0445397d3259399ad5773c23e8c3f32e804b2bf9868b3397", null ],
@@ -41,5 +49,9 @@ var group__SceUsbAudioUser =
     [ "sceUsbAudioInGetMaxValueOfVolume", "group__SceUsbAudioUser.html#ga71ef4fe5f58aad0a32291c3ec42889cd", null ],
     [ "sceUsbAudioInGetMinValueOfVolume", "group__SceUsbAudioUser.html#gaa8fb77f500d89509913440d6db7e37c8", null ],
     [ "sceUsbAudioInSetCurrentValueOfVolume", "group__SceUsbAudioUser.html#gae83075dae88ee0c478f7ff942447b1f3", null ],
-    [ "sceUsbAudioInInput", "group__SceUsbAudioUser.html#ga8ff2e34ee6a8ae316f535bfa0470eaf7", null ]
+    [ "sceUsbAudioInInput", "group__SceUsbAudioUser.html#ga8ff2e34ee6a8ae316f535bfa0470eaf7", null ],
+    [ "SceUsbAudioInDeviceInfo::vendor", "group__SceUsbAudioUser.html#ga05c9d5ac3caa849c2e6bfa00c2b9a73a", null ],
+    [ "SceUsbAudioInDeviceInfo::product", "group__SceUsbAudioUser.html#gaee36727d6256ea8d4b8670e452dd3b9c", null ],
+    [ "SceUsbAudioInDeviceInfo::_reserved", "group__SceUsbAudioUser.html#ga97f7d543723f79bf45855f9827abaf6c", null ],
+    [ "SceUsbAudioInDeviceListItem::device_id", "group__SceUsbAudioUser.html#ga3bc0bcd37d701d42277b36284c44d554", null ]
 ];

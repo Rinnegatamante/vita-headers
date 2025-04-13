@@ -1,5 +1,31 @@
 var group__SceLocationUser =
 [
+    [ "SceLocationLocationInfo", "group__SceLocationUser.html#structSceLocationLocationInfo", [
+      [ "latitude", "group__SceLocationUser.html#gaa8c08a263d988e30886c40321b4576ab", null ],
+      [ "longitude", "group__SceLocationUser.html#gaf1fdad28a02da22a325df54c8b4f63d4", null ],
+      [ "altitude", "group__SceLocationUser.html#ga2ea0b217a3b82fc3d31a708981b94220", null ],
+      [ "accuracy", "group__SceLocationUser.html#gac04328172c2459c2ad5da23fec9bc31f", null ],
+      [ "reserve", "group__SceLocationUser.html#gadc4039c574afa66b190013d519b34f05", null ],
+      [ "direction", "group__SceLocationUser.html#gaeecc7aa4df7eeba837f21cd636b54a61", null ],
+      [ "speed", "group__SceLocationUser.html#ga61ae6005a548afb42f08632752068989", null ],
+      [ "timestamp", "group__SceLocationUser.html#ga0b68cd9b4daeef7ebe3a42e62427687c", null ]
+    ] ],
+    [ "SceLocationHeadingInfo", "group__SceLocationUser.html#structSceLocationHeadingInfo", [
+      [ "trueHeading", "group__SceLocationUser.html#ga9c2007852f8f71503c5d6673df873477", null ],
+      [ "headingVectorX", "group__SceLocationUser.html#gab787f06246360da95fe7921d2b283d85", null ],
+      [ "headingVectorY", "group__SceLocationUser.html#ga8bd80a2e7056863a3674af6692126716", null ],
+      [ "headingVectorZ", "group__SceLocationUser.html#ga67ce7f9de0879ac9059163004b7e4162", null ],
+      [ "reserve", "group__SceLocationUser.html#gad954a6df8ffcac123f39e5a98ea71b7e", null ],
+      [ "reserve2", "group__SceLocationUser.html#ga973af0883a66023875eb75c2599a0774", null ],
+      [ "timestamp", "group__SceLocationUser.html#gaa1deff38485ca6c8d317a94088e1b4e0", null ]
+    ] ],
+    [ "SceLocationPermissionInfo", "group__SceLocationUser.html#structSceLocationPermissionInfo", [
+      [ "parentalstatus", "group__SceLocationUser.html#ga8bbcf02dc5579c04e8f2c257fc83308b", null ],
+      [ "mainstatus", "group__SceLocationUser.html#ga6d75901987f7c564c0c251cbb9d0c19f", null ],
+      [ "applicationstatus", "group__SceLocationUser.html#gafdaabcb57a43c8ac5aae85a9df5ab2f8", null ],
+      [ "unk_0x0C", "group__SceLocationUser.html#ga8e43cc3beff0b5fc4f54ef522c488b49", null ],
+      [ "unk_0x10", "group__SceLocationUser.html#ga071cdd717255f58f2c7210f57e61d61b", null ]
+    ] ],
     [ "SCE_LOCATION_DATA_INVALID", "group__SceLocationUser.html#ga833d969a9e763280124ea9ed7b7b31a1", null ],
     [ "SceLocationHandle", "group__SceLocationUser.html#gab8271ab2e8f268bc48b0f50eb6a3f344", null ],
     [ "SceLocationLocationInfoCallback", "group__SceLocationUser.html#ga98776079bb1f0b9cb08e74954952e5e2", null ],
@@ -144,5 +170,25 @@ var group__SceLocationUser =
     [ "sceLocationConfirmGetResult", "group__SceLocationUser.html#gabd720c6e513e69e2deb04d91d043b148", null ],
     [ "sceLocationConfirmAbort", "group__SceLocationUser.html#ga2baa0bce459aa7778c9b8a07c7e0a427", null ],
     [ "sceLocationGetPermission", "group__SceLocationUser.html#gafff03833a2397f0c74885193fffddda1", null ],
-    [ "sceLocationSetGpsEmulationFile", "group__SceLocationUser.html#gac171198dc204d6be44fb66600aac7673", null ]
+    [ "sceLocationSetGpsEmulationFile", "group__SceLocationUser.html#gac171198dc204d6be44fb66600aac7673", null ],
+    [ "SceLocationLocationInfo::latitude", "group__SceLocationUser.html#gaa8c08a263d988e30886c40321b4576ab", null ],
+    [ "SceLocationLocationInfo::longitude", "group__SceLocationUser.html#gaf1fdad28a02da22a325df54c8b4f63d4", null ],
+    [ "SceLocationLocationInfo::altitude", "group__SceLocationUser.html#ga2ea0b217a3b82fc3d31a708981b94220", null ],
+    [ "SceLocationLocationInfo::accuracy", "group__SceLocationUser.html#gac04328172c2459c2ad5da23fec9bc31f", null ],
+    [ "SceLocationLocationInfo::reserve", "group__SceLocationUser.html#gadc4039c574afa66b190013d519b34f05", null ],
+    [ "SceLocationLocationInfo::direction", "group__SceLocationUser.html#gaeecc7aa4df7eeba837f21cd636b54a61", null ],
+    [ "SceLocationLocationInfo::speed", "group__SceLocationUser.html#ga61ae6005a548afb42f08632752068989", null ],
+    [ "SceLocationLocationInfo::timestamp", "group__SceLocationUser.html#ga0b68cd9b4daeef7ebe3a42e62427687c", null ],
+    [ "SceLocationHeadingInfo::trueHeading", "group__SceLocationUser.html#ga9c2007852f8f71503c5d6673df873477", null ],
+    [ "SceLocationHeadingInfo::headingVectorX", "group__SceLocationUser.html#gab787f06246360da95fe7921d2b283d85", null ],
+    [ "SceLocationHeadingInfo::headingVectorY", "group__SceLocationUser.html#ga8bd80a2e7056863a3674af6692126716", null ],
+    [ "SceLocationHeadingInfo::headingVectorZ", "group__SceLocationUser.html#ga67ce7f9de0879ac9059163004b7e4162", null ],
+    [ "SceLocationHeadingInfo::reserve", "group__SceLocationUser.html#gad954a6df8ffcac123f39e5a98ea71b7e", null ],
+    [ "SceLocationHeadingInfo::reserve2", "group__SceLocationUser.html#ga973af0883a66023875eb75c2599a0774", null ],
+    [ "SceLocationHeadingInfo::timestamp", "group__SceLocationUser.html#gaa1deff38485ca6c8d317a94088e1b4e0", null ],
+    [ "SceLocationPermissionInfo::parentalstatus", "group__SceLocationUser.html#ga8bbcf02dc5579c04e8f2c257fc83308b", null ],
+    [ "SceLocationPermissionInfo::mainstatus", "group__SceLocationUser.html#ga6d75901987f7c564c0c251cbb9d0c19f", null ],
+    [ "SceLocationPermissionInfo::applicationstatus", "group__SceLocationUser.html#gafdaabcb57a43c8ac5aae85a9df5ab2f8", null ],
+    [ "SceLocationPermissionInfo::unk_0x0C", "group__SceLocationUser.html#ga8e43cc3beff0b5fc4f54ef522c488b49", null ],
+    [ "SceLocationPermissionInfo::unk_0x10", "group__SceLocationUser.html#ga071cdd717255f58f2c7210f57e61d61b", null ]
 ];

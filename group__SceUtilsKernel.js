@@ -1,5 +1,42 @@
 var group__SceUtilsKernel =
 [
+    [ "SceSha1Context", "group__SceUtilsKernel.html#structSceSha1Context", [
+      [ "h", "group__SceUtilsKernel.html#ga01ffd04b1ecf4340ff5cb03454464f24", null ],
+      [ "usRemains", "group__SceUtilsKernel.html#ga4cf7ffe2c4185dfe9393a75079a67cec", null ],
+      [ "usComputed", "group__SceUtilsKernel.html#gaf720465236d4d2d211cf7ecb416c51bb", null ],
+      [ "ullTotalLen", "group__SceUtilsKernel.html#ga5cdeb1f9ed9a586f7396890e355c4773", null ],
+      [ "buf", "group__SceUtilsKernel.html#ga8891fa1462c7665e7c75405bf7ee374f", null ],
+      [ "result", "group__SceUtilsKernel.html#ga2293cad7551d44006ed09e60f80d96d8", null ],
+      [ "pad", "group__SceUtilsKernel.html#ga1c89ac74d209b265101d86301e1137af", null ]
+    ] ],
+    [ "SceSha224Context", "group__SceUtilsKernel.html#structSceSha224Context", [
+      [ "h", "group__SceUtilsKernel.html#ga245cb5a8956a1e6cb4a4fc4544c9754c", null ],
+      [ "pad", "group__SceUtilsKernel.html#ga944dea31836b063ff0079e8f52bb9fc2", null ],
+      [ "usRemains", "group__SceUtilsKernel.html#ga55a4ca99ed72ddfde64aa3e338e49418", null ],
+      [ "usComputed", "group__SceUtilsKernel.html#gaf0d21504b3944cdd86bb545bad3c96e6", null ],
+      [ "ullTotalLen", "group__SceUtilsKernel.html#ga85cad5d249c45173116c1575a4031461", null ],
+      [ "buf", "group__SceUtilsKernel.html#ga20ad9441fd8407c1d7e730722c52ad4f", null ],
+      [ "result", "group__SceUtilsKernel.html#gad5bdb77f603417b26c79b73b3753d24e", null ],
+      [ "pad2", "group__SceUtilsKernel.html#ga5af3a5b8f8a4cbfd744e7213924b2bac", null ]
+    ] ],
+    [ "SceSha256Context", "group__SceUtilsKernel.html#structSceSha256Context", [
+      [ "h", "group__SceUtilsKernel.html#gaaed57748413a1ac380bcf50c5da54e84", null ],
+      [ "pad", "group__SceUtilsKernel.html#gaa5d622e5ee621844affac1239cb63b52", null ],
+      [ "usRemains", "group__SceUtilsKernel.html#ga2268527d7efbaf84d4142ff6f2462615", null ],
+      [ "usComputed", "group__SceUtilsKernel.html#ga36cf7b3cc7f47c3b409cbe1b8b774579", null ],
+      [ "ullTotalLen", "group__SceUtilsKernel.html#gae54ea7615732a58fb2137d8f9dd8d082", null ],
+      [ "buf", "group__SceUtilsKernel.html#gaabda8c625f32c757db38d4fa38b95393", null ],
+      [ "result", "group__SceUtilsKernel.html#ga088b8b92eb453897a8b58cf2b37c068c", null ]
+    ] ],
+    [ "SceDeflatePartialInputParam", "group__SceUtilsKernel.html#structSceDeflatePartialInputParam", [
+      [ "size", "group__SceUtilsKernel.html#ga58a699ab1d006537dcb06640b43d4585", null ],
+      [ "pBufEnd", "group__SceUtilsKernel.html#gafe9394125f9b64385b3dd6e0ea57b66a", null ],
+      [ "cookie", "group__SceUtilsKernel.html#gadbc5028c20fd95e1ce3ce2d0717d3e79", null ],
+      [ "SceDeflateDecompressPartialInputCallback", "group__SceUtilsKernel.html#ga9e57f0adbea577cb2394241a4916fdba", null ]
+    ] ],
+    [ "SceAesContext", "group__SceUtilsKernel.html#structSceAesContext", [
+      [ "data", "group__SceUtilsKernel.html#ga66520dc336788bf187a309d572affe56", null ]
+    ] ],
     [ "SCE_SHA1_BLOCK_SIZE", "group__SceUtilsKernel.html#ga90cc3fc2c61492c3fb5d8cbd3791ba13", null ],
     [ "SCE_SHA1_DIGEST_SIZE", "group__SceUtilsKernel.html#ga99892d83f15101f49e8d6ef768a2bd15", null ],
     [ "SCE_SHA224_BLOCK_SIZE", "group__SceUtilsKernel.html#ga059b44b47f50459213dfee226549d8f0", null ],
@@ -29,11 +66,11 @@ var group__SceUtilsKernel =
     [ "ksceGzipDecompress", "group__SceUtilsKernel.html#gae6826ff5b21181f1bc360269ec4be1ef", null ],
     [ "ksceGzipIsValid", "group__SceUtilsKernel.html#ga9c9185558ad6a60f6e417581ecec8c7f", null ],
     [ "ksceGzipGetInfo", "group__SceUtilsKernel.html#ga89851362f6f2a6db48d56f7d5ed91aea", null ],
-    [ "ksceGzipGetName", "group__SceUtilsKernel.html#gaf9ce322c6c3dbde49d5eac8ddc82ae3d", null ],
-    [ "ksceGzipGetComment", "group__SceUtilsKernel.html#gac385568cf7f54067c63ffa1e536bc305", null ],
-    [ "ksceGzipGetCompressedData", "group__SceUtilsKernel.html#gabb230e10178f7a581ea04758357c488c", null ],
+    [ "ksceGzipGetName", "group__SceUtilsKernel.html#gaee0176a2e12e95e6d8bef46f910258d6", null ],
+    [ "ksceGzipGetComment", "group__SceUtilsKernel.html#gaf9868d88f3effd357f620840dcaace86", null ],
+    [ "ksceGzipGetCompressedData", "group__SceUtilsKernel.html#ga71fcb14d50c7deab58073c10bdb2b8be", null ],
     [ "ksceZlibGetInfo", "group__SceUtilsKernel.html#gab6c9c26501df6d40d7847ce9977cd16c", null ],
-    [ "ksceZlibGetCompressedData", "group__SceUtilsKernel.html#ga4813f9f4473d26e92fad0321958ca2f7", null ],
+    [ "ksceZlibGetCompressedData", "group__SceUtilsKernel.html#ga61f08d981469c4c11343f1535b865fb6", null ],
     [ "ksceZlibDecompress", "group__SceUtilsKernel.html#ga403583865df03c13f45393c351ae58ba", null ],
     [ "ksceDeflateDecompress", "group__SceUtilsKernel.html#ga4d36d836707ab6c6ba1ba9b0922cfa9e", null ],
     [ "ksceDeflateDecompressPartial", "group__SceUtilsKernel.html#ga9c91954574c57653b5cd58d50d736ba8", null ],
@@ -43,5 +80,32 @@ var group__SceUtilsKernel =
     [ "ksceAesDecrypt1", "group__SceUtilsKernel.html#gaaf9ec46c902258472fdc5eec6d7c1097", null ],
     [ "ksceAesDecrypt2", "group__SceUtilsKernel.html#gaefa001b717d2d03d845eb3875c68536b", null ],
     [ "ksceAesEncrypt1", "group__SceUtilsKernel.html#ga1875aac4d1426e7e3a1db5268510de26", null ],
-    [ "ksceAesEncrypt2", "group__SceUtilsKernel.html#ga36ccc6490b838eb5f932fdda76dff670", null ]
+    [ "ksceAesEncrypt2", "group__SceUtilsKernel.html#ga36ccc6490b838eb5f932fdda76dff670", null ],
+    [ "SceSha1Context::h", "group__SceUtilsKernel.html#ga01ffd04b1ecf4340ff5cb03454464f24", null ],
+    [ "SceSha1Context::usRemains", "group__SceUtilsKernel.html#ga4cf7ffe2c4185dfe9393a75079a67cec", null ],
+    [ "SceSha1Context::usComputed", "group__SceUtilsKernel.html#gaf720465236d4d2d211cf7ecb416c51bb", null ],
+    [ "SceSha1Context::ullTotalLen", "group__SceUtilsKernel.html#ga5cdeb1f9ed9a586f7396890e355c4773", null ],
+    [ "SceSha1Context::buf", "group__SceUtilsKernel.html#ga8891fa1462c7665e7c75405bf7ee374f", null ],
+    [ "SceSha1Context::result", "group__SceUtilsKernel.html#ga2293cad7551d44006ed09e60f80d96d8", null ],
+    [ "SceSha1Context::pad", "group__SceUtilsKernel.html#ga1c89ac74d209b265101d86301e1137af", null ],
+    [ "SceSha224Context::h", "group__SceUtilsKernel.html#ga245cb5a8956a1e6cb4a4fc4544c9754c", null ],
+    [ "SceSha224Context::pad", "group__SceUtilsKernel.html#ga944dea31836b063ff0079e8f52bb9fc2", null ],
+    [ "SceSha224Context::usRemains", "group__SceUtilsKernel.html#ga55a4ca99ed72ddfde64aa3e338e49418", null ],
+    [ "SceSha224Context::usComputed", "group__SceUtilsKernel.html#gaf0d21504b3944cdd86bb545bad3c96e6", null ],
+    [ "SceSha224Context::ullTotalLen", "group__SceUtilsKernel.html#ga85cad5d249c45173116c1575a4031461", null ],
+    [ "SceSha224Context::buf", "group__SceUtilsKernel.html#ga20ad9441fd8407c1d7e730722c52ad4f", null ],
+    [ "SceSha224Context::result", "group__SceUtilsKernel.html#gad5bdb77f603417b26c79b73b3753d24e", null ],
+    [ "SceSha224Context::pad2", "group__SceUtilsKernel.html#ga5af3a5b8f8a4cbfd744e7213924b2bac", null ],
+    [ "SceSha256Context::h", "group__SceUtilsKernel.html#gaaed57748413a1ac380bcf50c5da54e84", null ],
+    [ "SceSha256Context::pad", "group__SceUtilsKernel.html#gaa5d622e5ee621844affac1239cb63b52", null ],
+    [ "SceSha256Context::usRemains", "group__SceUtilsKernel.html#ga2268527d7efbaf84d4142ff6f2462615", null ],
+    [ "SceSha256Context::usComputed", "group__SceUtilsKernel.html#ga36cf7b3cc7f47c3b409cbe1b8b774579", null ],
+    [ "SceSha256Context::ullTotalLen", "group__SceUtilsKernel.html#gae54ea7615732a58fb2137d8f9dd8d082", null ],
+    [ "SceSha256Context::buf", "group__SceUtilsKernel.html#gaabda8c625f32c757db38d4fa38b95393", null ],
+    [ "SceSha256Context::result", "group__SceUtilsKernel.html#ga088b8b92eb453897a8b58cf2b37c068c", null ],
+    [ "SceDeflatePartialInputParam::size", "group__SceUtilsKernel.html#ga58a699ab1d006537dcb06640b43d4585", null ],
+    [ "SceDeflatePartialInputParam::pBufEnd", "group__SceUtilsKernel.html#gafe9394125f9b64385b3dd6e0ea57b66a", null ],
+    [ "SceDeflatePartialInputParam::cookie", "group__SceUtilsKernel.html#gadbc5028c20fd95e1ce3ce2d0717d3e79", null ],
+    [ "SceDeflatePartialInputParam::SceDeflateDecompressPartialInputCallback", "group__SceUtilsKernel.html#ga9e57f0adbea577cb2394241a4916fdba", null ],
+    [ "SceAesContext::data", "group__SceUtilsKernel.html#ga66520dc336788bf187a309d572affe56", null ]
 ];

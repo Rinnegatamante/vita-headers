@@ -1,5 +1,24 @@
 var group__SceIntrMgrKernel =
 [
+    [ "SceKernelIntrOptHandlers", "group__SceIntrMgrKernel.html#structSceKernelIntrOptHandlers", [
+      [ "size", "group__SceIntrMgrKernel.html#ga26e9a7a1370194cc507e082768b2d98a", null ],
+      [ "pre_register_subintr_cb", "group__SceIntrMgrKernel.html#ga472fce38a19666a2a395240aa8f371cb", null ],
+      [ "post_register_subintr_cb", "group__SceIntrMgrKernel.html#gaff41d9222b9c03376b3605979ad4d346", null ],
+      [ "release_subintr_cb", "group__SceIntrMgrKernel.html#ga4609ccadf5c93294f240ee14eaa2f767", null ],
+      [ "fptr0", "group__SceIntrMgrKernel.html#ga7320af9dbe0bcbe379cfaf950fef432e", null ],
+      [ "enable_subintr_cb", "group__SceIntrMgrKernel.html#gae706b88f5a9706a6142b0946e0c39735", null ],
+      [ "disable_subintr_cb", "group__SceIntrMgrKernel.html#gabba6431813714c4ee680f79f94426fd2", null ],
+      [ "fptr3", "group__SceIntrMgrKernel.html#ga8134f23650c1298d8c25f1a11c3131c1", null ],
+      [ "fptr4", "group__SceIntrMgrKernel.html#ga105dfe95ec9c8079832efc0d9fb269dc", null ],
+      [ "fptr5", "group__SceIntrMgrKernel.html#gac6dd95282701a6a7b4e5fb70a9e4812d", null ]
+    ] ],
+    [ "SceKernelIntrOptParam", "group__SceIntrMgrKernel.html#structSceKernelIntrOptParam", [
+      [ "size", "group__SceIntrMgrKernel.html#ga1c8c282753748e588d4cb9176c7f1a72", null ],
+      [ "num", "group__SceIntrMgrKernel.html#gadc6fde638d1c2eef7e334288b99197b3", null ],
+      [ "handlers", "group__SceIntrMgrKernel.html#gab1664298a6191eb3fa2328b2cbb253f9", null ],
+      [ "unk_C", "group__SceIntrMgrKernel.html#ga018a2789b592a9b8a521f2b1ede8daac", null ],
+      [ "unk_10", "group__SceIntrMgrKernel.html#gab0038f00f3a72fae53493048a507c9e5", null ]
+    ] ],
     [ "ksceKernelMaskIntr", "group__SceIntrMgrKernel.html#ga33f7c8b4b71c801c0851576b54ec1893", null ],
     [ "ksceKernelSetIntrMasked", "group__SceIntrMgrKernel.html#ga380885050e95a110e759fcd205fe4d49", null ],
     [ "ksceKernelUnmaskIntr", "group__SceIntrMgrKernel.html#ga88d1d177585245a55e879faf9a246202", null ],
@@ -29,5 +48,21 @@ var group__SceIntrMgrKernel =
     [ "ksceKernelReleaseSubIntrHandler", "group__SceIntrMgrKernel.html#ga9c64ba1137cb29b206b2600575f8e393", null ],
     [ "ksceKernelTriggerSubIntr", "group__SceIntrMgrKernel.html#ga8e5d582562933d4201126b6b87fa2723", null ],
     [ "ksceKernelEnableSubIntr", "group__SceIntrMgrKernel.html#gace0fad25a5f0df833ef837798a549fc7", null ],
-    [ "ksceKernelDisableSubIntr", "group__SceIntrMgrKernel.html#gaa63e24698a4059a1e1ef2c9de5892b56", null ]
+    [ "ksceKernelDisableSubIntr", "group__SceIntrMgrKernel.html#gaa63e24698a4059a1e1ef2c9de5892b56", null ],
+    [ "ksceKernelQueryIntrHandlerInfo", "group__SceIntrMgrKernel.html#ga52391ac61fccf0326d6e679531e146e8", null ],
+    [ "SceKernelIntrOptHandlers::size", "group__SceIntrMgrKernel.html#ga26e9a7a1370194cc507e082768b2d98a", null ],
+    [ "SceKernelIntrOptHandlers::pre_register_subintr_cb", "group__SceIntrMgrKernel.html#ga472fce38a19666a2a395240aa8f371cb", null ],
+    [ "SceKernelIntrOptHandlers::post_register_subintr_cb", "group__SceIntrMgrKernel.html#gaff41d9222b9c03376b3605979ad4d346", null ],
+    [ "SceKernelIntrOptHandlers::release_subintr_cb", "group__SceIntrMgrKernel.html#ga4609ccadf5c93294f240ee14eaa2f767", null ],
+    [ "SceKernelIntrOptHandlers::fptr0", "group__SceIntrMgrKernel.html#ga7320af9dbe0bcbe379cfaf950fef432e", null ],
+    [ "SceKernelIntrOptHandlers::enable_subintr_cb", "group__SceIntrMgrKernel.html#gae706b88f5a9706a6142b0946e0c39735", null ],
+    [ "SceKernelIntrOptHandlers::disable_subintr_cb", "group__SceIntrMgrKernel.html#gabba6431813714c4ee680f79f94426fd2", null ],
+    [ "SceKernelIntrOptHandlers::fptr3", "group__SceIntrMgrKernel.html#ga8134f23650c1298d8c25f1a11c3131c1", null ],
+    [ "SceKernelIntrOptHandlers::fptr4", "group__SceIntrMgrKernel.html#ga105dfe95ec9c8079832efc0d9fb269dc", null ],
+    [ "SceKernelIntrOptHandlers::fptr5", "group__SceIntrMgrKernel.html#gac6dd95282701a6a7b4e5fb70a9e4812d", null ],
+    [ "SceKernelIntrOptParam::size", "group__SceIntrMgrKernel.html#ga1c8c282753748e588d4cb9176c7f1a72", null ],
+    [ "SceKernelIntrOptParam::num", "group__SceIntrMgrKernel.html#gadc6fde638d1c2eef7e334288b99197b3", null ],
+    [ "SceKernelIntrOptParam::handlers", "group__SceIntrMgrKernel.html#gab1664298a6191eb3fa2328b2cbb253f9", null ],
+    [ "SceKernelIntrOptParam::unk_C", "group__SceIntrMgrKernel.html#ga018a2789b592a9b8a521f2b1ede8daac", null ],
+    [ "SceKernelIntrOptParam::unk_10", "group__SceIntrMgrKernel.html#gab0038f00f3a72fae53493048a507c9e5", null ]
 ];

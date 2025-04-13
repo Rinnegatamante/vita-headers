@@ -1,5 +1,8 @@
 var group__SceRtcUser =
 [
+    [ "SceRtcTick", "group__SceRtcUser.html#structSceRtcTick", [
+      [ "tick", "group__SceRtcUser.html#ga8c84486c98bc9827eaf755a46eda1a49", null ]
+    ] ],
     [ "sceRtcGetCurrentTickUtc", "group__SceRtcUser.html#ga48e9a50e1dccabd8d528a4caaa9177b2", null ],
     [ "sceRtcGetCurrentClockUtc", "group__SceRtcUser.html#ga8868beea47766afc100a791a3708b859", null ],
     [ "sceRtcGetCurrentNetworkTickUtc", "group__SceRtcUser.html#ga4d3b9ff8da911654bdabb200305552ef", null ],
@@ -111,5 +114,6 @@ var group__SceRtcUser =
     [ "sceRtcGetAccumulativeTime", "group__SceRtcUser.html#gabeaa931f5ca66305892a92d0f2f30d85", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#ga90f4a057b893fbedc9e8a3cfaf8ca2c5", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#ga742d8c48ffb156b565e94d9c2bce51de", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#gafe4ce575d3e4fa57607eb120b4185b3f", null ]
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceRtcUser.html#gafe4ce575d3e4fa57607eb120b4185b3f", null ],
+    [ "SceRtcTick::tick", "group__SceRtcUser.html#ga8c84486c98bc9827eaf755a46eda1a49", null ]
 ];

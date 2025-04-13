@@ -1,5 +1,47 @@
 var group__SceNetCheckDialogUser =
 [
+    [ "SceNpCommunicationId", "group__SceNetCheckDialogUser.html#structSceNpCommunicationId", [
+      [ "data", "group__SceNetCheckDialogUser.html#ga6e79ec7241d67cf947aa5e5397fd25a4", null ],
+      [ "term", "group__SceNetCheckDialogUser.html#gaa1c458b69c448f3847446d21e7c44178", null ],
+      [ "num", "group__SceNetCheckDialogUser.html#ga7abb19f78a0c78701c36475b5e4b5e12", null ],
+      [ "dummy", "group__SceNetCheckDialogUser.html#ga0975a109108e5735288b53c2ca30a303", null ]
+    ] ],
+    [ "SceNetCheckDialogPS3ConnectParam", "group__SceNetCheckDialogUser.html#structSceNetCheckDialogPS3ConnectParam", [
+      [ "action", "group__SceNetCheckDialogUser.html#gaf702cdd7933d56a1bcc808902f20d743", null ],
+      [ "ssid", "group__SceNetCheckDialogUser.html#gade2648148d97c16a5cb42ad4cf875b5c", null ],
+      [ "wpaKey", "group__SceNetCheckDialogUser.html#ga7ccc65e2b9146afb0ef11336807d3d19", null ],
+      [ "titleId", "group__SceNetCheckDialogUser.html#gada28d66145358856055a668c1232cb42", null ]
+    ] ],
+    [ "SceNetCheckDialogAgeRestriction", "group__SceNetCheckDialogUser.html#structSceNetCheckDialogAgeRestriction", [
+      [ "countryCode", "group__SceNetCheckDialogUser.html#ga22a4df861ccd1ba0bbb41b29969d9f46", null ],
+      [ "age", "group__SceNetCheckDialogUser.html#gaebf1c472a989cdf87a8f25c98316d361", null ],
+      [ "padding", "group__SceNetCheckDialogUser.html#ga407c741490471b4e67803162cc97428d", null ]
+    ] ],
+    [ "SceNetCheckDialogParam", "group__SceNetCheckDialogUser.html#structSceNetCheckDialogParam", [
+      [ "sdkVersion", "group__SceNetCheckDialogUser.html#gafa396b7bded8e38ba02b9f09ad149d2e", null ],
+      [ "commonParam", "group__SceNetCheckDialogUser.html#gaa4bd2e54e7802eda4e3ee3f30f755f0a", null ],
+      [ "mode", "group__SceNetCheckDialogUser.html#gace084d037cd099199425c48e268871f1", null ],
+      [ "npCommunicationId", "group__SceNetCheckDialogUser.html#gab2b22f25f44e34ade187bc1c70d0711e", null ],
+      [ "ps3ConnectParam", "group__SceNetCheckDialogUser.html#gaeb4cb43b5570d204967ef907d5db5a65", null ],
+      [ "groupName", "group__SceNetCheckDialogUser.html#gaf33fa0fca4c3166a7a0efc71804493cd", null ],
+      [ "timeoutUs", "group__SceNetCheckDialogUser.html#gaada09d24aae18b89767d0c6f2432a0b0", null ],
+      [ "defaultAgeRestriction", "group__SceNetCheckDialogUser.html#gac60ccc28597dd2dfe05329399807cf66", null ],
+      [ "padding", "group__SceNetCheckDialogUser.html#ga8bca284b34f273a45c3d2ba3fb010eed", null ],
+      [ "ageRestrictionCount", "group__SceNetCheckDialogUser.html#ga6f75a3ba6465978a523161836cf201bd", null ],
+      [ "ageRestriction", "group__SceNetCheckDialogUser.html#ga98f64da6ea6a1b6bbe788977278034c3", null ],
+      [ "reserved", "group__SceNetCheckDialogUser.html#ga9a634ac2e8c5aa032edf256b05790784", null ]
+    ] ],
+    [ "SceNetCheckDialogResult", "group__SceNetCheckDialogUser.html#structSceNetCheckDialogResult", [
+      [ "result", "group__SceNetCheckDialogUser.html#ga4be5755f416174ec38929ca24884b5bd", null ],
+      [ "psnModeSucceeded", "group__SceNetCheckDialogUser.html#ga43d2302fd2675d996363ef36ca7db106", null ],
+      [ "reserved", "group__SceNetCheckDialogUser.html#gafa99fdff29f19aaa74d182d304585e72", null ]
+    ] ],
+    [ "SceNetCheckDialogPS3ConnectInfo", "group__SceNetCheckDialogUser.html#structSceNetCheckDialogPS3ConnectInfo", [
+      [ "inaddr", "group__SceNetCheckDialogUser.html#ga512ce061bd658a000ca4c5a0e0747cd3", null ],
+      [ "nickname", "group__SceNetCheckDialogUser.html#gabe403798691063edea9b6edabca69970", null ],
+      [ "macAddress", "group__SceNetCheckDialogUser.html#ga46ab00c4ba1d5fcc6a903dbd60e8d95d", null ],
+      [ "reserved", "group__SceNetCheckDialogUser.html#gab3047bd9e916550a88f926e307b8bc19", null ]
+    ] ],
     [ "SCE_NETCHECK_DIALOG_LEAST_HTTP_POOL_SIZE", "group__SceNetCheckDialogUser.html#ga6682f58cb669360d4bb9f0d961970900", null ],
     [ "SCE_NETCHECK_DIALOG_LEAST_SSL_POOL_SIZE", "group__SceNetCheckDialogUser.html#gaa97036973859ad1bbb34314face11274", null ],
     [ "SCE_NETCHECK_DIALOG_INITIAL_AGE_RESTRICTION", "group__SceNetCheckDialogUser.html#ga498e682d17318d83b1d70804180310d9", null ],
@@ -60,5 +102,35 @@ var group__SceNetCheckDialogUser =
     [ "sceNetCheckDialogAbort", "group__SceNetCheckDialogUser.html#ga99ecf6cb71ed4d4221f2e4806a383a5b", null ],
     [ "sceNetCheckDialogGetResult", "group__SceNetCheckDialogUser.html#ga1b6412732b3c77ac04a72c996ef3a8c6", null ],
     [ "sceNetCheckDialogGetPS3ConnectInfo", "group__SceNetCheckDialogUser.html#ga4642a1b23eda5fd0eadfc5dd7a3df147", null ],
-    [ "sceNetCheckDialogTerm", "group__SceNetCheckDialogUser.html#ga3d9f85052e3e743dec17f1999c7a7ed4", null ]
+    [ "sceNetCheckDialogTerm", "group__SceNetCheckDialogUser.html#ga3d9f85052e3e743dec17f1999c7a7ed4", null ],
+    [ "SceNpCommunicationId::data", "group__SceNetCheckDialogUser.html#ga6e79ec7241d67cf947aa5e5397fd25a4", null ],
+    [ "SceNpCommunicationId::term", "group__SceNetCheckDialogUser.html#gaa1c458b69c448f3847446d21e7c44178", null ],
+    [ "SceNpCommunicationId::num", "group__SceNetCheckDialogUser.html#ga7abb19f78a0c78701c36475b5e4b5e12", null ],
+    [ "SceNpCommunicationId::dummy", "group__SceNetCheckDialogUser.html#ga0975a109108e5735288b53c2ca30a303", null ],
+    [ "SceNetCheckDialogPS3ConnectParam::action", "group__SceNetCheckDialogUser.html#gaf702cdd7933d56a1bcc808902f20d743", null ],
+    [ "SceNetCheckDialogPS3ConnectParam::ssid", "group__SceNetCheckDialogUser.html#gade2648148d97c16a5cb42ad4cf875b5c", null ],
+    [ "SceNetCheckDialogPS3ConnectParam::wpaKey", "group__SceNetCheckDialogUser.html#ga7ccc65e2b9146afb0ef11336807d3d19", null ],
+    [ "SceNetCheckDialogPS3ConnectParam::titleId", "group__SceNetCheckDialogUser.html#gada28d66145358856055a668c1232cb42", null ],
+    [ "SceNetCheckDialogAgeRestriction::countryCode", "group__SceNetCheckDialogUser.html#ga22a4df861ccd1ba0bbb41b29969d9f46", null ],
+    [ "SceNetCheckDialogAgeRestriction::age", "group__SceNetCheckDialogUser.html#gaebf1c472a989cdf87a8f25c98316d361", null ],
+    [ "SceNetCheckDialogAgeRestriction::padding", "group__SceNetCheckDialogUser.html#ga407c741490471b4e67803162cc97428d", null ],
+    [ "SceNetCheckDialogParam::sdkVersion", "group__SceNetCheckDialogUser.html#gafa396b7bded8e38ba02b9f09ad149d2e", null ],
+    [ "SceNetCheckDialogParam::commonParam", "group__SceNetCheckDialogUser.html#gaa4bd2e54e7802eda4e3ee3f30f755f0a", null ],
+    [ "SceNetCheckDialogParam::mode", "group__SceNetCheckDialogUser.html#gace084d037cd099199425c48e268871f1", null ],
+    [ "SceNetCheckDialogParam::npCommunicationId", "group__SceNetCheckDialogUser.html#gab2b22f25f44e34ade187bc1c70d0711e", null ],
+    [ "SceNetCheckDialogParam::ps3ConnectParam", "group__SceNetCheckDialogUser.html#gaeb4cb43b5570d204967ef907d5db5a65", null ],
+    [ "SceNetCheckDialogParam::groupName", "group__SceNetCheckDialogUser.html#gaf33fa0fca4c3166a7a0efc71804493cd", null ],
+    [ "SceNetCheckDialogParam::timeoutUs", "group__SceNetCheckDialogUser.html#gaada09d24aae18b89767d0c6f2432a0b0", null ],
+    [ "SceNetCheckDialogParam::defaultAgeRestriction", "group__SceNetCheckDialogUser.html#gac60ccc28597dd2dfe05329399807cf66", null ],
+    [ "SceNetCheckDialogParam::padding", "group__SceNetCheckDialogUser.html#ga8bca284b34f273a45c3d2ba3fb010eed", null ],
+    [ "SceNetCheckDialogParam::ageRestrictionCount", "group__SceNetCheckDialogUser.html#ga6f75a3ba6465978a523161836cf201bd", null ],
+    [ "SceNetCheckDialogParam::ageRestriction", "group__SceNetCheckDialogUser.html#ga98f64da6ea6a1b6bbe788977278034c3", null ],
+    [ "SceNetCheckDialogParam::reserved", "group__SceNetCheckDialogUser.html#ga9a634ac2e8c5aa032edf256b05790784", null ],
+    [ "SceNetCheckDialogResult::result", "group__SceNetCheckDialogUser.html#ga4be5755f416174ec38929ca24884b5bd", null ],
+    [ "SceNetCheckDialogResult::psnModeSucceeded", "group__SceNetCheckDialogUser.html#ga43d2302fd2675d996363ef36ca7db106", null ],
+    [ "SceNetCheckDialogResult::reserved", "group__SceNetCheckDialogUser.html#gafa99fdff29f19aaa74d182d304585e72", null ],
+    [ "SceNetCheckDialogPS3ConnectInfo::inaddr", "group__SceNetCheckDialogUser.html#ga512ce061bd658a000ca4c5a0e0747cd3", null ],
+    [ "SceNetCheckDialogPS3ConnectInfo::nickname", "group__SceNetCheckDialogUser.html#gabe403798691063edea9b6edabca69970", null ],
+    [ "SceNetCheckDialogPS3ConnectInfo::macAddress", "group__SceNetCheckDialogUser.html#ga46ab00c4ba1d5fcc6a903dbd60e8d95d", null ],
+    [ "SceNetCheckDialogPS3ConnectInfo::reserved", "group__SceNetCheckDialogUser.html#gab3047bd9e916550a88f926e307b8bc19", null ]
 ];

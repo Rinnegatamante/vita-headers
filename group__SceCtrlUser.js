@@ -1,5 +1,43 @@
 var group__SceCtrlUser =
 [
+    [ "SceCtrlData", "group__SceCtrlUser.html#structSceCtrlData", [
+      [ "timeStamp", "group__SceCtrlUser.html#ga985099b0cd12cdf65aa37e380b0cdbd9", null ],
+      [ "buttons", "group__SceCtrlUser.html#gaee215dcbe955d16c11478cd0f97ab92e", null ],
+      [ "lx", "group__SceCtrlUser.html#ga011de3553dbdbbdf1e5715a8c3cc1e52", null ],
+      [ "ly", "group__SceCtrlUser.html#ga2215a093b05324b55888ecd40a7f00ee", null ],
+      [ "rx", "group__SceCtrlUser.html#ga5323c52f9aecefbffe336b13dcc95bf0", null ],
+      [ "ry", "group__SceCtrlUser.html#ga78916a922b10ff5cb943ad2034980117", null ],
+      [ "up", "group__SceCtrlUser.html#ga0f9bde4602e6ae975f7e72b6ad5d896d", null ],
+      [ "right", "group__SceCtrlUser.html#gae5e8f3001d8f93def020d571ea476a58", null ],
+      [ "down", "group__SceCtrlUser.html#gaff84135d79802e61e8fd92e25f89fe0f", null ],
+      [ "left", "group__SceCtrlUser.html#gafffbd3365dbaba563d26c9f72a22c312", null ],
+      [ "lt", "group__SceCtrlUser.html#gab0bbb08c0a86162e10d0dc2d8f078522", null ],
+      [ "rt", "group__SceCtrlUser.html#gaccdfcdd7ec52cdd760db30fe626f8c3e", null ],
+      [ "l1", "group__SceCtrlUser.html#ga1b45d46c5580bd63ff0cd3e7bf06b8fb", null ],
+      [ "r1", "group__SceCtrlUser.html#gafdf5f20eb0c45386ec3d522b17efe9cc", null ],
+      [ "triangle", "group__SceCtrlUser.html#ga93663810bd69fc6c6ad6ec16a400b590", null ],
+      [ "circle", "group__SceCtrlUser.html#ga206bfaeccfea6d81a4721871e911d82c", null ],
+      [ "cross", "group__SceCtrlUser.html#gabed879db0a7c37fd85494dd96e245fc1", null ],
+      [ "square", "group__SceCtrlUser.html#ga98572aac5eb2b1eabd181ce57b6e3b27", null ],
+      [ "reserved", "group__SceCtrlUser.html#ga293f561a121fbb4ae145a986cee01904", null ]
+    ] ],
+    [ "SceCtrlRapidFireRule", "group__SceCtrlUser.html#structSceCtrlRapidFireRule", [
+      [ "Mask", "group__SceCtrlUser.html#ga6d43d71eeea4d81bd549aa2e12376bff", null ],
+      [ "Trigger", "group__SceCtrlUser.html#gaeeed2df135df1b9363fab86bb2a8ee8d", null ],
+      [ "Target", "group__SceCtrlUser.html#ga2dab2687993a527fc6b2276cfa871f3c", null ],
+      [ "Delay", "group__SceCtrlUser.html#ga7302b7d8f90851920617ecb3e298ea5d", null ],
+      [ "Make", "group__SceCtrlUser.html#gad3ed000978131ddca8b901274fba39ed", null ],
+      [ "Break", "group__SceCtrlUser.html#ga5845b7ba5271b6087fb31e8e94f9f0dd", null ]
+    ] ],
+    [ "SceCtrlActuator", "group__SceCtrlUser.html#structSceCtrlActuator", [
+      [ "small", "group__SceCtrlUser.html#ga17d9c43eeb34db65d5d5c592035605f3", null ],
+      [ "large", "group__SceCtrlUser.html#ga429fd45f1ede24d9cc2709fb45f9035e", null ],
+      [ "unk", "group__SceCtrlUser.html#gadb45671391d9bef81c56d54e97d6bfc7", null ]
+    ] ],
+    [ "SceCtrlPortInfo", "group__SceCtrlUser.html#structSceCtrlPortInfo", [
+      [ "port", "group__SceCtrlUser.html#gab76856cb710404ffdab71c2082a6b3c4", null ],
+      [ "unk", "group__SceCtrlUser.html#gad452c90769f307408f868524a99cb5c8", null ]
+    ] ],
     [ "SceCtrlErrorCode", "group__SceCtrlUser.html#ga594215e0488ae1f7a54c38eebec18adb", [
       [ "SCE_CTRL_ERROR_INVALID_ARG", "group__SceCtrlUser.html#gga594215e0488ae1f7a54c38eebec18adba9c7f7832117e5049f2e46fc6fc6e593b", null ],
       [ "SCE_CTRL_ERROR_PRIV_REQUIRED", "group__SceCtrlUser.html#gga594215e0488ae1f7a54c38eebec18adbaec312d9456dbdf71b353fea0af81c002", null ],
@@ -111,5 +149,35 @@ var group__SceCtrlUser =
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCtrlUser.html#gafbbbc769d785a186bb11f6732e6bf691", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCtrlUser.html#gab1150eaaef6a4f20524c14c14ba20cd0", null ],
     [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCtrlUser.html#ga972e4bd75b7f1fe5f6685ee1eac5a6ca", null ],
-    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCtrlUser.html#gae31bb1286f27071d13a4a8441ac099f4", null ]
+    [ "VITASDK_BUILD_ASSERT_EQ", "group__SceCtrlUser.html#gae31bb1286f27071d13a4a8441ac099f4", null ],
+    [ "SceCtrlData::timeStamp", "group__SceCtrlUser.html#ga985099b0cd12cdf65aa37e380b0cdbd9", null ],
+    [ "SceCtrlData::buttons", "group__SceCtrlUser.html#gaee215dcbe955d16c11478cd0f97ab92e", null ],
+    [ "SceCtrlData::lx", "group__SceCtrlUser.html#ga011de3553dbdbbdf1e5715a8c3cc1e52", null ],
+    [ "SceCtrlData::ly", "group__SceCtrlUser.html#ga2215a093b05324b55888ecd40a7f00ee", null ],
+    [ "SceCtrlData::rx", "group__SceCtrlUser.html#ga5323c52f9aecefbffe336b13dcc95bf0", null ],
+    [ "SceCtrlData::ry", "group__SceCtrlUser.html#ga78916a922b10ff5cb943ad2034980117", null ],
+    [ "SceCtrlData::up", "group__SceCtrlUser.html#ga0f9bde4602e6ae975f7e72b6ad5d896d", null ],
+    [ "SceCtrlData::right", "group__SceCtrlUser.html#gae5e8f3001d8f93def020d571ea476a58", null ],
+    [ "SceCtrlData::down", "group__SceCtrlUser.html#gaff84135d79802e61e8fd92e25f89fe0f", null ],
+    [ "SceCtrlData::left", "group__SceCtrlUser.html#gafffbd3365dbaba563d26c9f72a22c312", null ],
+    [ "SceCtrlData::lt", "group__SceCtrlUser.html#gab0bbb08c0a86162e10d0dc2d8f078522", null ],
+    [ "SceCtrlData::rt", "group__SceCtrlUser.html#gaccdfcdd7ec52cdd760db30fe626f8c3e", null ],
+    [ "SceCtrlData::l1", "group__SceCtrlUser.html#ga1b45d46c5580bd63ff0cd3e7bf06b8fb", null ],
+    [ "SceCtrlData::r1", "group__SceCtrlUser.html#gafdf5f20eb0c45386ec3d522b17efe9cc", null ],
+    [ "SceCtrlData::triangle", "group__SceCtrlUser.html#ga93663810bd69fc6c6ad6ec16a400b590", null ],
+    [ "SceCtrlData::circle", "group__SceCtrlUser.html#ga206bfaeccfea6d81a4721871e911d82c", null ],
+    [ "SceCtrlData::cross", "group__SceCtrlUser.html#gabed879db0a7c37fd85494dd96e245fc1", null ],
+    [ "SceCtrlData::square", "group__SceCtrlUser.html#ga98572aac5eb2b1eabd181ce57b6e3b27", null ],
+    [ "SceCtrlData::reserved", "group__SceCtrlUser.html#ga293f561a121fbb4ae145a986cee01904", null ],
+    [ "SceCtrlRapidFireRule::Mask", "group__SceCtrlUser.html#ga6d43d71eeea4d81bd549aa2e12376bff", null ],
+    [ "SceCtrlRapidFireRule::Trigger", "group__SceCtrlUser.html#gaeeed2df135df1b9363fab86bb2a8ee8d", null ],
+    [ "SceCtrlRapidFireRule::Target", "group__SceCtrlUser.html#ga2dab2687993a527fc6b2276cfa871f3c", null ],
+    [ "SceCtrlRapidFireRule::Delay", "group__SceCtrlUser.html#ga7302b7d8f90851920617ecb3e298ea5d", null ],
+    [ "SceCtrlRapidFireRule::Make", "group__SceCtrlUser.html#gad3ed000978131ddca8b901274fba39ed", null ],
+    [ "SceCtrlRapidFireRule::Break", "group__SceCtrlUser.html#ga5845b7ba5271b6087fb31e8e94f9f0dd", null ],
+    [ "SceCtrlActuator::small", "group__SceCtrlUser.html#ga17d9c43eeb34db65d5d5c592035605f3", null ],
+    [ "SceCtrlActuator::large", "group__SceCtrlUser.html#ga429fd45f1ede24d9cc2709fb45f9035e", null ],
+    [ "SceCtrlActuator::unk", "group__SceCtrlUser.html#gadb45671391d9bef81c56d54e97d6bfc7", null ],
+    [ "SceCtrlPortInfo::port", "group__SceCtrlUser.html#gab76856cb710404ffdab71c2082a6b3c4", null ],
+    [ "SceCtrlPortInfo::unk", "group__SceCtrlUser.html#gad452c90769f307408f868524a99cb5c8", null ]
 ];

@@ -1,5 +1,52 @@
 var group__SceMessageDialogUser =
 [
+    [ "SceMsgDialogButtonsParam", "group__SceMessageDialogUser.html#structSceMsgDialogButtonsParam", [
+      [ "msg1", "group__SceMessageDialogUser.html#ga985ddcf6e0385c55b55cb963e2b7207c", null ],
+      [ "fontSize1", "group__SceMessageDialogUser.html#gae168c5b6c15a146ec19879b8c62e1a95", null ],
+      [ "msg2", "group__SceMessageDialogUser.html#ga48f4e364ec755d20476551d17a8033be", null ],
+      [ "fontSize2", "group__SceMessageDialogUser.html#ga347503f7144c9ad2634322a49f643d3d", null ],
+      [ "msg3", "group__SceMessageDialogUser.html#gaca07b2d03172bb64fbfef6e63dcc110d", null ],
+      [ "fontSize3", "group__SceMessageDialogUser.html#ga3b9dc9ac1c541969546e1e0b0f8b5ad8", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#ga370ba137c2a8f2f965b52b6056e1f2bf", null ]
+    ] ],
+    [ "SceMsgDialogUserMessageParam", "group__SceMessageDialogUser.html#structSceMsgDialogUserMessageParam", [
+      [ "buttonType", "group__SceMessageDialogUser.html#ga355727681abf3f786f8ad35c82d08353", null ],
+      [ "msg", "group__SceMessageDialogUser.html#gae472754423a8b707fbd4854208684626", null ],
+      [ "buttonParam", "group__SceMessageDialogUser.html#gac707f3f484bff0f4e0c2a35e6545772f", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#ga673019f220b8abad4f6df03df6e21146", null ]
+    ] ],
+    [ "SceMsgDialogSystemMessageParam", "group__SceMessageDialogUser.html#structSceMsgDialogSystemMessageParam", [
+      [ "sysMsgType", "group__SceMessageDialogUser.html#gae4a01ae40842440933682998ad6a4c4b", null ],
+      [ "value", "group__SceMessageDialogUser.html#gadf361aebb694402f18780b01a45fa191", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#gaa1d3052d207a4bea4ab93aad13046f81", null ]
+    ] ],
+    [ "SceMsgDialogErrorCodeParam", "group__SceMessageDialogUser.html#structSceMsgDialogErrorCodeParam", [
+      [ "errorCode", "group__SceMessageDialogUser.html#ga837f3b691740ff458efaa49543ff1391", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#gaedc85330c71e3d1b475e0bbe8e6e2d72", null ]
+    ] ],
+    [ "SceMsgDialogProgressBarParam", "group__SceMessageDialogUser.html#structSceMsgDialogProgressBarParam", [
+      [ "barType", "group__SceMessageDialogUser.html#gac4a13c10b9ecf6a558632a59276fd703", null ],
+      [ "sysMsgParam", "group__SceMessageDialogUser.html#ga2773e650c3b3a470e86423dca252fb10", null ],
+      [ "msg", "group__SceMessageDialogUser.html#ga8b017da880c14e9a58ff3cbb0fc541a9", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#ga7cd953bf6f8ebc0bf37ff572de702060", null ]
+    ] ],
+    [ "SceMsgDialogParam", "group__SceMessageDialogUser.html#structSceMsgDialogParam", [
+      [ "sdkVersion", "group__SceMessageDialogUser.html#ga830272687720291c409360288a5db670", null ],
+      [ "commonParam", "group__SceMessageDialogUser.html#ga92524e53b44e59aafafc9afa1c755f41", null ],
+      [ "mode", "group__SceMessageDialogUser.html#ga0aca3af3b0ccf8f160762dff4760ad38", null ],
+      [ "userMsgParam", "group__SceMessageDialogUser.html#gacec3853d564aa3bf9d50863c8c413b58", null ],
+      [ "sysMsgParam", "group__SceMessageDialogUser.html#gac38e26368ccecba2140d849521441850", null ],
+      [ "errorCodeParam", "group__SceMessageDialogUser.html#gaae1bfe4b3a3cbec5d8c7e6aef1cc1a0c", null ],
+      [ "progBarParam", "group__SceMessageDialogUser.html#gaaebe622651f725bfdab05b062e942b3e", null ],
+      [ "flag", "group__SceMessageDialogUser.html#ga3118109b9b39ad5a87f28eb6dd61fe2b", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#ga6fb6076c8f8753d4478a783ba4012daa", null ]
+    ] ],
+    [ "SceMsgDialogResult", "group__SceMessageDialogUser.html#structSceMsgDialogResult", [
+      [ "mode", "group__SceMessageDialogUser.html#ga4afa2b633f0eba49319220ec3c705ad2", null ],
+      [ "result", "group__SceMessageDialogUser.html#ga465eead5f05903c9f210b3f8db346eee", null ],
+      [ "buttonId", "group__SceMessageDialogUser.html#ga8736d6c92ca68177fba343ce51d65726", null ],
+      [ "reserved", "group__SceMessageDialogUser.html#ga383162cd44f562cf469c40aa5e141801", null ]
+    ] ],
     [ "SCE_MSG_DIALOG_USER_MSG_SIZE", "group__SceMessageDialogUser.html#gaccbe96d1159d666e39a72bc036cda5ea", null ],
     [ "SceMsgDialogErrorCode", "group__SceMessageDialogUser.html#ga4e98cd87a9a8ee1842a0bf760ab1ce84", [
       [ "SCE_MSG_DIALOG_ERROR_PARAM", "group__SceMessageDialogUser.html#gga4e98cd87a9a8ee1842a0bf760ab1ce84a88da922f1bdb66c7237800d6dfc21049", null ]
@@ -108,5 +155,38 @@ var group__SceMessageDialogUser =
     [ "sceMsgDialogClose", "group__SceMessageDialogUser.html#gadf14d822fa8fa59a95dd12bbead434d5", null ],
     [ "sceMsgDialogProgressBarInc", "group__SceMessageDialogUser.html#gac6d92c1239c9d88c716d0e20fa2273f0", null ],
     [ "sceMsgDialogProgressBarSetValue", "group__SceMessageDialogUser.html#ga8abdbe85adc0ceacd99ad6c1961a7f65", null ],
-    [ "sceMsgDialogProgressBarSetMsg", "group__SceMessageDialogUser.html#gad8d55afceb7185ed6bc55ddfea3f3d54", null ]
+    [ "sceMsgDialogProgressBarSetMsg", "group__SceMessageDialogUser.html#gad8d55afceb7185ed6bc55ddfea3f3d54", null ],
+    [ "SceMsgDialogButtonsParam::msg1", "group__SceMessageDialogUser.html#ga985ddcf6e0385c55b55cb963e2b7207c", null ],
+    [ "SceMsgDialogButtonsParam::fontSize1", "group__SceMessageDialogUser.html#gae168c5b6c15a146ec19879b8c62e1a95", null ],
+    [ "SceMsgDialogButtonsParam::msg2", "group__SceMessageDialogUser.html#ga48f4e364ec755d20476551d17a8033be", null ],
+    [ "SceMsgDialogButtonsParam::fontSize2", "group__SceMessageDialogUser.html#ga347503f7144c9ad2634322a49f643d3d", null ],
+    [ "SceMsgDialogButtonsParam::msg3", "group__SceMessageDialogUser.html#gaca07b2d03172bb64fbfef6e63dcc110d", null ],
+    [ "SceMsgDialogButtonsParam::fontSize3", "group__SceMessageDialogUser.html#ga3b9dc9ac1c541969546e1e0b0f8b5ad8", null ],
+    [ "SceMsgDialogButtonsParam::reserved", "group__SceMessageDialogUser.html#ga370ba137c2a8f2f965b52b6056e1f2bf", null ],
+    [ "SceMsgDialogUserMessageParam::buttonType", "group__SceMessageDialogUser.html#ga355727681abf3f786f8ad35c82d08353", null ],
+    [ "SceMsgDialogUserMessageParam::msg", "group__SceMessageDialogUser.html#gae472754423a8b707fbd4854208684626", null ],
+    [ "SceMsgDialogUserMessageParam::buttonParam", "group__SceMessageDialogUser.html#gac707f3f484bff0f4e0c2a35e6545772f", null ],
+    [ "SceMsgDialogUserMessageParam::reserved", "group__SceMessageDialogUser.html#ga673019f220b8abad4f6df03df6e21146", null ],
+    [ "SceMsgDialogSystemMessageParam::sysMsgType", "group__SceMessageDialogUser.html#gae4a01ae40842440933682998ad6a4c4b", null ],
+    [ "SceMsgDialogSystemMessageParam::value", "group__SceMessageDialogUser.html#gadf361aebb694402f18780b01a45fa191", null ],
+    [ "SceMsgDialogSystemMessageParam::reserved", "group__SceMessageDialogUser.html#gaa1d3052d207a4bea4ab93aad13046f81", null ],
+    [ "SceMsgDialogErrorCodeParam::errorCode", "group__SceMessageDialogUser.html#ga837f3b691740ff458efaa49543ff1391", null ],
+    [ "SceMsgDialogErrorCodeParam::reserved", "group__SceMessageDialogUser.html#gaedc85330c71e3d1b475e0bbe8e6e2d72", null ],
+    [ "SceMsgDialogProgressBarParam::barType", "group__SceMessageDialogUser.html#gac4a13c10b9ecf6a558632a59276fd703", null ],
+    [ "SceMsgDialogProgressBarParam::sysMsgParam", "group__SceMessageDialogUser.html#ga2773e650c3b3a470e86423dca252fb10", null ],
+    [ "SceMsgDialogProgressBarParam::msg", "group__SceMessageDialogUser.html#ga8b017da880c14e9a58ff3cbb0fc541a9", null ],
+    [ "SceMsgDialogProgressBarParam::reserved", "group__SceMessageDialogUser.html#ga7cd953bf6f8ebc0bf37ff572de702060", null ],
+    [ "SceMsgDialogParam::sdkVersion", "group__SceMessageDialogUser.html#ga830272687720291c409360288a5db670", null ],
+    [ "SceMsgDialogParam::commonParam", "group__SceMessageDialogUser.html#ga92524e53b44e59aafafc9afa1c755f41", null ],
+    [ "SceMsgDialogParam::mode", "group__SceMessageDialogUser.html#ga0aca3af3b0ccf8f160762dff4760ad38", null ],
+    [ "SceMsgDialogParam::userMsgParam", "group__SceMessageDialogUser.html#gacec3853d564aa3bf9d50863c8c413b58", null ],
+    [ "SceMsgDialogParam::sysMsgParam", "group__SceMessageDialogUser.html#gac38e26368ccecba2140d849521441850", null ],
+    [ "SceMsgDialogParam::errorCodeParam", "group__SceMessageDialogUser.html#gaae1bfe4b3a3cbec5d8c7e6aef1cc1a0c", null ],
+    [ "SceMsgDialogParam::progBarParam", "group__SceMessageDialogUser.html#gaaebe622651f725bfdab05b062e942b3e", null ],
+    [ "SceMsgDialogParam::flag", "group__SceMessageDialogUser.html#ga3118109b9b39ad5a87f28eb6dd61fe2b", null ],
+    [ "SceMsgDialogParam::reserved", "group__SceMessageDialogUser.html#ga6fb6076c8f8753d4478a783ba4012daa", null ],
+    [ "SceMsgDialogResult::mode", "group__SceMessageDialogUser.html#ga4afa2b633f0eba49319220ec3c705ad2", null ],
+    [ "SceMsgDialogResult::result", "group__SceMessageDialogUser.html#ga465eead5f05903c9f210b3f8db346eee", null ],
+    [ "SceMsgDialogResult::buttonId", "group__SceMessageDialogUser.html#ga8736d6c92ca68177fba343ce51d65726", null ],
+    [ "SceMsgDialogResult::reserved", "group__SceMessageDialogUser.html#ga383162cd44f562cf469c40aa5e141801", null ]
 ];

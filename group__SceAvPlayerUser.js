@@ -1,9 +1,82 @@
 var group__SceAvPlayerUser =
 [
+    [ "SceAvPlayerMemReplacement", "group__SceAvPlayerUser.html#structSceAvPlayerMemReplacement", [
+      [ "objectPointer", "group__SceAvPlayerUser.html#ga1948dcd2b85dd5e1697651edde6edaec", null ],
+      [ "allocate", "group__SceAvPlayerUser.html#ga0e887bd823f3b67adbabe0a9c95e3b3f", null ],
+      [ "deallocate", "group__SceAvPlayerUser.html#ga3119d01a9c14e7cd1a99d659ec1ef68e", null ],
+      [ "allocateTexture", "group__SceAvPlayerUser.html#ga181536cc7b2d098e1ef43b8be383a304", null ],
+      [ "deallocateTexture", "group__SceAvPlayerUser.html#ga544c56d4d074554d4efc69ab815172c0", null ]
+    ] ],
+    [ "SceAvPlayerFileReplacement", "group__SceAvPlayerUser.html#structSceAvPlayerFileReplacement", [
+      [ "objectPointer", "group__SceAvPlayerUser.html#ga7aa39d09e2523476eef1eef303816aa1", null ],
+      [ "open", "group__SceAvPlayerUser.html#ga0a3788edccd3c8cefa99cf82980610c7", null ],
+      [ "close", "group__SceAvPlayerUser.html#ga703b28ccf99a0916104ad1f2f3d04dd7", null ],
+      [ "readOffset", "group__SceAvPlayerUser.html#ga748a2e0976fd25f4c6c323163fc8bfa1", null ],
+      [ "size", "group__SceAvPlayerUser.html#ga191964a6c0357ad6a3707f6fea319062", null ]
+    ] ],
+    [ "SceAvPlayerEventReplacement", "group__SceAvPlayerUser.html#structSceAvPlayerEventReplacement", [
+      [ "objectPointer", "group__SceAvPlayerUser.html#ga048a9a54fe4dd360abff46bf59b6a57f", null ],
+      [ "eventCallback", "group__SceAvPlayerUser.html#gaa4e67837d20fa1d4031a1caa4daf950b", null ]
+    ] ],
+    [ "SceAvPlayerInitData", "group__SceAvPlayerUser.html#structSceAvPlayerInitData", [
+      [ "memoryReplacement", "group__SceAvPlayerUser.html#ga76db847f6e803f55a16e1621fe9efde1", null ],
+      [ "fileReplacement", "group__SceAvPlayerUser.html#gadd2901b5cbb6fb405c901b9c55f8da70", null ],
+      [ "eventReplacement", "group__SceAvPlayerUser.html#gae8e90c74746d4f84bc39d9ee78daafea", null ],
+      [ "debugLevel", "group__SceAvPlayerUser.html#ga3a0aaab065bcf1c56175be3183c24c4b", null ],
+      [ "basePriority", "group__SceAvPlayerUser.html#ga9e562d43b3090f4f485bc813bb311956", null ],
+      [ "numOutputVideoFrameBuffers", "group__SceAvPlayerUser.html#ga92e7794d4a2bfb54d950ebc30c1e80d1", null ],
+      [ "autoStart", "group__SceAvPlayerUser.html#ga48578eae8c965f001005e093729c23b5", null ],
+      [ "reserved", "group__SceAvPlayerUser.html#ga015ec12a769c9fb7890d78f7c381b1f6", null ],
+      [ "defaultLanguage", "group__SceAvPlayerUser.html#ga02d2eff4e30f42fe7007df5db8b533b7", null ]
+    ] ],
+    [ "SceAvPlayerAudio", "group__SceAvPlayerUser.html#structSceAvPlayerAudio", [
+      [ "channelCount", "group__SceAvPlayerUser.html#ga653f07a366b1ca931df8d1dc3af1d5b9", null ],
+      [ "reserved", "group__SceAvPlayerUser.html#ga136d20fd6810d130c54d2cbceb66bf14", null ],
+      [ "sampleRate", "group__SceAvPlayerUser.html#ga6e8ac14564e7e9f627117a881adc1159", null ],
+      [ "size", "group__SceAvPlayerUser.html#ga3350f574e3688e0e8bd710462a9dee74", null ],
+      [ "languageCode", "group__SceAvPlayerUser.html#ga87bde6bbe60c02e30c73481859bd2dfc", null ]
+    ] ],
+    [ "SceAvPlayerVideo", "group__SceAvPlayerUser.html#structSceAvPlayerVideo", [
+      [ "width", "group__SceAvPlayerUser.html#gafd80e5cdfce9c4d3d61c93093341f286", null ],
+      [ "height", "group__SceAvPlayerUser.html#ga97e710a321ebc8797f08c3a93ba5e97d", null ],
+      [ "aspectRatio", "group__SceAvPlayerUser.html#ga6ef9d5d1cf579ba413115744b4b56369", null ],
+      [ "languageCode", "group__SceAvPlayerUser.html#gae91944e319bbd13a2a6a386818813ede", null ]
+    ] ],
+    [ "SceAvPlayerTextPosition", "group__SceAvPlayerUser.html#structSceAvPlayerTextPosition", [
+      [ "top", "group__SceAvPlayerUser.html#ga957f15c01e756a91dba75511641a6ccd", null ],
+      [ "left", "group__SceAvPlayerUser.html#ga0c11972ed59d5fac308ba6dc21890c54", null ],
+      [ "bottom", "group__SceAvPlayerUser.html#gad3bfcaee2fcbbafc8734a6bcaf77e632", null ],
+      [ "right", "group__SceAvPlayerUser.html#gafd722020b4d8bdc4c48dff6c6f7713db", null ]
+    ] ],
+    [ "SceAvPlayerTimedText", "group__SceAvPlayerUser.html#structSceAvPlayerTimedText", [
+      [ "languageCode", "group__SceAvPlayerUser.html#ga4985a61e40e5b7cf3560a89db9fa9a5e", null ],
+      [ "textSize", "group__SceAvPlayerUser.html#ga2b8d189cd119d0d0d85cb7b1a104e80c", null ],
+      [ "fontSize", "group__SceAvPlayerUser.html#gac712a1b99af088421aa85b24410a44ff", null ],
+      [ "position", "group__SceAvPlayerUser.html#ga4f7a3a1378f2eba685b6e29bef6a9c32", null ]
+    ] ],
+    [ "SceAvPlayerStreamDetails", "group__SceAvPlayerUser.html#unionSceAvPlayerStreamDetails", [
+      [ "reserved", "group__SceAvPlayerUser.html#ga0a51f9abeb791e0872612a21a0a7c73f", null ],
+      [ "audio", "group__SceAvPlayerUser.html#gaba849e0b3475ca73ff4b6699a70970cb", null ],
+      [ "video", "group__SceAvPlayerUser.html#ga8fd358e24b9fa05a0c04d6b4082f2ffc", null ],
+      [ "subs", "group__SceAvPlayerUser.html#ga025eb718c1e6bb6322531f4a6e75ba95", null ]
+    ] ],
+    [ "SceAvPlayerFrameInfo", "group__SceAvPlayerUser.html#structSceAvPlayerFrameInfo", [
+      [ "pData", "group__SceAvPlayerUser.html#ga337e80ef041773697eda9242190cbc80", null ],
+      [ "reserved", "group__SceAvPlayerUser.html#gafdefdf3a9f4d7ada40dc3bbd9741e811", null ],
+      [ "timeStamp", "group__SceAvPlayerUser.html#ga4bc4c3f1369b323507fbcc51b2eacceb", null ],
+      [ "details", "group__SceAvPlayerUser.html#gabb37a208f7b941c2ccf2c5726807ae99", null ]
+    ] ],
+    [ "SceAvPlayerStreamInfo", "group__SceAvPlayerUser.html#structSceAvPlayerStreamInfo", [
+      [ "type", "group__SceAvPlayerUser.html#gaeebad3be275052fe4fe4d0f198e99621", null ],
+      [ "reserved", "group__SceAvPlayerUser.html#ga1fca7a672cc57a51245165ff77782160", null ],
+      [ "details", "group__SceAvPlayerUser.html#gac1e341e1c18f95e868f539d1e15149ad", null ],
+      [ "duration", "group__SceAvPlayerUser.html#gac0bbac157f828196771fecb970491c1a", null ],
+      [ "startTime", "group__SceAvPlayerUser.html#gaf98ce7ba8282194770175a6e37e8a98a", null ]
+    ] ],
     [ "SceAvPlayerHandle", "group__SceAvPlayerUser.html#gaa881364993e45df258ae90e384138dae", null ],
-    [ "SceAvPlayerAlloc", "group__SceAvPlayerUser.html#gad996ce2d59ff858470cd640f3a30d4a7", null ],
+    [ "SceAvPlayerAlloc", "group__SceAvPlayerUser.html#ga7ea2c9f505f223821732423c0cf3a0b1", null ],
     [ "SceAvPlayerFree", "group__SceAvPlayerUser.html#ga628dbc08b944ef560f31c52837239065", null ],
-    [ "SceAvPlayerAllocFrame", "group__SceAvPlayerUser.html#ga37479a7b7466f932ae28937e2534b23c", null ],
+    [ "SceAvPlayerAllocFrame", "group__SceAvPlayerUser.html#gaa2cde383651775246997d394cb1bb517", null ],
     [ "SceAvPlayerFreeFrame", "group__SceAvPlayerUser.html#ga8d50e793659e1e6a8650407737634553", null ],
     [ "SceAvPlayerOpenFile", "group__SceAvPlayerUser.html#ga02b240f509c79365025cf96d6381e187", null ],
     [ "SceAvPlayerCloseFile", "group__SceAvPlayerUser.html#ga874a6b014e276e6a509df2909b9266ee", null ],
@@ -70,5 +143,56 @@ var group__SceAvPlayerUser =
     [ "sceAvPlayerCurrentTime", "group__SceAvPlayerUser.html#ga4546502c0d3e5c73c87422f9d1eddfb3", null ],
     [ "sceAvPlayerJumpToTime", "group__SceAvPlayerUser.html#ga714915fcb1c874bacf863bf24045fc03", null ],
     [ "sceAvPlayerSetTrickSpeed", "group__SceAvPlayerUser.html#gab2e624ff0a218c080481e6e2cf3fe3bb", null ],
-    [ "sceAvPlayerGetStreamInfo", "group__SceAvPlayerUser.html#gace76a67ee085867ef9f2b119c67be9fc", null ]
+    [ "sceAvPlayerGetStreamInfo", "group__SceAvPlayerUser.html#gace76a67ee085867ef9f2b119c67be9fc", null ],
+    [ "SceAvPlayerMemReplacement::objectPointer", "group__SceAvPlayerUser.html#ga1948dcd2b85dd5e1697651edde6edaec", null ],
+    [ "SceAvPlayerMemReplacement::allocate", "group__SceAvPlayerUser.html#ga0e887bd823f3b67adbabe0a9c95e3b3f", null ],
+    [ "SceAvPlayerMemReplacement::deallocate", "group__SceAvPlayerUser.html#ga3119d01a9c14e7cd1a99d659ec1ef68e", null ],
+    [ "SceAvPlayerMemReplacement::allocateTexture", "group__SceAvPlayerUser.html#ga181536cc7b2d098e1ef43b8be383a304", null ],
+    [ "SceAvPlayerMemReplacement::deallocateTexture", "group__SceAvPlayerUser.html#ga544c56d4d074554d4efc69ab815172c0", null ],
+    [ "SceAvPlayerFileReplacement::objectPointer", "group__SceAvPlayerUser.html#ga7aa39d09e2523476eef1eef303816aa1", null ],
+    [ "SceAvPlayerFileReplacement::open", "group__SceAvPlayerUser.html#ga0a3788edccd3c8cefa99cf82980610c7", null ],
+    [ "SceAvPlayerFileReplacement::close", "group__SceAvPlayerUser.html#ga703b28ccf99a0916104ad1f2f3d04dd7", null ],
+    [ "SceAvPlayerFileReplacement::readOffset", "group__SceAvPlayerUser.html#ga748a2e0976fd25f4c6c323163fc8bfa1", null ],
+    [ "SceAvPlayerFileReplacement::size", "group__SceAvPlayerUser.html#ga191964a6c0357ad6a3707f6fea319062", null ],
+    [ "SceAvPlayerEventReplacement::objectPointer", "group__SceAvPlayerUser.html#ga048a9a54fe4dd360abff46bf59b6a57f", null ],
+    [ "SceAvPlayerEventReplacement::eventCallback", "group__SceAvPlayerUser.html#gaa4e67837d20fa1d4031a1caa4daf950b", null ],
+    [ "SceAvPlayerInitData::memoryReplacement", "group__SceAvPlayerUser.html#ga76db847f6e803f55a16e1621fe9efde1", null ],
+    [ "SceAvPlayerInitData::fileReplacement", "group__SceAvPlayerUser.html#gadd2901b5cbb6fb405c901b9c55f8da70", null ],
+    [ "SceAvPlayerInitData::eventReplacement", "group__SceAvPlayerUser.html#gae8e90c74746d4f84bc39d9ee78daafea", null ],
+    [ "SceAvPlayerInitData::debugLevel", "group__SceAvPlayerUser.html#ga3a0aaab065bcf1c56175be3183c24c4b", null ],
+    [ "SceAvPlayerInitData::basePriority", "group__SceAvPlayerUser.html#ga9e562d43b3090f4f485bc813bb311956", null ],
+    [ "SceAvPlayerInitData::numOutputVideoFrameBuffers", "group__SceAvPlayerUser.html#ga92e7794d4a2bfb54d950ebc30c1e80d1", null ],
+    [ "SceAvPlayerInitData::autoStart", "group__SceAvPlayerUser.html#ga48578eae8c965f001005e093729c23b5", null ],
+    [ "SceAvPlayerInitData::reserved", "group__SceAvPlayerUser.html#ga015ec12a769c9fb7890d78f7c381b1f6", null ],
+    [ "SceAvPlayerInitData::defaultLanguage", "group__SceAvPlayerUser.html#ga02d2eff4e30f42fe7007df5db8b533b7", null ],
+    [ "SceAvPlayerAudio::channelCount", "group__SceAvPlayerUser.html#ga653f07a366b1ca931df8d1dc3af1d5b9", null ],
+    [ "SceAvPlayerAudio::reserved", "group__SceAvPlayerUser.html#ga136d20fd6810d130c54d2cbceb66bf14", null ],
+    [ "SceAvPlayerAudio::sampleRate", "group__SceAvPlayerUser.html#ga6e8ac14564e7e9f627117a881adc1159", null ],
+    [ "SceAvPlayerAudio::size", "group__SceAvPlayerUser.html#ga3350f574e3688e0e8bd710462a9dee74", null ],
+    [ "SceAvPlayerAudio::languageCode", "group__SceAvPlayerUser.html#ga87bde6bbe60c02e30c73481859bd2dfc", null ],
+    [ "SceAvPlayerVideo::width", "group__SceAvPlayerUser.html#gafd80e5cdfce9c4d3d61c93093341f286", null ],
+    [ "SceAvPlayerVideo::height", "group__SceAvPlayerUser.html#ga97e710a321ebc8797f08c3a93ba5e97d", null ],
+    [ "SceAvPlayerVideo::aspectRatio", "group__SceAvPlayerUser.html#ga6ef9d5d1cf579ba413115744b4b56369", null ],
+    [ "SceAvPlayerVideo::languageCode", "group__SceAvPlayerUser.html#gae91944e319bbd13a2a6a386818813ede", null ],
+    [ "SceAvPlayerTextPosition::top", "group__SceAvPlayerUser.html#ga957f15c01e756a91dba75511641a6ccd", null ],
+    [ "SceAvPlayerTextPosition::left", "group__SceAvPlayerUser.html#ga0c11972ed59d5fac308ba6dc21890c54", null ],
+    [ "SceAvPlayerTextPosition::bottom", "group__SceAvPlayerUser.html#gad3bfcaee2fcbbafc8734a6bcaf77e632", null ],
+    [ "SceAvPlayerTextPosition::right", "group__SceAvPlayerUser.html#gafd722020b4d8bdc4c48dff6c6f7713db", null ],
+    [ "SceAvPlayerTimedText::languageCode", "group__SceAvPlayerUser.html#ga4985a61e40e5b7cf3560a89db9fa9a5e", null ],
+    [ "SceAvPlayerTimedText::textSize", "group__SceAvPlayerUser.html#ga2b8d189cd119d0d0d85cb7b1a104e80c", null ],
+    [ "SceAvPlayerTimedText::fontSize", "group__SceAvPlayerUser.html#gac712a1b99af088421aa85b24410a44ff", null ],
+    [ "SceAvPlayerTimedText::position", "group__SceAvPlayerUser.html#ga4f7a3a1378f2eba685b6e29bef6a9c32", null ],
+    [ "SceAvPlayerStreamDetails::reserved", "group__SceAvPlayerUser.html#ga0a51f9abeb791e0872612a21a0a7c73f", null ],
+    [ "SceAvPlayerStreamDetails::audio", "group__SceAvPlayerUser.html#gaba849e0b3475ca73ff4b6699a70970cb", null ],
+    [ "SceAvPlayerStreamDetails::video", "group__SceAvPlayerUser.html#ga8fd358e24b9fa05a0c04d6b4082f2ffc", null ],
+    [ "SceAvPlayerStreamDetails::subs", "group__SceAvPlayerUser.html#ga025eb718c1e6bb6322531f4a6e75ba95", null ],
+    [ "SceAvPlayerFrameInfo::pData", "group__SceAvPlayerUser.html#ga337e80ef041773697eda9242190cbc80", null ],
+    [ "SceAvPlayerFrameInfo::reserved", "group__SceAvPlayerUser.html#gafdefdf3a9f4d7ada40dc3bbd9741e811", null ],
+    [ "SceAvPlayerFrameInfo::timeStamp", "group__SceAvPlayerUser.html#ga4bc4c3f1369b323507fbcc51b2eacceb", null ],
+    [ "SceAvPlayerFrameInfo::details", "group__SceAvPlayerUser.html#gabb37a208f7b941c2ccf2c5726807ae99", null ],
+    [ "SceAvPlayerStreamInfo::type", "group__SceAvPlayerUser.html#gaeebad3be275052fe4fe4d0f198e99621", null ],
+    [ "SceAvPlayerStreamInfo::reserved", "group__SceAvPlayerUser.html#ga1fca7a672cc57a51245165ff77782160", null ],
+    [ "SceAvPlayerStreamInfo::details", "group__SceAvPlayerUser.html#gac1e341e1c18f95e868f539d1e15149ad", null ],
+    [ "SceAvPlayerStreamInfo::duration", "group__SceAvPlayerUser.html#gac0bbac157f828196771fecb970491c1a", null ],
+    [ "SceAvPlayerStreamInfo::startTime", "group__SceAvPlayerUser.html#gaf98ce7ba8282194770175a6e37e8a98a", null ]
 ];

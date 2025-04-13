@@ -1,5 +1,33 @@
 var group__ScePspnetAdhocctlUser =
 [
+    [ "SceNetAdhocctlAdhocId", "group__ScePspnetAdhocctlUser.html#structSceNetAdhocctlAdhocId", [
+      [ "type", "group__ScePspnetAdhocctlUser.html#ga1d52c1cdf248277edfddfde0542c33e4", null ],
+      [ "data", "group__ScePspnetAdhocctlUser.html#ga0d0a864097794b1aeeae95a5b32c7537", null ],
+      [ "padding", "group__ScePspnetAdhocctlUser.html#ga30d5089bd4e070352d5fd6b4beebb224", null ]
+    ] ],
+    [ "SceNetAdhocctlGroupName", "group__ScePspnetAdhocctlUser.html#structSceNetAdhocctlGroupName", [
+      [ "data", "group__ScePspnetAdhocctlUser.html#ga521db1effd2602529bf1721a6fb358ac", null ]
+    ] ],
+    [ "SceNetAdhocctlNickname", "group__ScePspnetAdhocctlUser.html#structSceNetAdhocctlNickname", [
+      [ "data", "group__ScePspnetAdhocctlUser.html#ga0b165b9304fee6080a82774ace6d53ad", null ]
+    ] ],
+    [ "SceNetAdhocctlPeerInfo", "group__ScePspnetAdhocctlUser.html#structSceNetAdhocctlPeerInfo", [
+      [ "next", "group__ScePspnetAdhocctlUser.html#gaf56746bc53717495a5025dc5bf02333c", null ],
+      [ "nickname", "group__ScePspnetAdhocctlUser.html#ga3329a25ae1fa92e9e6516858b7edc5bf", null ],
+      [ "macAddr", "group__ScePspnetAdhocctlUser.html#ga7242702aef896c5cbfcdc8aabf42bc34", null ],
+      [ "padding", "group__ScePspnetAdhocctlUser.html#gaf6ddfddd02818e0e9696af8a2824ca4d", null ],
+      [ "lastRecv", "group__ScePspnetAdhocctlUser.html#gad3c2a579c031e5622ce062743b4f7a85", null ]
+    ] ],
+    [ "SceNetAdhocctlBSSId", "group__ScePspnetAdhocctlUser.html#structSceNetAdhocctlBSSId", [
+      [ "data", "group__ScePspnetAdhocctlUser.html#ga6eb35d27582d14f3c9d549f8aa09442d", null ],
+      [ "padding", "group__ScePspnetAdhocctlUser.html#ga952bb72968aed605c9f758868b01361e", null ]
+    ] ],
+    [ "SceNetAdhocctlParameter", "group__ScePspnetAdhocctlUser.html#structSceNetAdhocctlParameter", [
+      [ "channel", "group__ScePspnetAdhocctlUser.html#ga07b2c065c5cced2d19e025d92baeba53", null ],
+      [ "groupName", "group__ScePspnetAdhocctlUser.html#ga22bd1cfe05791cc58b525f8f56847b5f", null ],
+      [ "nickname", "group__ScePspnetAdhocctlUser.html#ga7a595bb6f87d68feb2203f941e436e4c", null ],
+      [ "bssid", "group__ScePspnetAdhocctlUser.html#ga41f43b29fa577f846111a04edef08f2d", null ]
+    ] ],
     [ "SCE_NET_ADHOCCTL_ADHOCID_LEN", "group__ScePspnetAdhocctlUser.html#ga46c33355768b0dcda0577c47487a2c92", null ],
     [ "SCE_NET_ADHOCCTL_GROUPNAME_LEN", "group__ScePspnetAdhocctlUser.html#ga38f5ced69499c679b29c9cecc384d49f", null ],
     [ "SCE_NET_ADHOCCTL_NICKNAME_LEN", "group__ScePspnetAdhocctlUser.html#gabac54b0898052a71c5955bd53fa273a8", null ],
@@ -34,5 +62,21 @@ var group__ScePspnetAdhocctlUser =
     [ "sceNetAdhocctlGetAddrByName", "group__ScePspnetAdhocctlUser.html#ga148636a3256580e48178f7aad21878b2", null ],
     [ "sceNetAdhocctlGetNameByAddr", "group__ScePspnetAdhocctlUser.html#gad4b8f0d7c614f497cb8fc64dca3be517", null ],
     [ "sceNetAdhocctlGetParameter", "group__ScePspnetAdhocctlUser.html#ga06eea6ff6b4654fa7900272a1d5edbd0", null ],
-    [ "sceNetAdhocctlGetEtherAddr", "group__ScePspnetAdhocctlUser.html#gaaeb267e1fd0f2be38f1cb93ff5ab6d4f", null ]
+    [ "sceNetAdhocctlGetEtherAddr", "group__ScePspnetAdhocctlUser.html#gaaeb267e1fd0f2be38f1cb93ff5ab6d4f", null ],
+    [ "SceNetAdhocctlAdhocId::type", "group__ScePspnetAdhocctlUser.html#ga1d52c1cdf248277edfddfde0542c33e4", null ],
+    [ "SceNetAdhocctlAdhocId::data", "group__ScePspnetAdhocctlUser.html#ga0d0a864097794b1aeeae95a5b32c7537", null ],
+    [ "SceNetAdhocctlAdhocId::padding", "group__ScePspnetAdhocctlUser.html#ga30d5089bd4e070352d5fd6b4beebb224", null ],
+    [ "SceNetAdhocctlGroupName::data", "group__ScePspnetAdhocctlUser.html#ga521db1effd2602529bf1721a6fb358ac", null ],
+    [ "SceNetAdhocctlNickname::data", "group__ScePspnetAdhocctlUser.html#ga0b165b9304fee6080a82774ace6d53ad", null ],
+    [ "SceNetAdhocctlPeerInfo::next", "group__ScePspnetAdhocctlUser.html#gaf56746bc53717495a5025dc5bf02333c", null ],
+    [ "SceNetAdhocctlPeerInfo::nickname", "group__ScePspnetAdhocctlUser.html#ga3329a25ae1fa92e9e6516858b7edc5bf", null ],
+    [ "SceNetAdhocctlPeerInfo::macAddr", "group__ScePspnetAdhocctlUser.html#ga7242702aef896c5cbfcdc8aabf42bc34", null ],
+    [ "SceNetAdhocctlPeerInfo::padding", "group__ScePspnetAdhocctlUser.html#gaf6ddfddd02818e0e9696af8a2824ca4d", null ],
+    [ "SceNetAdhocctlPeerInfo::lastRecv", "group__ScePspnetAdhocctlUser.html#gad3c2a579c031e5622ce062743b4f7a85", null ],
+    [ "SceNetAdhocctlBSSId::data", "group__ScePspnetAdhocctlUser.html#ga6eb35d27582d14f3c9d549f8aa09442d", null ],
+    [ "SceNetAdhocctlBSSId::padding", "group__ScePspnetAdhocctlUser.html#ga952bb72968aed605c9f758868b01361e", null ],
+    [ "SceNetAdhocctlParameter::channel", "group__ScePspnetAdhocctlUser.html#ga07b2c065c5cced2d19e025d92baeba53", null ],
+    [ "SceNetAdhocctlParameter::groupName", "group__ScePspnetAdhocctlUser.html#ga22bd1cfe05791cc58b525f8f56847b5f", null ],
+    [ "SceNetAdhocctlParameter::nickname", "group__ScePspnetAdhocctlUser.html#ga7a595bb6f87d68feb2203f941e436e4c", null ],
+    [ "SceNetAdhocctlParameter::bssid", "group__ScePspnetAdhocctlUser.html#ga41f43b29fa577f846111a04edef08f2d", null ]
 ];
